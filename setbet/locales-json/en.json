@@ -690,8 +690,7 @@
     },
     "achievement": {
       "milestoneUnlocked": "Milestone unlocked",
-      "tierAchieved": "Tier achieved!",
-      "creditedToWallet": "Credited to your wallet"
+      "tierAchieved": "Tier achieved!"
     }
   },
   "jackpot": {

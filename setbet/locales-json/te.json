@@ -74,6 +74,12 @@
     },
     "cms": {
       "defaultPageName": "పేజీ"
+    },
+    "jackpot": {
+      "pageName": "జాక్‌పాట్"
+    },
+    "jackpotWinners": {
+      "pageName": "జాక్‌పాట్ విజేతలు"
     }
   },
   "common": {
@@ -137,7 +143,9 @@
       "fr": "శుక్ర",
       "sa": "శని",
       "su": "ఆది"
-    }
+    },
+    "gotIt": "అర్థమైంది!",
+    "creditedToWallet": "మీ వాలెట్‌లో జమ చేయబడింది"
   },
   "auth": {
     "login": {
@@ -546,6 +554,9 @@
         "thisMonth": "ఈ నెల",
         "lastMonth": "గత నెల"
       }
+    },
+    "filters": {
+      "allGames": "అన్ని గేమ్‌లు"
     }
   },
   "partners": {
@@ -590,7 +601,9 @@
     "bgAlt": "నేపథ్య చిత్రం"
   },
   "exploreFeatures": {
-    "title": "అన్ని ఫీచర్‌లను అన్వేషించండి"
+    "title": "అన్ని ఫీచర్‌లను అన్వేషించండి",
+    "downloadApplication": "అప్లికేషన్‌ను డౌన్‌లోడ్ చేయండి",
+    "installApplication": "అప్లికేషన్‌ను ఇన్‌స్టాల్ చేయండి"
   },
   "leaderboard": {
     "title": "టోర్నమెంట్",
@@ -666,7 +679,6 @@
       "allMilestonesComplete": "అన్ని మైల్‌స్టోన్‌లు పూర్తయ్యాయి!",
       "milestoneUnlocked": "మైల్‌స్టోన్ అన్‌లాక్ చేయబడింది",
       "tierReached": "{{name}} చేరుకున్నారు!",
-      "creditedToWallet": "మీ వాలెట్‌కి క్రెడిట్ చేయబడింది",
       "rolloverNote": "నిజమైన డబ్బు · రోల్‌ఓవర్: 1× · గడువు ముగిసేది లేదు",
       "nextMilestone": "తదుపరి మైల్‌స్టోన్ — {{name}}",
       "betMore": "బెట్",
@@ -678,14 +690,32 @@
     },
     "achievement": {
       "milestoneUnlocked": "మైల్‌స్టోన్ అన్‌లాక్ చేయబడింది",
-      "tierAchieved": "టైర్ సాధించబడింది!",
-      "creditedToWallet": "వాలెట్‌కి క్రెడిట్ చేయబడింది",
-      "gotIt": "అర్థమైంది!"
+      "tierAchieved": "టైర్ సాధించబడింది!"
     }
   },
   "pwa": {
     "title": "సెట్‌బెట్ యాప్",
     "subTitle": "సెట్‌బెట్",
     "description": "బెట్టింగ్‌కి మీ అంతిమ గమ్యం"
+  },
+  "jackpot": {
+    "monthlyJackpot": "నెలవారీ జాక్‌పాట్",
+    "title": "జాక్‌పాట్ విజేతలు",
+    "winner": "జాక్‌పాట్ విజేత",
+    "congratulationDefault": "అభినందనలు — ఈ నెల జాక్‌పాట్ విజేతలలో మీరు ఒకరు!",
+    "youWonThisMonthPre": "మీరు గెలుచుకున్నారు",
+    "youWonThisMonthPost": "ఈ నెల",
+    "loadError": "{{month}} కోసం విజేతలను లోడ్ చేయలేకపోయాం.",
+    "noWinners": "{{month}} కోసం ఇంకా జాక్‌పాట్ విజేతలు లేరు.",
+    "checkBack": "తదుపరి డ్రా తర్వాత మళ్లీ చూడండి.",
+    "loadMore": "మరిన్ని విజేతలను లోడ్ చేయండి",
+    "winnerCount": "{{month}} కోసం {{count}} విజేత",
+    "winnersCount": "{{month}} కోసం {{count}} విజేతలు",
+    "previousMonth": "మునుపటి నెల",
+    "nextMonth": "తదుపరి నెల",
+    "backToThisMonth": "ఈ నెలకు తిరిగి వెళ్ళండి",
+    "you": "మీరు",
+    "youBadge": "మీరు",
+    "place": "{{position}} స్థానం"
   }
 }

@@ -72,6 +72,12 @@
     "promotions": {
       "pageName": "પ્રમોશન્સ"
     },
+    "jackpot": {
+      "pageName": "જેકપોટ"
+    },
+    "jackpotWinners": {
+      "pageName": "જેકપોટ વિજેતાઓ"
+    },
     "cms": {
       "defaultPageName": "પેજ"
     }
@@ -98,6 +104,7 @@
     "no": "ના",
     "copied": "કૉપી થઈ ગયું",
     "copy": "કૉપી કરો",
+    "gotIt": "સમજી ગયું!",
     "downloadImage": "છબી ડાઉનલોડ કરો",
     "notAvailable": "ઉપલબ્ધ નથી",
     "total": "કુલ",
@@ -105,6 +112,7 @@
     "logoAlt": "લોગો",
     "whatsappCta": "WhatsApp પર તમારી ID મેળવો",
     "noDataAvailable": "કોઈ ડેટા ઉપલબ્ધ નથી",
+    "creditedToWallet": "તમારા વૉલેટમાં જમા કરવામાં આવ્યું",
     "imageUpload": {
       "preview": "પૂર્વાવલોકન",
       "imagePreviewAlt": "અપલોડ કરેલી રસીદ પૂર્વાવલોકન",
@@ -546,6 +554,9 @@
         "thisMonth": "આ મહિને",
         "lastMonth": "ગત મહિને"
       }
+    },
+    "filters": {
+      "allGames": "All Games"
     }
   },
   "partners": {
@@ -590,7 +601,9 @@
     "bgAlt": "about background"
   },
   "exploreFeatures": {
-    "title": "બધી સુવિધાઓ એક્સ્પ્લોર કરો"
+    "title": "બધી સુવિધાઓ એક્સ્પ્લોર કરો",
+    "downloadApplication": "એપ્લિકેશન ડાઉનલોડ કરો",
+    "installApplication": "એપ્લિકેશન ઇન્સ્ટોલ કરો"
   },
   "leaderboard": {
     "title": "ટૂર્નામૅન્ટ",
@@ -666,7 +679,6 @@
       "allMilestonesComplete": "બધા માઇલસ્ટોન પૂર્ણ!",
       "milestoneUnlocked": "માઇલસ્ટોન અનલૉક",
       "tierReached": "{{name}} પ્રાપ્ત!",
-      "creditedToWallet": "તમારા વૉલેટમાં ક્રેડિટ",
       "rolloverNote": "રિઅલ મની · રૉલઓવર: 1× · ક્યારેય સમાપ્ત નહીં",
       "nextMilestone": "આગળ માઇલસ્ટોન — {{name}}",
       "betMore": "દાવ",
@@ -678,10 +690,28 @@
     },
     "achievement": {
       "milestoneUnlocked": "માઇલસ્ટોન અનલૉક",
-      "tierAchieved": "ટિઅર પ્રાપ્ત!",
-      "creditedToWallet": "વૉલેટમાં ક્રેડિટ",
-      "gotIt": "સમજ્યો!"
+      "tierAchieved": "ટિઅર પ્રાપ્ત!"
     }
+  },
+  "jackpot": {
+    "monthlyJackpot": "માસિક જેકપોટ",
+    "title": "જેકપોટ વિજેતાઓ",
+    "winner": "જેકપોટ વિજેતા",
+    "congratulationDefault": "અભિનંદન — તમે આ મહિનાના જેકપોટ વિજેતાઓમાંના એક છો!",
+    "youWonThisMonthPre": "તમે જીત્યા",
+    "youWonThisMonthPost": "આ મહિને",
+    "loadError": "{{month}} માટેના વિજેતાઓ લોડ કરી શકાયા નથી.",
+    "noWinners": "{{month}} માટે હજી સુધી કોઈ જેકપોટ વિજેતા નથી.",
+    "checkBack": "આગામી ડ્રો પછી ફરી તપાસો.",
+    "loadMore": "વધુ વિજેતાઓ લોડ કરો",
+    "winnerCount": "{{month}} માટે {{count}} વિજેતા",
+    "winnersCount": "{{month}} માટે {{count}} વિજેતાઓ",
+    "previousMonth": "પાછલો મહિનો",
+    "nextMonth": "આગલો મહિનો",
+    "backToThisMonth": "આ મહિને પાછા જાઓ",
+    "you": "તમે",
+    "youBadge": "તમે",
+    "place": "{{position}} સ્થાન"
   },
   "pwa": {
     "title": "Setbet એપ",

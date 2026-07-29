@@ -74,6 +74,12 @@
     },
     "cms": {
       "defaultPageName": "பக்கம்"
+    },
+    "jackpot": {
+      "pageName": "ஜாக்பாட்"
+    },
+    "jackpotWinners": {
+      "pageName": "ஜாக்பாட் வெற்றியாளர்கள்"
     }
   },
   "common": {
@@ -137,7 +143,9 @@
       "fr": "வெள்",
       "sa": "சனி",
       "su": "ஞாயி"
-    }
+    },
+    "gotIt": "புரிந்தது!",
+    "creditedToWallet": "பணப்பையில் வரவு வைக்கப்பட்டது"
   },
   "auth": {
     "login": {
@@ -546,6 +554,9 @@
         "thisMonth": "இந்த மாதம்",
         "lastMonth": "கடந்த மாதம்"
       }
+    },
+    "filters": {
+      "allGames": "அனைத்து விளையாட்டுகள்"
     }
   },
   "partners": {
@@ -590,7 +601,9 @@
     "bgAlt": "பின்னணி படம்"
   },
   "exploreFeatures": {
-    "title": "அனைத்து அம்சங்களையும் ஆராயுங்கள்"
+    "title": "அனைத்து அம்சங்களையும் ஆராயுங்கள்",
+    "downloadApplication": "பயன்பாட்டைப் பதிவிறக்கவும்",
+    "installApplication": "பயன்பாட்டை நிறுவவும்"
   },
   "leaderboard": {
     "title": "போட்டி",
@@ -666,7 +679,6 @@
       "allMilestonesComplete": "அனைத்து மைல்கற்களும் முடிந்தன!",
       "milestoneUnlocked": "மைல்கல் திறக்கப்பட்டது",
       "tierReached": "{{name}} அடையப்பட்டது!",
-      "creditedToWallet": "பணப்பையில் வரவு வைக்கப்பட்டது",
       "rolloverNote": "உண்மையான பணம் · ரோல்ஓவர்: 1× · காலாவதி இல்லை",
       "nextMilestone": "அடுத்த மைல்கல் — {{name}}",
       "betMore": "பந்தயம்",
@@ -678,14 +690,32 @@
     },
     "achievement": {
       "milestoneUnlocked": "மைல்கல் திறக்கப்பட்டது",
-      "tierAchieved": "நிலை அடையப்பட்டது!",
-      "creditedToWallet": "பணப்பையில் வரவு வைக்கப்பட்டது",
-      "gotIt": "புரிந்தது!"
+      "tierAchieved": "நிலை அடையப்பட்டது!"
     }
   },
   "pwa": {
     "title": "செட்பெட் பயன்பாடு",
     "subTitle": "செட்பெட்",
     "description": "பந்தயத்திற்கான உங்கள் இறுதி இடம்"
+  },
+  "jackpot": {
+    "monthlyJackpot": "மாதாந்திர ஜாக்பாட்",
+    "title": "ஜாக்பாட் வெற்றியாளர்கள்",
+    "winner": "ஜாக்பாட் வெற்றியாளர்",
+    "congratulationDefault": "வாழ்த்துகள் — இந்த மாத ஜாக்பாட் வெற்றியாளர்களில் நீங்கள் ஒருவராக உள்ளீர்கள்!",
+    "youWonThisMonthPre": "நீங்கள் வென்றது",
+    "youWonThisMonthPost": "இந்த மாதம்",
+    "loadError": "{{month}}-க்கான வெற்றியாளர்களை ஏற்ற முடியவில்லை.",
+    "noWinners": "{{month}}-க்கு இன்னும் ஜாக்பாட் வெற்றியாளர்கள் இல்லை.",
+    "checkBack": "அடுத்த டிராவிற்குப் பிறகு மீண்டும் பார்க்கவும்.",
+    "loadMore": "மேலும் வெற்றியாளர்களை ஏற்று",
+    "winnerCount": "{{month}}-க்கு {{count}} வெற்றியாளர்",
+    "winnersCount": "{{month}}-க்கு {{count}} வெற்றியாளர்கள்",
+    "previousMonth": "முந்தைய மாதம்",
+    "nextMonth": "அடுத்த மாதம்",
+    "backToThisMonth": "இந்த மாதத்திற்குத் திரும்பு",
+    "you": "நீங்கள்",
+    "youBadge": "நீங்கள்",
+    "place": "{{position}} இடம்"
   }
 }

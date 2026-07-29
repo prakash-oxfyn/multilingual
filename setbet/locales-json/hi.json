@@ -74,6 +74,12 @@
     },
     "cms": {
       "defaultPageName": "पृष्ठ"
+    },
+    "jackpot": {
+      "pageName": "जैकपॉट"
+    },
+    "jackpotWinners": {
+      "pageName": "जैकपॉट विजेता"
     }
   },
   "common": {
@@ -137,7 +143,9 @@
       "fr": "शुक्र",
       "sa": "शनि",
       "su": "रवि"
-    }
+    },
+    "gotIt": "समझ गया!",
+    "creditedToWallet": "आपके वॉलेट में जमा कर दिया गया"
   },
   "auth": {
     "login": {
@@ -546,6 +554,9 @@
         "thisMonth": "इस महीने",
         "lastMonth": "पिछले महीने"
       }
+    },
+    "filters": {
+      "allGames": "सभी गेम"
     }
   },
   "partners": {
@@ -590,7 +601,9 @@
     "bgAlt": "पृष्ठभूमि छवि"
   },
   "exploreFeatures": {
-    "title": "सभी सुविधाएं एक्सप्लोर करें"
+    "title": "सभी सुविधाएं एक्सप्लोर करें",
+    "downloadApplication": "एप्लिकेशन डाउनलोड करें",
+    "installApplication": "एप्लिकेशन इंस्टॉल करें"
   },
   "leaderboard": {
     "title": "टूर्नामेंट",
@@ -666,7 +679,6 @@
       "allMilestonesComplete": "सभी माइलस्टोन पूरे हो गए!",
       "milestoneUnlocked": "माइलस्टोन अनलॉक हुआ",
       "tierReached": "{{name}} तक पहुंचे!",
-      "creditedToWallet": "आपके वॉलेट में जमा",
       "rolloverNote": "असली पैसे · रोलओवर: 1× · कभी समाप्त नहीं",
       "nextMilestone": "अगला माइलस्टोन — {{name}}",
       "betMore": "बेट",
@@ -678,14 +690,32 @@
     },
     "achievement": {
       "milestoneUnlocked": "माइलस्टोन अनलॉक हुआ",
-      "tierAchieved": "टियर हासिल!",
-      "creditedToWallet": "वॉलेट में जमा",
-      "gotIt": "समझ गया!"
+      "tierAchieved": "टियर हासिल!"
     }
   },
   "pwa": {
     "title": "सेटबेट ऐप",
     "subTitle": "सेटबेट",
     "description": "बेटिंग के लिए आपका अंतिम गंतव्य"
+  },
+  "jackpot": {
+    "monthlyJackpot": "मासिक जैकपॉट",
+    "title": "जैकपॉट विजेता",
+    "winner": "जैकपॉट विजेता",
+    "congratulationDefault": "बधाई हो — आप इस महीने के जैकपॉट विजेताओं में से एक हैं!",
+    "youWonThisMonthPre": "आपने जीता",
+    "youWonThisMonthPost": "इस महीने",
+    "loadError": "{{month}} के विजेताओं को लोड नहीं किया जा सका।",
+    "noWinners": "{{month}} के लिए अभी तक कोई जैकपॉट विजेता नहीं है।",
+    "checkBack": "अगले ड्रॉ के बाद फिर से देखें।",
+    "loadMore": "और विजेता लोड करें",
+    "winnerCount": "{{month}} के लिए {{count}} विजेता",
+    "winnersCount": "{{month}} के लिए {{count}} विजेता",
+    "previousMonth": "पिछला महीना",
+    "nextMonth": "अगला महीना",
+    "backToThisMonth": "इस महीने पर वापस जाएँ",
+    "you": "आप",
+    "youBadge": "आप",
+    "place": "{{position}} स्थान"
   }
 }
