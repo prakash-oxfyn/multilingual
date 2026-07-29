@@ -1,0 +1,722 @@
+{
+  "errors": {
+    "appCrashErrorHeader": "Application Error",
+    "appCrashError": "The application crashed unexpectedly.",
+    "header": "Oops! Something Went Wrong",
+    "generic": "Please try again or return to the homepage.",
+    "pageLoadError": "Something went wrong while loading this page. Please try again.",
+    "errorId": "Error ID: {{digest}}",
+    "appConfigLoad": "Failed to load app configuration. Please try again.",
+    "somethingWentWrong": "Something went wrong",
+    "unexpectedError": "An unexpected error occurred. Please try again.",
+    "failedToLoadPageError": "Failed to load {{page}} page. Please try again."
+  },
+  "locale": {
+    "unavailable": {
+      "title": "Language unavailable",
+      "message": "Language {{locale}} is not available yet. Showing default language."
+    }
+  },
+  "context": {
+    "idleWarning": "You will be logged out in 1 minute due to inactivity",
+    "brandIdError": "Failed to retrieve brand ID.",
+    "initializationError": "Failed to initialise brand. Please refresh."
+  },
+  "seo": {
+    "accountSettings": {
+      "pageName": "Account Settings"
+    },
+    "bankInfo": {
+      "pageName": "Bank Information"
+    },
+    "bonus": {
+      "pageName": "Bonus"
+    },
+    "deposit": {
+      "pageName": "Deposit"
+    },
+    "kyc": {
+      "pageName": "KYC Verification"
+    },
+    "profile": {
+      "pageName": "Profile"
+    },
+    "transactionHistory": {
+      "pageName": "Transaction History"
+    },
+    "wallet": {
+      "pageName": "Wallet"
+    },
+    "withdraw": {
+      "pageName": "Withdraw"
+    },
+    "casino": {
+      "pageName": "Casino"
+    },
+    "exchange": {
+      "pageName": "Exchange"
+    },
+    "liveCasino": {
+      "pageName": "Live Casino"
+    },
+    "sports": {
+      "pageName": "Sports"
+    },
+    "leaderboard": {
+      "pageName": "Leaderboard"
+    },
+    "multiladder": {
+      "pageName": "Multi Ladder",
+      "pageDescription": "Bet your way up the IPL Bonus Ladder and earn real-money rewards."
+    },
+    "promotions": {
+      "pageName": "Promotions"
+    },
+    "jackpot": {
+      "pageName": "Jackpot"
+    },
+    "jackpotWinners": {
+      "pageName": "Jackpot Winners"
+    },
+    "cms": {
+      "defaultPageName": "Page"
+    }
+  },
+  "common": {
+    "submit": "Submit",
+    "submitting": "Submitting…",
+    "loading": "Loading…",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "retry": "Retry",
+    "tryAgain": "Try Again",
+    "goBackHome": "Go Back Home",
+    "readMore": "Read More",
+    "seeAll": "See All",
+    "pick": "Pick",
+    "ok": "OK",
+    "or": "or",
+    "of": "of",
+    "update": "Update",
+    "updating": "Updating…",
+    "yes": "Yes",
+    "no": "No",
+    "copied": "Copied",
+    "copy": "Copy",
+    "gotIt": "Got it!",
+    "downloadImage": "Download Image",
+    "notAvailable": "N/A",
+    "total": "total",
+    "goToSlide": "Go to slide {{index}}",
+    "logoAlt": "logo",
+    "whatsappCta": "Get Your ID on WhatsApp",
+    "noDataAvailable": "No data available",
+    "creditedToWallet": "Credited to your wallet",
+    "imageUpload": {
+      "preview": "Preview",
+      "imagePreviewAlt": "Uploaded receipt preview",
+      "modalImageAlt": "Receipt preview",
+      "removeImage": "Remove image",
+      "clickToUpload": "Click to upload",
+      "dragAndDrop": "or drag and drop",
+      "fileTypesHint": "JPG, JPEG, PNG or SVG (MAX. 1MB)",
+      "browseFiles": "Browse files",
+      "toastInvalidFileTypeErr": "Only JPG, JPEG, PNG and SVG files are allowed.",
+      "toastFileSizeExceededErr": "File size exceeds 1MB limit.",
+      "toastValidFileErr": "Please select a valid file first.",
+      "toastNoFileErr": "No file selected"
+    },
+    "banner": {
+      "defaultAlt": "Banner {{index}}"
+    },
+    "timeLeft": {
+      "dayLeft": "{{count}} day left",
+      "daysLeft": "{{count}} days left",
+      "hoursLeft": "{{count}}h left",
+      "minsLeft": "{{count}}m left",
+      "expired": "Expired"
+    },
+    "days": {
+      "mo": "Mo",
+      "tu": "Tu",
+      "we": "We",
+      "th": "Th",
+      "fr": "Fr",
+      "sa": "Sa",
+      "su": "Su"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "usernamePlaceholder": "Username",
+      "passwordPlaceholder": "Password",
+      "forgotPassword": "Forgot password?",
+      "submitIdle": "Login Now",
+      "submitLoading": "Logging in…",
+      "noAccount": "Don't have an account?",
+      "registerNow": "Register Now",
+      "whatsappCta": "Get Your ID on WhatsApp",
+      "bannerAltPrefix": "Login Banner",
+      "toastSuccess": "Login successful",
+      "toastError": "Login failed",
+      "validation": {
+        "usernameRequired": "Username is required",
+        "usernameMinLength": "At least 3 characters",
+        "usernameMaxLength": "Cannot exceed 16 characters",
+        "usernameNoSpaces": "Spaces are not allowed in username",
+        "passwordRequired": "Password is required",
+        "passwordPattern": "Password must be 8–15 chars with uppercase, lowercase, number & special char",
+        "showPassword": "Show password",
+        "hidePassword": "Hide password"
+      }
+    },
+    "register": {
+      "title": "Register",
+      "usernamePlaceholder": "Username",
+      "passwordPlaceholder": "Password",
+      "confirmPasswordPlaceholder": "Confirm password",
+      "promoCodePlaceholder": "Promo Code (optional)",
+      "countryPlaceholder": "Country",
+      "mobileNumberPlaceholder": "Mobile number",
+      "checkboxAge": "I am at least 18 years old",
+      "checkboxTerms": "I agree to the Terms and Privacy",
+      "submitIdle": "Register Now",
+      "submitLoading": "Registering...",
+      "whatsappCta": "Get Your ID on WhatsApp",
+      "bannerAltPrefix": "Register Banner",
+      "toastSuccess": "Registered Successfully",
+      "toastError": "Registration failed",
+      "validation": {
+        "usernameRequired": "Username required",
+        "usernameMinLength": "Min 3 characters",
+        "usernameMaxLength": "Max 16 characters",
+        "usernameNoSpaces": "Spaces not allowed in username",
+        "passwordRequired": "Password required",
+        "passwordPattern": "Must be 8–15 chars with uppercase, lowercase, number & special char",
+        "confirmPasswordRequired": "Confirm password required",
+        "confirmPasswordMismatch": "Passwords do not match",
+        "countryRequired": "Country code is required",
+        "mobileNumberRequired": "Mobile number is required",
+        "mobileNumberInvalid": "Invalid number",
+        "ageRequired": "Must be 18+",
+        "termsRequired": "Must accept terms",
+        "showPassword": "Show password",
+        "hidePassword": "Hide password",
+        "showConfirmPassword": "Show confirm password",
+        "hideConfirmPassword": "Hide confirm password"
+      }
+    }
+  },
+  "deviceLogout": {
+    "warning": "Warning",
+    "noPermission": "You don't have permission to access.",
+    "sessionExpired": "Your session has expired. Please log in again."
+  },
+  "games": {
+    "noGamesTitle": "No Games Available",
+    "noGamesDescription": "No games available. Please check back later.",
+    "exploreButton": "Explore Games",
+    "allGameProviders": "All Game Providers",
+    "searchGames": "Search games...",
+    "pleaseWait": "Please wait...",
+    "searchGamesAriaLabel": "Search games",
+    "toasts": {
+      "fetchDetailsError": "Failed to fetch game details.",
+      "refreshError": "Failed to refresh games.",
+      "failedToFetchGame": "Failed to fetch game.",
+      "failedToChangeProvider": "Failed to change the provider.",
+      "failedToLoadMoreGames": "Failed to load more games."
+    }
+  },
+  "accountSettings": {
+    "title": "Account Settings",
+    "tabs": {
+      "depositLimit": "DEPOSIT LIMIT",
+      "contactPreference": "CONTACT PREFERENCE",
+      "changePassword": "CHANGE PASSWORD",
+      "selfExclusion": "SELF EXCLUSION",
+      "deactivate": "DEACTIVATE"
+    },
+    "changePassword": {
+      "newPasswordPlaceholder": "Enter New Password",
+      "confirmPasswordPlaceholder": "Enter Confirm Password",
+      "hint1": "Password must be 8-16 characters, include at least one lowercase letter, one uppercase letter, one number, and one special character, with no spaces.",
+      "hint2": "New Password and Confirm Password must match.",
+      "toastSuccess": "Successfully updated password.",
+      "toastError": "Failed to update password.",
+      "validation": {
+        "passwordRequired": "Password is required",
+        "passwordMinLength": "Password must be at least 8 characters long",
+        "passwordPattern": "Must include uppercase, lowercase, number, and special character",
+        "confirmRequired": "Please confirm your password",
+        "confirmMismatch": "Passwords do not match"
+      }
+    },
+    "contactPreference": {
+      "labels": {
+        "all": "ALL",
+        "email": "EMAIL",
+        "whatsapp": "WHATSAPP",
+        "telegram": "TELEGRAM",
+        "sms": "SMS",
+        "call": "CALL",
+        "none": "NONE"
+      },
+      "toastSuccess": "Successfully updated contact settings.",
+      "toastError": "Failed to update contact settings."
+    },
+    "depositLimit": {
+      "dailyLabel": "Daily Deposit Limit",
+      "weeklyLabel": "Weekly Deposit Limit",
+      "monthlyLabel": "Monthly Deposit Limit",
+      "hint1": "Enabling deposit limit allows a user to exclude themselves from depositing amount for a specific period of time. Once a limit in place, it will not be possible for the user to deposit any amount until after the set period has expired.",
+      "hint2": "If you wish to implement this deposit limit, you can do so by selecting the time period and the amount you do not wish to exceed.",
+      "toastSuccess": "Successfully update deposit limit.",
+      "toastError": "Failed to update deposit limit.",
+      "validation": {
+        "dailyExceedsWeeklyOrMonthly": "Daily Limit cannot be greater than Weekly or Monthly limit.",
+        "weeklyOutOfRange": "Weekly Limit must be between Daily and Monthly limit.",
+        "monthlyTooSmall": "Monthly Limit cannot be smaller than Daily or Weekly limit."
+      }
+    },
+    "selfExclusion": {
+      "checkboxLabel": "I want to self exclude my account for:",
+      "selectPlaceholder": "Select Time Period",
+      "toastSuccess": "Your account is now self-excluded for {{timePeriod}}.",
+      "hint": "You will not be able to play on the website in this period and will not receive any marketing emails or promotions.",
+      "confirmText": "Are you sure you want to self-exclude your account for {{timePeriod}}?",
+      "periods": {
+        "1 day": "1 day",
+        "1 week": "1 week",
+        "1 month": "1 month",
+        "6 weeks": "6 weeks",
+        "undetermined": "undetermined"
+      }
+    },
+    "deactivate": {
+      "checkboxLabel": "I want to self exclude my account for:",
+      "selectPlaceholder": "Select Time Period",
+      "hint": "During this time you will be unable to sign in to your account or reactivate your account apart from in exceptional circumstances. Upon completion of the deactivation period you will be given the option to extend. All current funds will be returned to you and all bets voided.",
+      "toastSuccess": "Successfully update deactive status.",
+      "toastError": "Failed to deactive account."
+    }
+  },
+  "deposit": {
+    "title": "Deposit",
+    "selectAmount": "Select Amount",
+    "helpText": "Need help? Please check the how to deposit guide or contact us on live chat / email now.",
+    "enterAmount": "Enter Amount",
+    "bonusCode": "Bonus Code",
+    "bonusCodePlaceholder": "Enter Bonus Code",
+    "bankLimitText": "Bank Limit : ₹{{limit}}",
+    "paymentMethods": {
+      "bank": "Bank Transfer",
+      "qr": "QR Transfer",
+      "upi": "UPI",
+      "azeePay": "Azee Pay"
+    },
+    "azeePayAlt": "azee-pay",
+    "toastSuccess": "Deposit successful.",
+    "paymentDetailsTitle": "Your Payment Details",
+    "enterUtr": "Enter UTR Number",
+    "whatsappCta": "To Deposit WhatsApp here",
+    "transferDetails": "Transfer Details",
+    "previousPromotion": "Previous promotion",
+    "nextPromotion": "Next promotion",
+    "qrCodeAlt": "QR code",
+    "transferLabels": {
+      "qrCode": "QR Code",
+      "qrName": "QR Name",
+      "id": "ID",
+      "upiId": "UPI ID",
+      "upiName": "UPI Name",
+      "paymentUpiName": "Payment UPI Name",
+      "bankName": "Bank Name",
+      "accountHolderName": "Account Holder Name",
+      "accountNumber": "Account Number",
+      "accountType": "Account Type",
+      "ifscCode": "IFSC Code",
+      "branch": "Branch"
+    },
+    "campaign": {
+      "title": "Promotions",
+      "giftAlt": "Gift",
+      "minDepositLimitLabel": "Minimum Deposit Limit: ₹{{limit}}",
+      "claimUntil": "Claim until: {{date}}",
+      "applyCode": "Apply Code",
+      "noContent": "No Content Available"
+    },
+    "psp": {
+      "paymentVerifying": "Payment Verifying…",
+      "continueToPay": "Continue to Pay",
+      "toastSuccess": "Deposit successfully processed",
+      "toastProcessedCheckSupport": "Deposit processed. Please check with support team",
+      "toastUnableToVerify": "Unable to verify payment",
+      "toastVerifyingPayment": "Verifying payment...",
+      "toastSomethingWentWrong": "Something went wrong"
+    },
+    "validation": {
+      "toastAmountGreaterThanZero": "Amount should be greater than 0",
+      "amountExceedsLimit": "Amount exceeds the limit of ₹{{limit}}",
+      "minDepositRequired": "A minimum deposit of {{min}} is required",
+      "toastUtrRequired": "Please enter the UTR Number"
+    }
+  },
+  "withdraw": {
+    "title": "Withdraw",
+    "withdrawableMoney": "Withdrawal Balance",
+    "selectBankPlaceholder": "Select Bank Account",
+    "enterAmountPlaceholder": "Enter Amount",
+    "whatsappCta": "Withdrawal via WhatsApp",
+    "submit": "Withdraw",
+    "submitting": "Withdrawing…",
+    "validation": {
+      "bankRequired": "Select Bank Account",
+      "amountRequired": "Amount is required",
+      "amountNumbersOnly": "Amount must contain only numbers",
+      "amountExceedsMax": "You can withdraw a maximum of ₹{{max}}",
+      "amountMinimum": "Amount must be greater than ₹500"
+    },
+    "toasts": {
+      "success": "Amount Withdrawal successfully.",
+      "error": "Failed to process withdrawal."
+    }
+  },
+  "wallet": {
+    "title": "Wallet",
+    "realMoney": "Real Money ₹ {{amount}}",
+    "withdrawableMoney": "Withdrawable Money ₹ {{amount}}",
+    "moneySuffix": "{{wallet}} Money"
+  },
+  "bonus": {
+    "title": "Bonus",
+    "tabs": {
+      "active": "Active Bonus",
+      "unclaimed": "Unclaimed Bonus",
+      "redeemed": "Redeemed Bonus"
+    },
+    "toastExpired": "Campaign Expired",
+    "toastError": "Failed to expire campaign.",
+    "noCampaigns": "No Campaigns available. Please check back later.",
+    "campaignName": "Campaign Name",
+    "campaignCode": "Campaign Code",
+    "minOdds": "Min Odds",
+    "bonusAmount": "Bonus Amount",
+    "bonusPercentage": "Bonus Percentage",
+    "warning": "Warning",
+    "cancelConfirm": "Do you really want to cancel the bonus?"
+  },
+  "kyc": {
+    "title": "KYC",
+    "subtitle": "Update KYC",
+    "documentTypeLabel": "Document Type",
+    "documentNumberLabel": "Document Number",
+    "documentTypePlaceholder": "Enter Document Type",
+    "documentNumberPlaceholder": "Enter Document Number",
+    "frontImageLabel": "Front Image",
+    "backImageLabel": "Back Image",
+    "save": "Save",
+    "saving": "Saving…",
+    "toastSuccess": "Kyc Updated successfully.",
+    "toastError": "Failed to update KYC.",
+    "toastAlreadyVerified": "KYC Already Verified",
+    "toastPending": "KYC Status is Pending",
+    "toastRejected": "KYC Rejected",
+    "validation": {
+      "documentTypeRequired": "Please select a document type",
+      "documentNumberRequired": "Please enter your document number",
+      "aadharInvalid": "Enter a valid 12-digit Aadhar Number",
+      "panInvalid": "Enter a valid PAN Number",
+      "frontImageRequired": "Front image is required",
+      "backImageRequired": "Back image is required"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "yourPersonalData": "Your Personal Data",
+    "updatePersonalData": "Update Personal Details",
+    "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "userName": "Username",
+      "email": "Email",
+      "dateOfBirth": "Date of Birth",
+      "city": "City",
+      "country": "Country",
+      "state": "State",
+      "countryCode": "Country Code",
+      "phone": "Phone Number",
+      "address": "Address",
+      "currency": "Currency",
+      "zipCode": "Zip Code"
+    },
+    "validation": {
+      "firstNameRequired": "Enter your first name",
+      "firstNameMaxLength": "First name cannot exceed 10 characters",
+      "lastNameRequired": "Enter your last name",
+      "lastNameMaxLength": "Last name cannot exceed 10 characters",
+      "emailPattern": "Enter a valid email",
+      "dobRequired": "Select your DOB",
+      "countryCodeRequired": "Enter Country Code",
+      "zipCodeRequired": "Please enter the pincode"
+    },
+    "toasts": {
+      "success": "Updated Player Details Successfully",
+      "error": "Failed to update player profile."
+    }
+  },
+  "promotions": {
+    "noPromotions": "No promotions available.",
+    "imageAlt": "promotion_card_image"
+  },
+  "bankInfo": {
+    "title": "Bank Information",
+    "bankDetailsTitle": "Your Bank Data",
+    "labels": {
+      "accountNo": "Account No",
+      "bankName": "Bank Name",
+      "branchName": "Branch Name",
+      "ifscCode": "IFSC Code",
+      "accountType": "Account Type",
+      "accountHolderName": "Account Holder Name",
+      "amount": "Amount",
+      "email": "Email Address"
+    },
+    "placeholders": {
+      "selectAccount": "Select Bank Account",
+      "enterAccountNo": "Enter Account Number",
+      "enterBankName": "Enter Bank Name",
+      "enterAccountHolderName": "Enter Account Holder Name",
+      "enterBranchName": "Enter Branch Name",
+      "enterIfscCode": "Enter IFSC Code",
+      "enterAccountType": "Enter Account Type",
+      "savings": "Savings",
+      "current": "Current"
+    },
+    "validation": {
+      "accountNoRequired": "Account number is required",
+      "accountNoNumbersOnly": "Account Number must contain only numbers",
+      "accountNoMaxLength": "Account Number cannot exceed 16 digits",
+      "accountNoDuplicate": "This account number is already registered.",
+      "bankNameRequired": "Bank name is required",
+      "accountHolderNameRequired": "Account holder name is required",
+      "branchNameRequired": "Branch name is required",
+      "ifscCodeRequired": "IFSC Code is required",
+      "ifscCodeInvalid": "Enter a valid IFSC Code (4 letters + 7 digits)",
+      "accountTypeRequired": "Please select an account type",
+      "limitReached": "You have reached the maximum limit of 5 bank accounts."
+    },
+    "toasts": {
+      "createSuccess": "Bank account created successfully.",
+      "createError": "Failed to create bank account.",
+      "updateSuccess": "Bank account updated successfully.",
+      "updateError": "Failed to update bank account",
+      "alreadyExists": "Bank Account Already Exists"
+    }
+  },
+  "transactionHistory": {
+    "title": "Transaction History",
+    "tabs": {
+      "gameHistory": "Game History",
+      "depositSummary": "Deposit Summary",
+      "withdrawSummary": "Withdraw Summary",
+      "allTransactions": "All Transactions"
+    },
+    "transactionTable": {
+      "columns": {
+        "serialNo": "SI NO",
+        "description": "Description",
+        "gameName": "Game Name",
+        "startBalance": "Start Balance",
+        "amount": "Amount",
+        "endBalance": "End Balance",
+        "timeStamp": "Time Stamp",
+        "transactionStatus": "Transaction Status",
+        "providerName": "Provider Name",
+        "transactionId": "Transaction ID",
+        "gameTransactionId": "Game Transaction ID",
+        "referenceId": "Reference ID",
+        "transactionNo": "Transaction No",
+        "status": "Status"
+      },
+      "pagination": {
+        "rowsPerPage": "Rows per page:",
+        "prev": "Prev",
+        "next": "Next"
+      },
+      "dateSelector": {
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "thisWeek": "This Week",
+        "lastWeek": "Last Week",
+        "thisMonth": "This Month",
+        "lastMonth": "Last Month"
+      }
+    },
+    "filters": {
+      "allGames": "All Games"
+    }
+  },
+  "partners": {
+    "provider": "Provider"
+  },
+  "header": {
+    "loginButton": "LOGIN",
+    "registerButton": "REGISTER",
+    "helloUser": "Hello, {{userName}}",
+    "balance": "Balance",
+    "logout": "Logout",
+    "toasts": {
+      "logoutSuccess": "Logout successful"
+    }
+  },
+  "footer": {
+    "socialLinks": "Social Links",
+    "logoAlt": "logo",
+    "contactAlt": "Contact",
+    "copyright": "© Copyright 2026 {{brandName}}. All Rights Reserved.",
+    "version": "Version"
+  },
+  "theme": {
+    "switchToLight": "Switch to Light Mode",
+    "switchToDark": "Switch to Dark Mode"
+  },
+  "multiLadder": {
+    "allMilestonesComplete": "All milestones complete!",
+    "milestoneUnlocked": "Milestone unlocked",
+    "tierReached": "{{tierName}} reached!"
+  },
+  "notAuthorized": {
+    "message": "You are not authorized to access this page."
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Oops! Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back to where you belong."
+  },
+  "aboutSection": {
+    "defaultTitle": "ABOUT {{brandName}}",
+    "bgAlt": "about background"
+  },
+  "exploreFeatures": {
+    "title": "EXPLORE ALL FEATURES",
+    "downloadApplication": "Download application",
+    "installApplication": "Install application"
+  },
+  "leaderboard": {
+    "title": "Tournament",
+    "termsAndConditions": "Terms & Conditions",
+    "myRank": "My Rank",
+    "start": "Start",
+    "end": "End",
+    "rank": "Rank",
+    "player": "Player",
+    "points": "Points",
+    "prize": "Prize",
+    "noPlayersFound": "No players found",
+    "noActiveTournaments": "Currently no active tournaments",
+    "trophyAlt": "trophy"
+  },
+  "ladder": {
+    "loading": "Loading your ladders…",
+    "allMilestones": "All milestones",
+    "creditedInstantly": "Credited instantly to your wallet",
+    "fullTermsApply": "Full T&C apply.",
+    "simulatingProgress": "Simulating progress",
+    "simulateProgress": "Simulate your progress",
+    "simulateBetAmount": "Simulate bet amount",
+    "toNextReward": "to next reward",
+    "unlocked": "unlocked",
+    "stillToEarn": "still to earn",
+    "nextReward": "Next reward",
+    "moreToUnlock": "more to unlock",
+    "percentThere": "of the way there",
+    "allMilestonesCompletePre": "All milestones complete",
+    "allMilestonesCompletePost": "earned!",
+    "bonusCredited": "{{count}} bonus credited",
+    "bonusesCredited": "{{count}} bonuses credited",
+    "milestoneName": "{{name}} milestone",
+    "creditedInstantlyLabel": "Credited instantly",
+    "bonusEarnedLabel": "Bonus earned",
+    "totalPossible": "total possible",
+    "creditedRewards": "Credited rewards",
+    "credited": "CREDITED",
+    "realMoney": "real money",
+    "completedAt": "Completed at",
+    "tierPercentThere": "{{pct}}% there",
+    "cumulativeBets": "cumulative bets",
+    "promotion": "Bonus Ladder Promotion",
+    "termsAndConditions": "Terms & Conditions",
+    "termsDialogLabel": "Bonus Ladder Terms & Conditions",
+    "understandAndClose": "I understand — close",
+    "variants": {
+      "deposit": {
+        "placed": "deposited",
+        "totalPlacedShort": "Total deposited",
+        "totalPlacedLong": "Total deposited this campaign",
+        "milestonesUnlocked": "{{done}} of {{total}} milestones reached",
+        "betMoreToUnlock": "Deposit",
+        "noRewardsYet": "No rewards yet — make your first qualifying deposit",
+        "cumulativeUnit": "cumulative deposits",
+        "keepGoing": "Keep depositing →",
+        "overlayNextCta": "Deposit"
+      },
+      "bet": {
+        "placed": "placed",
+        "totalPlacedShort": "Total bets placed",
+        "totalPlacedLong": "Total bets placed this campaign",
+        "milestonesUnlocked": "{{done}} of {{total}} milestones unlocked",
+        "betMoreToUnlock": "Bet",
+        "noRewardsYet": "No rewards yet — place your first qualifying bet",
+        "cumulativeUnit": "cumulative bets",
+        "keepGoing": "Keep betting →",
+        "overlayNextCta": "Bet"
+      }
+    },
+    "overlay": {
+      "allMilestonesComplete": "All milestones complete!",
+      "milestoneUnlocked": "Milestone unlocked",
+      "tierReached": "{{name}} reached!",
+      "rolloverNote": "Real money · Rollover: 1× · Never expires",
+      "nextMilestone": "Next milestone — {{name}}",
+      "betMore": "Bet",
+      "betMoreToEarn": "more to earn",
+      "allDoneTitle": "You've completed all milestones!",
+      "allDoneSubtitle": "All bonuses have been credited to your wallet.",
+      "viewLadder": "View my ladder",
+      "viewLadderArrow": "View my ladder →"
+    },
+    "achievement": {
+      "milestoneUnlocked": "Milestone unlocked",
+      "tierAchieved": "Tier achieved!",
+      "creditedToWallet": "Credited to your wallet"
+    }
+  },
+  "jackpot": {
+    "monthlyJackpot": "Monthly Jackpot",
+    "title": "Jackpot Winners",
+    "winner": "Jackpot winner",
+    "congratulationDefault": "Congratulations — you're one of this month's jackpot winners!",
+    "youWonThisMonthPre": "You won",
+    "youWonThisMonthPost": "this month",
+    "loadError": "Couldn't load winners for {{month}}.",
+    "noWinners": "No jackpot winners yet for {{month}}",
+    "checkBack": "Check back after the next draw.",
+    "loadMore": "Load more winners",
+    "winnerCount": "{{count}} winner for {{month}}",
+    "winnersCount": "{{count}} winners for {{month}}",
+    "previousMonth": "Previous month",
+    "nextMonth": "Next month",
+    "backToThisMonth": "Back to this month",
+    "you": "You",
+    "youBadge": "YOU",
+    "place": "{{position}} place"
+  },
+  "pwa": {
+    "title": "Setbet App",
+    "subTitle": "Setbet",
+    "description": "Your final destination for Betting"
+  }
+}

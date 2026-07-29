@@ -1,0 +1,691 @@
+{
+  "errors": {
+    "appCrashErrorHeader": "பயன்பாட்டு பிழை",
+    "appCrashError": "பயன்பாடு எதிர்பாராத விதமாக செயலிழந்தது.",
+    "header": "அச்சச்சோ! ஏதோ தவறு நடந்தது",
+    "generic": "மீண்டும் முயற்சிக்கவும் அல்லது முகப்பு பக்கத்திற்கு திரும்பவும்.",
+    "pageLoadError": "இந்த பக்கத்தை ஏற்றும் போது பிழை ஏற்பட்டது. மீண்டும் முயற்சிக்கவும்.",
+    "errorId": "பிழை ID: {{digest}}",
+    "appConfigLoad": "பயன்பாட்டு கட்டமைப்பை ஏற்ற முடியவில்லை. மீண்டும் முயற்சிக்கவும்.",
+    "somethingWentWrong": "ஏதோ தவறு நடந்தது",
+    "unexpectedError": "எதிர்பாராத பிழை ஏற்பட்டது. மீண்டும் முயற்சிக்கவும்.",
+    "failedToLoadPageError": "{{page}} பக்கத்தை ஏற்ற முடியவில்லை. மீண்டும் முயற்சிக்கவும்."
+  },
+  "locale": {
+    "unavailable": {
+      "title": "மொழி கிடைக்கவில்லை",
+      "message": "{{locale}} மொழி தற்போது கிடைக்கவில்லை. இயல்புநிலை மொழி காட்டப்படுகிறது."
+    }
+  },
+  "context": {
+    "idleWarning": "செயலின்மை காரணமாக 1 நிமிடத்தில் நீங்கள் வெளியேற்றப்படுவீர்கள்",
+    "brandIdError": "பிராண்ட் ID ஐ பெற முடியவில்லை.",
+    "initializationError": "பிராண்டை தொடங்க முடியவில்லை. புதுப்பிக்கவும்."
+  },
+  "seo": {
+    "accountSettings": {
+      "pageName": "கணக்கு அமைப்புகள்"
+    },
+    "bankInfo": {
+      "pageName": "வங்கி தகவல்"
+    },
+    "bonus": {
+      "pageName": "போனஸ்"
+    },
+    "deposit": {
+      "pageName": "பணம் செலுத்துதல்"
+    },
+    "kyc": {
+      "pageName": "KYC சரிபார்ப்பு"
+    },
+    "profile": {
+      "pageName": "சுயவிவரம்"
+    },
+    "transactionHistory": {
+      "pageName": "பரிவர்த்தனை வரலாறு"
+    },
+    "wallet": {
+      "pageName": "வாலெட்"
+    },
+    "withdraw": {
+      "pageName": "பணம் எடுப்பு"
+    },
+    "casino": {
+      "pageName": "காசினோ"
+    },
+    "exchange": {
+      "pageName": "எக்ஸ்சேஞ்ச்"
+    },
+    "liveCasino": {
+      "pageName": "நேரலை காசினோ"
+    },
+    "sports": {
+      "pageName": "விளையாட்டு"
+    },
+    "leaderboard": {
+      "pageName": "லீடர்போர்டு"
+    },
+    "multiladder": {
+      "pageName": "மல்டி லேடர்",
+      "pageDescription": "IPL போனஸ் லேடரில் முன்னேறி உண்மையான பணப் பரிசுகளை வெல்லுங்கள்."
+    },
+    "promotions": {
+      "pageName": "சலுகைகள்"
+    },
+    "cms": {
+      "defaultPageName": "பக்கம்"
+    }
+  },
+  "common": {
+    "submit": "சமர்பிக்கவும்",
+    "submitting": "சமர்பிக்கிறது…",
+    "loading": "ஏற்றுகிறது",
+    "edit": "திருத்து",
+    "cancel": "ரத்து செய்",
+    "close": "மூடு",
+    "retry": "மீண்டும் முயற்சி",
+    "tryAgain": "மீண்டும் முயற்சிக்கவும்",
+    "goBackHome": "முகப்புக்கு திரும்பு",
+    "readMore": "மேலும் படிக்கவும்",
+    "seeAll": "அனைத்தையும் காண்க",
+    "pick": "தேர்வு செய்",
+    "ok": "சரி",
+    "or": "அல்லது",
+    "of": "இல்",
+    "update": "புதுப்பி",
+    "updating": "புதுப்பிக்கிறது…",
+    "yes": "ஆம்",
+    "no": "இல்லை",
+    "copied": "நகலெடுக்கப்பட்டது",
+    "copy": "நகல்",
+    "downloadImage": "படத்தை பதிவிறக்கு",
+    "notAvailable": "கிடைக்கவில்லை",
+    "total": "மொத்தம்",
+    "goToSlide": "ஸ்லைடு {{index}} க்கு செல்",
+    "logoAlt": "லோகோ",
+    "whatsappCta": "வாட்ஸ்அப்பில் உங்கள் ID பெறுங்கள்",
+    "noDataAvailable": "தரவு எதுவும் இல்லை",
+    "imageUpload": {
+      "preview": "முன்னோட்டம்",
+      "imagePreviewAlt": "பதிவேற்றிய ரசீது முன்னோட்டம்",
+      "modalImageAlt": "ரசீது முன்னோட்டம்",
+      "removeImage": "படத்தை நீக்கு",
+      "clickToUpload": "பதிவேற்ற கிளிக் செய்யவும்",
+      "dragAndDrop": "அல்லது இழுத்து விடவும்",
+      "fileTypesHint": "JPG, JPEG, PNG அல்லது SVG (அதிகபட்சம் 1MB)",
+      "browseFiles": "கோப்புகளை உலாவு",
+      "toastInvalidFileTypeErr": "JPG, JPEG, PNG மற்றும் SVG கோப்புகள் மட்டுமே அனுமதிக்கப்படுகின்றன.",
+      "toastFileSizeExceededErr": "கோப்பு அளவு 1MB வரம்பை மீறுகிறது.",
+      "toastValidFileErr": "முதலில் சரியான கோப்பைத் தேர்ந்தெடுக்கவும்.",
+      "toastNoFileErr": "கோப்பு எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
+    },
+    "banner": {
+      "defaultAlt": "பேனர் {{index}}"
+    },
+    "timeLeft": {
+      "dayLeft": "{{count}} நாள் மீதம்",
+      "daysLeft": "{{count}} நாட்கள் மீதம்",
+      "hoursLeft": "{{count}} மணி மீதம்",
+      "minsLeft": "{{count}} நிமிடம் மீதம்",
+      "expired": "காலாவதியானது"
+    },
+    "days": {
+      "mo": "திங்",
+      "tu": "செவ்",
+      "we": "புத",
+      "th": "வியா",
+      "fr": "வெள்",
+      "sa": "சனி",
+      "su": "ஞாயி"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "உள்நுழைவு",
+      "usernamePlaceholder": "பயனர்பெயர்",
+      "passwordPlaceholder": "கடவுச்சொல்",
+      "forgotPassword": "கடவுச்சொல் மறந்துவிட்டீர்களா?",
+      "submitIdle": "இப்போது உள்நுழையவும்",
+      "submitLoading": "உள்நுழைகிறது…",
+      "noAccount": "கணக்கு இல்லையா?",
+      "registerNow": "இப்போது பதிவு செய்யுங்கள்",
+      "whatsappCta": "வாட்ஸ்அப்பில் உங்கள் ID பெறுங்கள்",
+      "bannerAltPrefix": "உள்நுழைவு பேனர்",
+      "toastSuccess": "உள்நுழைவு வெற்றிகரமானது",
+      "toastError": "உள்நுழைவு தோல்வியடைந்தது",
+      "validation": {
+        "usernameRequired": "பயனர்பெயர் தேவை",
+        "usernameMinLength": "குறைந்தது 3 எழுத்துகள்",
+        "usernameMaxLength": "16 எழுத்துகளை தாண்டக்கூடாது",
+        "usernameNoSpaces": "பயனர்பெயரில் இடைவெளி அனுமதிக்கப்படாது",
+        "passwordRequired": "கடவுச்சொல் தேவை",
+        "passwordPattern": "கடவுச்சொல் 8–15 எழுத்துகள், பெரிய எழுத்து, சிறிய எழுத்து, எண் மற்றும் சிறப்பு எழுத்து கொண்டிருக்க வேண்டும்",
+        "showPassword": "கடவுச்சொல்லை காட்டு",
+        "hidePassword": "கடவுச்சொல்லை மறை"
+      }
+    },
+    "register": {
+      "title": "பதிவு செய்யுங்கள்",
+      "usernamePlaceholder": "பயனர்பெயர்",
+      "passwordPlaceholder": "கடவுச்சொல்",
+      "confirmPasswordPlaceholder": "கடவுச்சொல்லை உறுதிப்படுத்தவும்",
+      "promoCodePlaceholder": "விளம்பர குறியீடு (விருப்பமானது)",
+      "countryPlaceholder": "நாடு",
+      "mobileNumberPlaceholder": "மொபைல் எண்",
+      "checkboxAge": "என் வயது குறைந்தது 18 ஆண்டுகள்",
+      "checkboxTerms": "நிபந்தனைகள் மற்றும் தனியுரிமைக்கு சம்மதிக்கிறேன்",
+      "submitIdle": "இப்போது பதிவு செய்யுங்கள்",
+      "submitLoading": "பதிவு செய்கிறது...",
+      "whatsappCta": "வாட்ஸ்அப்பில் உங்கள் ID பெறுங்கள்",
+      "bannerAltPrefix": "பதிவு பேனர்",
+      "toastSuccess": "வெற்றிகரமாக பதிவு செய்யப்பட்டது",
+      "toastError": "பதிவு தோல்வியடைந்தது",
+      "validation": {
+        "usernameRequired": "பயனர்பெயர் தேவை",
+        "usernameMinLength": "குறைந்தது 3 எழுத்துகள்",
+        "usernameMaxLength": "அதிகபட்சம் 16 எழுத்துகள்",
+        "usernameNoSpaces": "பயனர்பெயரில் இடைவெளி அனுமதிக்கப்படாது",
+        "passwordRequired": "கடவுச்சொல் தேவை",
+        "passwordPattern": "பெரிய எழுத்து, சிறிய எழுத்து, எண் மற்றும் சிறப்பு எழுத்துடன் 8–15 எழுத்துகள் இருக்க வேண்டும்",
+        "confirmPasswordRequired": "கடவுச்சொல்லை உறுதிப்படுத்தவும்",
+        "confirmPasswordMismatch": "கடவுச்சொற்கள் பொருந்தவில்லை",
+        "countryRequired": "நாட்டு குறியீடு தேவை",
+        "mobileNumberRequired": "மொபைல் எண் தேவை",
+        "mobileNumberInvalid": "தவறான எண்",
+        "ageRequired": "18+ வயதாக இருக்க வேண்டும்",
+        "termsRequired": "நிபந்தனைகளை ஏற்க வேண்டும்",
+        "showPassword": "கடவுச்சொல்லை காட்டு",
+        "hidePassword": "கடவுச்சொல்லை மறை",
+        "showConfirmPassword": "உறுதி கடவுச்சொல்லை காட்டு",
+        "hideConfirmPassword": "உறுதி கடவுச்சொல்லை மறை"
+      }
+    }
+  },
+  "deviceLogout": {
+    "warning": "எச்சரிக்கை",
+    "noPermission": "இந்த பக்கத்தை அணுக உங்களுக்கு அனுமதி இல்லை.",
+    "sessionExpired": "உங்கள் அமர்வு காலாவதியானது. மீண்டும் உள்நுழையவும்."
+  },
+  "games": {
+    "noGamesTitle": "விளையாட்டுகள் எதுவும் இல்லை",
+    "noGamesDescription": "விளையாட்டுகள் எதுவும் இல்லை. பின்னர் சரிபார்க்கவும்.",
+    "exploreButton": "விளையாட்டுகளை ஆராயுங்கள்",
+    "allGameProviders": "அனைத்து விளையாட்டு வழங்குநர்கள்",
+    "searchGames": "விளையாட்டுகளை தேடுங்கள்...",
+    "pleaseWait": "காத்திருக்கவும்...",
+    "searchGamesAriaLabel": "விளையாட்டுகளை தேடு",
+    "toasts": {
+      "fetchDetailsError": "விளையாட்டு விவரங்களை பெற முடியவில்லை.",
+      "refreshError": "விளையாட்டுகளை புதுப்பிக்க முடியவில்லை.",
+      "failedToFetchGame": "விளையாட்டை பெற முடியவில்லை.",
+      "failedToChangeProvider": "வழங்குநரை மாற்ற முடியவில்லை.",
+      "failedToLoadMoreGames": "மேலும் விளையாட்டுகளை ஏற்ற முடியவில்லை."
+    }
+  },
+  "accountSettings": {
+    "title": "கணக்கு அமைப்புகள்",
+    "tabs": {
+      "depositLimit": "வைப்பு வரம்பு",
+      "contactPreference": "தொடர்பு விருப்பம்",
+      "changePassword": "கடவுச்சொல் மாற்று",
+      "selfExclusion": "சுய விலக்கு",
+      "deactivate": "முடக்கு"
+    },
+    "changePassword": {
+      "newPasswordPlaceholder": "புதிய கடவுச்சொல் உள்ளிடவும்",
+      "confirmPasswordPlaceholder": "கடவுச்சொல்லை உறுதிப்படுத்தவும்",
+      "hint1": "கடவுச்சொல் 8-16 எழுத்துகள், குறைந்தது ஒரு சிறிய எழுத்து, ஒரு பெரிய எழுத்து, ஒரு எண் மற்றும் ஒரு சிறப்பு எழுத்து கொண்டிருக்க வேண்டும், இடைவெளி இல்லாமல்.",
+      "hint2": "புதிய கடவுச்சொல் மற்றும் உறுதி கடவுச்சொல் பொருந்த வேண்டும்.",
+      "toastSuccess": "கடவுச்சொல் வெற்றிகரமாக புதுப்பிக்கப்பட்டது.",
+      "toastError": "கடவுச்சொல்லை புதுப்பிக்க தோல்வி.",
+      "validation": {
+        "passwordRequired": "கடவுச்சொல் தேவை",
+        "passwordMinLength": "கடவுச்சொல் குறைந்தது 8 எழுத்துகள் இருக்க வேண்டும்",
+        "passwordPattern": "பெரிய எழுத்து, சிறிய எழுத்து, எண் மற்றும் சிறப்பு எழுத்து சேர்க்கவும்",
+        "confirmRequired": "கடவுச்சொல்லை உறுதிப்படுத்தவும்",
+        "confirmMismatch": "கடவுச்சொற்கள் பொருந்தவில்லை"
+      }
+    },
+    "contactPreference": {
+      "labels": {
+        "all": "அனைத்தும்",
+        "email": "மின்னஞ்சல்",
+        "whatsapp": "வாட்ஸ்அப்",
+        "telegram": "டெலிகிராம்",
+        "sms": "SMS",
+        "call": "அழைப்பு",
+        "none": "எதுவும் இல்லை"
+      },
+      "toastSuccess": "தொடர்பு அமைப்புகள் வெற்றிகரமாக புதுப்பிக்கப்பட்டன.",
+      "toastError": "தொடர்பு அமைப்புகளை புதுப்பிக்க தோல்வி."
+    },
+    "depositLimit": {
+      "dailyLabel": "தினசரி வைப்பு வரம்பு",
+      "weeklyLabel": "வாராந்திர வைப்பு வரம்பு",
+      "monthlyLabel": "மாதாந்திர வைப்பு வரம்பு",
+      "hint1": "வைப்பு வரம்பை இயக்குவதால் குறிப்பிட்ட காலத்திற்கு வைப்பிலிருந்து விலகலாம். வரம்பு நிர்ணயிக்கப்பட்டதும், நிர்ணயிக்கப்பட்ட காலம் முடியும் வரை வைப்பு செய்ய முடியாது.",
+      "hint2": "இந்த வைப்பு வரம்பை நடைமுறைப்படுத்த விரும்பினால், காலம் மற்றும் தொகையை தேர்வு செய்யவும்.",
+      "toastSuccess": "வைப்பு வரம்பு வெற்றிகரமாக புதுப்பிக்கப்பட்டது.",
+      "toastError": "வைப்பு வரம்பை புதுப்பிக்க தோல்வி.",
+      "validation": {
+        "dailyExceedsWeeklyOrMonthly": "தினசரி வரம்பு வாராந்திர அல்லது மாதாந்திர வரம்பை விட அதிகமாக இருக்கக்கூடாது.",
+        "weeklyOutOfRange": "வாராந்திர வரம்பு தினசரி மற்றும் மாதாந்திர வரம்புகளுக்கு இடையில் இருக்க வேண்டும்.",
+        "monthlyTooSmall": "மாதாந்திர வரம்பு தினசரி அல்லது வாராந்திர வரம்பை விட சிறியதாக இருக்கக்கூடாது."
+      }
+    },
+    "selfExclusion": {
+      "checkboxLabel": "என் கணக்கை இந்த காலத்திற்கு சுய விலக்கு செய்ய விரும்புகிறேன்:",
+      "selectPlaceholder": "காலத்தை தேர்வு செய்யவும்",
+      "toastSuccess": "உங்கள் கணக்கு {{timePeriod}} க்கு சுய விலக்கு செய்யப்பட்டது.",
+      "hint": "இந்த காலத்தில் வலைதளத்தில் விளையாட முடியாது மற்றும் சந்தைப்படுத்தல் மின்னஞ்சல்கள் அல்லது சலுகைகள் கிடைக்காது.",
+      "confirmText": "{{timePeriod}} க்கு உங்கள் கணக்கை சுய விலக்கு செய்ய விரும்புகிறீர்களா?",
+      "periods": {
+        "1 day": "1 நாள்",
+        "1 week": "1 வாரம்",
+        "1 month": "1 மாதம்",
+        "6 weeks": "6 வாரங்கள்",
+        "undetermined": "தீர்மானிக்கப்படவில்லை"
+      }
+    },
+    "deactivate": {
+      "checkboxLabel": "என் கணக்கை இந்த காலத்திற்கு சுய விலக்கு செய்ய விரும்புகிறேன்:",
+      "selectPlaceholder": "காலத்தை தேர்வு செய்யவும்",
+      "hint": "இந்த நேரத்தில் உங்கள் கணக்கில் உள்நுழைய அல்லது மீண்டும் செயல்படுத்த முடியாது. முடக்கல் காலம் முடிந்ததும் நீட்டிக்கும் விருப்பம் கிடைக்கும். தற்போதைய நிதிகள் திருப்பி அளிக்கப்படும் மற்றும் அனைத்து பந்தயங்களும் ரத்தாகும்.",
+      "toastSuccess": "முடக்கல் நிலை வெற்றிகரமாக புதுப்பிக்கப்பட்டது.",
+      "toastError": "கணக்கை முடக்க தோல்வி."
+    }
+  },
+  "deposit": {
+    "title": "வைப்பு",
+    "selectAmount": "தொகையை தேர்வு செய்யவும்",
+    "helpText": "உதவி தேவையா? வைப்பு வழிகாட்டியை பாருங்கள் அல்லது நேரடி அரட்டை / மின்னஞ்சலில் தொடர்பு கொள்ளுங்கள்.",
+    "enterAmount": "தொகையை உள்ளிடவும்",
+    "bonusCode": "போனஸ் குறியீடு",
+    "bonusCodePlaceholder": "போனஸ் குறியீட்டை உள்ளிடவும்",
+    "bankLimitText": "வங்கி வரம்பு : ₹{{limit}}",
+    "paymentMethods": {
+      "bank": "வங்கி பரிமாற்றம்",
+      "qr": "QR பரிமாற்றம்",
+      "upi": "UPI",
+      "azeePay": "ஆசி பே"
+    },
+    "azeePayAlt": "azee-pay",
+    "toastSuccess": "வைப்பு வெற்றிகரமானது.",
+    "paymentDetailsTitle": "உங்கள் கட்டண விவரங்கள்",
+    "enterUtr": "UTR எண்ணை உள்ளிடவும்",
+    "whatsappCta": "வைப்பிற்கு இங்கே வாட்ஸ்அப் செய்யுங்கள்",
+    "transferDetails": "பரிமாற்ற விவரங்கள்",
+    "previousPromotion": "முந்தைய சலுகை",
+    "nextPromotion": "அடுத்த சலுகை",
+    "qrCodeAlt": "QR குறியீடு",
+    "transferLabels": {
+      "qrCode": "QR குறியீடு",
+      "qrName": "QR பெயர்",
+      "id": "ID",
+      "upiId": "UPI ID",
+      "upiName": "UPI பெயர்",
+      "paymentUpiName": "கட்டண UPI பெயர்",
+      "bankName": "வங்கி பெயர்",
+      "accountHolderName": "கணக்கு வைத்திருப்பவர் பெயர்",
+      "accountNumber": "கணக்கு எண்",
+      "accountType": "கணக்கு வகை",
+      "ifscCode": "IFSC குறியீடு",
+      "branch": "கிளை"
+    },
+    "campaign": {
+      "title": "சலுகைகள்",
+      "giftAlt": "பரிசு",
+      "minDepositLimitLabel": "குறைந்தபட்ச வைப்பு வரம்பு: ₹{{limit}}",
+      "claimUntil": "கோரும் கடைசி தேதி: {{date}}",
+      "applyCode": "குறியீட்டை பயன்படுத்து",
+      "noContent": "உள்ளடக்கம் இல்லை"
+    },
+    "psp": {
+      "paymentVerifying": "கட்டணம் சரிபார்க்கப்படுகிறது…",
+      "continueToPay": "கட்டணம் செய்யத் தொடரவும்",
+      "toastSuccess": "வைப்பு வெற்றிகரமாக செயலாக்கப்பட்டது",
+      "toastProcessedCheckSupport": "வைப்பு செயலாக்கப்பட்டது. ஆதரவு குழுவிடம் சரிபார்க்கவும்",
+      "toastUnableToVerify": "கட்டணத்தை சரிபார்க்க முடியவில்லை",
+      "toastVerifyingPayment": "கட்டணம் சரிபார்க்கப்படுகிறது...",
+      "toastSomethingWentWrong": "ஏதோ தவறு நடந்தது"
+    },
+    "validation": {
+      "toastAmountGreaterThanZero": "தொகை 0 ஐ விட அதிகமாக இருக்க வேண்டும்",
+      "amountExceedsLimit": "தொகை ₹{{limit}} வரம்பை மீறுகிறது",
+      "minDepositRequired": "குறைந்தது {{min}} வைப்பு தேவை",
+      "toastUtrRequired": "UTR எண்ணை உள்ளிடவும்"
+    }
+  },
+  "withdraw": {
+    "title": "திரும்பப் பெறுதல்",
+    "withdrawableMoney": "திரும்பப் பெறக்கூடிய இருப்பு",
+    "selectBankPlaceholder": "வங்கி கணக்கை தேர்வு செய்யவும்",
+    "enterAmountPlaceholder": "தொகையை உள்ளிடவும்",
+    "whatsappCta": "வாட்ஸ்அப் மூலம் திரும்பப் பெறுதல்",
+    "submit": "திரும்பப் பெறுக",
+    "submitting": "திரும்பப் பெறுகிறது…",
+    "validation": {
+      "bankRequired": "வங்கி கணக்கை தேர்வு செய்யவும்",
+      "amountRequired": "தொகை தேவை",
+      "amountNumbersOnly": "தொகையில் எண்கள் மட்டுமே இருக்க வேண்டும்",
+      "amountExceedsMax": "அதிகபட்சம் ₹{{max}} திரும்பப் பெறலாம்",
+      "amountMinimum": "தொகை ₹500 ஐ விட அதிகமாக இருக்க வேண்டும்"
+    },
+    "toasts": {
+      "success": "தொகை வெற்றிகரமாக திரும்பப் பெறப்பட்டது.",
+      "error": "திரும்பப் பெறுதலை செயலாக்க தோல்வி."
+    }
+  },
+  "wallet": {
+    "title": "பணப்பை",
+    "realMoney": "உண்மையான பணம் ₹ {{amount}}",
+    "withdrawableMoney": "திரும்பப் பெறக்கூடிய பணம் ₹ {{amount}}",
+    "moneySuffix": "{{wallet}} பணம்"
+  },
+  "bonus": {
+    "title": "போனஸ்",
+    "tabs": {
+      "active": "செயலில் உள்ள போனஸ்",
+      "unclaimed": "கோரப்படாத போனஸ்",
+      "redeemed": "பயன்படுத்தப்பட்ட போனஸ்"
+    },
+    "toastExpired": "பிரச்சாரம் காலாவதியானது",
+    "toastError": "பிரச்சாரத்தை காலாவதி செய்ய தோல்வி.",
+    "noCampaigns": "பிரச்சாரங்கள் எதுவும் இல்லை. பின்னர் சரிபார்க்கவும்.",
+    "campaignName": "பிரச்சார பெயர்",
+    "campaignCode": "பிரச்சார குறியீடு",
+    "minOdds": "குறைந்தபட்ச ஆட்ஸ்",
+    "bonusAmount": "போனஸ் தொகை",
+    "bonusPercentage": "போனஸ் சதவீதம்",
+    "warning": "எச்சரிக்கை",
+    "cancelConfirm": "போனஸை ரத்து செய்ய விரும்புகிறீர்களா?"
+  },
+  "kyc": {
+    "title": "KYC",
+    "subtitle": "KYC புதுப்பிக்கவும்",
+    "documentTypeLabel": "ஆவண வகை",
+    "documentNumberLabel": "ஆவண எண்",
+    "documentTypePlaceholder": "ஆவண வகையை உள்ளிடவும்",
+    "documentNumberPlaceholder": "ஆவண எண்ணை உள்ளிடவும்",
+    "frontImageLabel": "முன் படம்",
+    "backImageLabel": "பின் படம்",
+    "save": "சேமி",
+    "saving": "சேமிக்கிறது…",
+    "toastSuccess": "KYC வெற்றிகரமாக புதுப்பிக்கப்பட்டது.",
+    "toastError": "KYC புதுப்பிக்க தோல்வி.",
+    "toastAlreadyVerified": "KYC ஏற்கனவே சரிபார்க்கப்பட்டது",
+    "toastPending": "KYC நிலை நிலுவையில் உள்ளது",
+    "toastRejected": "KYC நிராகரிக்கப்பட்டது",
+    "validation": {
+      "documentTypeRequired": "ஆவண வகையை தேர்வு செய்யவும்",
+      "documentNumberRequired": "ஆவண எண்ணை உள்ளிடவும்",
+      "aadharInvalid": "சரியான 12-இலக்க ஆதார் எண்ணை உள்ளிடவும்",
+      "panInvalid": "சரியான PAN எண்ணை உள்ளிடவும்",
+      "frontImageRequired": "முன் படம் தேவை",
+      "backImageRequired": "பின் படம் தேவை"
+    }
+  },
+  "profile": {
+    "title": "சுயவிவரம்",
+    "yourPersonalData": "உங்கள் தனிப்பட்ட தரவு",
+    "updatePersonalData": "தனிப்பட்ட விவரங்களை புதுப்பிக்கவும்",
+    "fields": {
+      "firstName": "முதல் பெயர்",
+      "lastName": "கடைசி பெயர்",
+      "userName": "பயனர்பெயர்",
+      "email": "மின்னஞ்சல்",
+      "dateOfBirth": "பிறந்த தேதி",
+      "city": "நகரம்",
+      "country": "நாடு",
+      "state": "மாநிலம்",
+      "countryCode": "நாட்டு குறியீடு",
+      "phone": "தொலைபேசி எண்",
+      "address": "முகவரி",
+      "currency": "நாணயம்",
+      "zipCode": "அஞ்சல் குறியீடு"
+    },
+    "validation": {
+      "firstNameRequired": "முதல் பெயரை உள்ளிடவும்",
+      "firstNameMaxLength": "முதல் பெயர் 10 எழுத்துகளை தாண்டக்கூடாது",
+      "lastNameRequired": "கடைசி பெயரை உள்ளிடவும்",
+      "lastNameMaxLength": "கடைசி பெயர் 10 எழுத்துகளை தாண்டக்கூடாது",
+      "emailPattern": "சரியான மின்னஞ்சல் உள்ளிடவும்",
+      "dobRequired": "பிறந்த தேதியை தேர்வு செய்யவும்",
+      "countryCodeRequired": "நாட்டு குறியீட்டை உள்ளிடவும்",
+      "zipCodeRequired": "பின்கோடை உள்ளிடவும்"
+    },
+    "toasts": {
+      "success": "வீரர் விவரங்கள் வெற்றிகரமாக புதுப்பிக்கப்பட்டன",
+      "error": "வீரர் சுயவிவரத்தை புதுப்பிக்க தோல்வி."
+    }
+  },
+  "promotions": {
+    "noPromotions": "சலுகைகள் எதுவும் இல்லை.",
+    "imageAlt": "சலுகை_அட்டை_படம்"
+  },
+  "bankInfo": {
+    "title": "வங்கி தகவல்",
+    "bankDetailsTitle": "உங்கள் வங்கி தரவு",
+    "labels": {
+      "accountNo": "கணக்கு எண்",
+      "bankName": "வங்கி பெயர்",
+      "branchName": "கிளை பெயர்",
+      "ifscCode": "IFSC குறியீடு",
+      "accountType": "கணக்கு வகை",
+      "accountHolderName": "கணக்கு வைத்திருப்பவர் பெயர்",
+      "amount": "தொகை",
+      "email": "மின்னஞ்சல் முகவரி"
+    },
+    "placeholders": {
+      "selectAccount": "வங்கி கணக்கை தேர்வு செய்யவும்",
+      "enterAccountNo": "கணக்கு எண்ணை உள்ளிடவும்",
+      "enterBankName": "வங்கி பெயரை உள்ளிடவும்",
+      "enterAccountHolderName": "கணக்கு வைத்திருப்பவர் பெயரை உள்ளிடவும்",
+      "enterBranchName": "கிளை பெயரை உள்ளிடவும்",
+      "enterIfscCode": "IFSC குறியீட்டை உள்ளிடவும்",
+      "enterAccountType": "கணக்கு வகையை உள்ளிடவும்",
+      "savings": "சேமிப்பு",
+      "current": "நடப்பு"
+    },
+    "validation": {
+      "accountNoRequired": "கணக்கு எண் தேவை",
+      "accountNoNumbersOnly": "கணக்கு எண்ணில் எண்கள் மட்டுமே இருக்க வேண்டும்",
+      "accountNoMaxLength": "கணக்கு எண் 16 இலக்கங்களை தாண்டக்கூடாது",
+      "accountNoDuplicate": "இந்த கணக்கு எண் ஏற்கனவே பதிவு செய்யப்பட்டது.",
+      "bankNameRequired": "வங்கி பெயர் தேவை",
+      "accountHolderNameRequired": "கணக்கு வைத்திருப்பவர் பெயர் தேவை",
+      "branchNameRequired": "கிளை பெயர் தேவை",
+      "ifscCodeRequired": "IFSC குறியீடு தேவை",
+      "ifscCodeInvalid": "சரியான IFSC குறியீட்டை உள்ளிடவும் (4 எழுத்துகள் + 7 இலக்கங்கள்)",
+      "accountTypeRequired": "கணக்கு வகையை தேர்வு செய்யவும்",
+      "limitReached": "அதிகபட்சம் 5 வங்கி கணக்குகளின் வரம்பை எட்டிவிட்டீர்கள்."
+    },
+    "toasts": {
+      "createSuccess": "வங்கி கணக்கு வெற்றிகரமாக உருவாக்கப்பட்டது.",
+      "createError": "வங்கி கணக்கை உருவாக்க தோல்வி.",
+      "updateSuccess": "வங்கி கணக்கு வெற்றிகரமாக புதுப்பிக்கப்பட்டது.",
+      "updateError": "வங்கி கணக்கை புதுப்பிக்க தோல்வி.",
+      "alreadyExists": "வங்கி கணக்கு ஏற்கனவே உள்ளது"
+    }
+  },
+  "transactionHistory": {
+    "title": "பரிவர்த்தனை வரலாறு",
+    "tabs": {
+      "gameHistory": "விளையாட்டு வரலாறு",
+      "depositSummary": "வைப்பு சுருக்கம்",
+      "withdrawSummary": "திரும்பப் பெறுதல் சுருக்கம்",
+      "allTransactions": "அனைத்து பரிவர்த்தனைகள்"
+    },
+    "transactionTable": {
+      "columns": {
+        "serialNo": "வரிசை எண்",
+        "description": "விளக்கம்",
+        "gameName": "விளையாட்டு பெயர்",
+        "startBalance": "தொடக்க இருப்பு",
+        "amount": "தொகை",
+        "endBalance": "இறுதி இருப்பு",
+        "timeStamp": "நேர முத்திரை",
+        "transactionStatus": "பரிவர்த்தனை நிலை",
+        "providerName": "வழங்குநர் பெயர்",
+        "transactionId": "பரிவர்த்தனை ID",
+        "gameTransactionId": "விளையாட்டு பரிவர்த்தனை ID",
+        "referenceId": "குறிப்பு ID",
+        "transactionNo": "பரிவர்த்தனை எண்",
+        "status": "நிலை"
+      },
+      "pagination": {
+        "rowsPerPage": "பக்கத்திற்கு வரிசைகள்:",
+        "prev": "முந்தைய",
+        "next": "அடுத்த"
+      },
+      "dateSelector": {
+        "today": "இன்று",
+        "yesterday": "நேற்று",
+        "thisWeek": "இந்த வாரம்",
+        "lastWeek": "கடந்த வாரம்",
+        "thisMonth": "இந்த மாதம்",
+        "lastMonth": "கடந்த மாதம்"
+      }
+    }
+  },
+  "partners": {
+    "provider": "வழங்குநர்"
+  },
+  "header": {
+    "loginButton": "உள்நுழைவு",
+    "registerButton": "பதிவு செய்யுங்கள்",
+    "helloUser": "வணக்கம், {{userName}}",
+    "balance": "இருப்பு",
+    "logout": "வெளியேறு",
+    "toasts": {
+      "logoutSuccess": "வெளியேறுதல் வெற்றிகரமானது"
+    }
+  },
+  "footer": {
+    "socialLinks": "சமூக இணைப்புகள்",
+    "logoAlt": "லோகோ",
+    "contactAlt": "தொடர்பு",
+    "copyright": "© பதிப்புரிமை 2026 {{brandName}}. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
+    "version": "பதிப்பு"
+  },
+  "theme": {
+    "switchToLight": "ஒளி பயன்முறைக்கு மாறவும்",
+    "switchToDark": "இருண்ட பயன்முறைக்கு மாறவும்"
+  },
+  "multiLadder": {
+    "allMilestonesComplete": "அனைத்து மைல்கற்களும் முடிந்தன!",
+    "milestoneUnlocked": "மைல்கல் திறக்கப்பட்டது",
+    "tierReached": "{{tierName}} அடையப்பட்டது!"
+  },
+  "notAuthorized": {
+    "message": "இந்த பக்கத்தை அணுக உங்களுக்கு அனுமதி இல்லை."
+  },
+  "notFound": {
+    "code": "404",
+    "title": "அச்சச்சோ! பக்கம் கிடைக்கவில்லை",
+    "description": "நீங்கள் தேடும் பக்கம் இல்லை அல்லது நகர்த்தப்பட்டது. திரும்பி செல்வோம்."
+  },
+  "aboutSection": {
+    "defaultTitle": "{{brandName}} பற்றி",
+    "bgAlt": "பின்னணி படம்"
+  },
+  "exploreFeatures": {
+    "title": "அனைத்து அம்சங்களையும் ஆராயுங்கள்"
+  },
+  "leaderboard": {
+    "title": "போட்டி",
+    "termsAndConditions": "விதிமுறைகள் மற்றும் நிபந்தனைகள்",
+    "myRank": "என் தரவரிசை",
+    "start": "தொடக்கம்",
+    "end": "முடிவு",
+    "rank": "தரவரிசை",
+    "player": "வீரர்",
+    "points": "புள்ளிகள்",
+    "prize": "பரிசு",
+    "noPlayersFound": "வீரர்கள் எவரும் இல்லை",
+    "noActiveTournaments": "தற்போது செயலில் உள்ள போட்டிகள் இல்லை",
+    "trophyAlt": "கோப்பை"
+  },
+  "ladder": {
+    "loading": "உங்கள் லேடர்களை ஏற்றுகிறது…",
+    "allMilestones": "அனைத்து மைல்கற்கள்",
+    "creditedInstantly": "உங்கள் பணப்பையில் உடனடியாக வரவு வைக்கப்படும்",
+    "fullTermsApply": "முழு விதிமுறைகள் பொருந்தும்.",
+    "simulatingProgress": "முன்னேற்றத்தை உருவகப்படுத்துகிறது",
+    "simulateProgress": "உங்கள் முன்னேற்றத்தை உருவகப்படுத்துங்கள்",
+    "simulateBetAmount": "பந்தயத் தொகையை உருவகப்படுத்துங்கள்",
+    "toNextReward": "அடுத்த வெகுமதிக்கு",
+    "unlocked": "திறக்கப்பட்டது",
+    "stillToEarn": "இன்னும் சம்பாதிக்க வேண்டியுள்ளது",
+    "nextReward": "அடுத்த வெகுமதி",
+    "moreToUnlock": "திறக்க இன்னும்",
+    "percentThere": "வழியில்",
+    "allMilestonesCompletePre": "அனைத்து மைல்கற்களும் முடிந்தன",
+    "allMilestonesCompletePost": "சம்பாதிக்கப்பட்டது!",
+    "bonusCredited": "{{count}} போனஸ் வரவு வைக்கப்பட்டது",
+    "bonusesCredited": "{{count}} போனஸ்கள் வரவு வைக்கப்பட்டன",
+    "milestoneName": "{{name}} மைல்கல்",
+    "creditedInstantlyLabel": "உடனடியாக வரவு வைக்கப்பட்டது",
+    "bonusEarnedLabel": "சம்பாதித்த போனஸ்",
+    "totalPossible": "மொத்த சாத்தியம்",
+    "creditedRewards": "வரவு வைக்கப்பட்ட வெகுமதிகள்",
+    "credited": "வரவு வைக்கப்பட்டது",
+    "realMoney": "உண்மையான பணம்",
+    "completedAt": "இதில் முடிந்தது",
+    "tierPercentThere": "{{pct}}% வழியில்",
+    "cumulativeBets": "திரட்டப்பட்ட பந்தயங்கள்",
+    "promotion": "போனஸ் லேடர் சலுகை",
+    "termsAndConditions": "விதிமுறைகள் மற்றும் நிபந்தனைகள்",
+    "termsDialogLabel": "போனஸ் லேடர் விதிமுறைகள் மற்றும் நிபந்தனைகள்",
+    "understandAndClose": "புரிகிறது — மூடு",
+    "variants": {
+      "deposit": {
+        "placed": "வைப்பு செய்யப்பட்டது",
+        "totalPlacedShort": "மொத்த வைப்பு",
+        "totalPlacedLong": "இந்த பிரச்சாரத்தில் மொத்த வைப்பு",
+        "milestonesUnlocked": "{{total}} இல் {{done}} மைல்கற்கள் அடையப்பட்டன",
+        "betMoreToUnlock": "வைப்பு செய்யுங்கள்",
+        "noRewardsYet": "இன்னும் வெகுமதிகள் இல்லை — முதல் தகுதியான வைப்பு செய்யுங்கள்",
+        "cumulativeUnit": "திரட்டப்பட்ட வைப்புகள்",
+        "keepGoing": "வைப்பு தொடரவும் →",
+        "overlayNextCta": "வைப்பு"
+      },
+      "bet": {
+        "placed": "வைக்கப்பட்டது",
+        "totalPlacedShort": "மொத்த பந்தயங்கள்",
+        "totalPlacedLong": "இந்த பிரச்சாரத்தில் மொத்த பந்தயங்கள்",
+        "milestonesUnlocked": "{{total}} இல் {{done}} மைல்கற்கள் திறக்கப்பட்டன",
+        "betMoreToUnlock": "பந்தயம்",
+        "noRewardsYet": "இன்னும் வெகுமதிகள் இல்லை — முதல் தகுதியான பந்தயம் வையுங்கள்",
+        "cumulativeUnit": "திரட்டப்பட்ட பந்தயங்கள்",
+        "keepGoing": "பந்தயம் தொடரவும் →",
+        "overlayNextCta": "பந்தயம்"
+      }
+    },
+    "overlay": {
+      "allMilestonesComplete": "அனைத்து மைல்கற்களும் முடிந்தன!",
+      "milestoneUnlocked": "மைல்கல் திறக்கப்பட்டது",
+      "tierReached": "{{name}} அடையப்பட்டது!",
+      "creditedToWallet": "பணப்பையில் வரவு வைக்கப்பட்டது",
+      "rolloverNote": "உண்மையான பணம் · ரோல்ஓவர்: 1× · காலாவதி இல்லை",
+      "nextMilestone": "அடுத்த மைல்கல் — {{name}}",
+      "betMore": "பந்தயம்",
+      "betMoreToEarn": "சம்பாதிக்க இன்னும்",
+      "allDoneTitle": "அனைத்து மைல்கற்களையும் முடித்துவிட்டீர்கள்!",
+      "allDoneSubtitle": "அனைத்து போனஸ்களும் உங்கள் பணப்பையில் வரவு வைக்கப்பட்டன.",
+      "viewLadder": "என் லேடரை காண்க",
+      "viewLadderArrow": "என் லேடரை காண்க →"
+    },
+    "achievement": {
+      "milestoneUnlocked": "மைல்கல் திறக்கப்பட்டது",
+      "tierAchieved": "நிலை அடையப்பட்டது!",
+      "creditedToWallet": "பணப்பையில் வரவு வைக்கப்பட்டது",
+      "gotIt": "புரிந்தது!"
+    }
+  },
+  "pwa": {
+    "title": "செட்பெட் பயன்பாடு",
+    "subTitle": "செட்பெட்",
+    "description": "பந்தயத்திற்கான உங்கள் இறுதி இடம்"
+  }
+}
