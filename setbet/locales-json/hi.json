@@ -8,7 +8,6 @@
     "errorId": "त्रुटि ID: {{digest}}",
     "appConfigLoad": "ऐप कॉन्फ़िगरेशन लोड करने में विफल। कृपया पुनः प्रयास करें।",
     "somethingWentWrong": "कुछ गलत हो गया",
-    "unexpectedError": "एक अप्रत्याशित त्रुटि हुई। कृपया पुनः प्रयास करें।",
     "failedToLoadPageError": "{{page}} पेज लोड करने में विफल। कृपया पुनः प्रयास करें।"
   },
   "locale": {
@@ -66,8 +65,7 @@
       "pageName": "लीडरबोर्ड"
     },
     "multiladder": {
-      "pageName": "मल्टी लैडर",
-      "pageDescription": "IPL बोनस लैडर में आगे बढ़ें और वास्तविक नकद पुरस्कार प्राप्त करें।"
+      "pageName": "मल्टी लैडर"
     },
     "promotions": {
       "pageName": "प्रमोशन"
@@ -574,7 +572,6 @@
   },
   "footer": {
     "socialLinks": "सोशल लिंक",
-    "logoAlt": "लोगो",
     "contactAlt": "संपर्क",
     "copyright": "© कॉपीराइट 2026 {{brandName}}। सर्वाधिकार सुरक्षित।",
     "version": "संस्करण"
@@ -582,11 +579,6 @@
   "theme": {
     "switchToLight": "लाइट मोड में बदलें",
     "switchToDark": "डार्क मोड में बदलें"
-  },
-  "multiLadder": {
-    "allMilestonesComplete": "सभी माइलस्टोन पूरे हो गए!",
-    "milestoneUnlocked": "माइलस्टोन अनलॉक हुआ",
-    "tierReached": "{{tierName}} तक पहुंचे!"
   },
   "notAuthorized": {
     "message": "आपको इस पेज तक पहुंचने की अनुमति नहीं है।"
@@ -692,11 +684,6 @@
       "milestoneUnlocked": "माइलस्टोन अनलॉक हुआ",
       "tierAchieved": "टियर हासिल!"
     }
-  },
-  "pwa": {
-    "title": "सेटबेट ऐप",
-    "subTitle": "सेटबेट",
-    "description": "बेटिंग के लिए आपका अंतिम गंतव्य"
   },
   "jackpot": {
     "monthlyJackpot": "मासिक जैकपॉट",

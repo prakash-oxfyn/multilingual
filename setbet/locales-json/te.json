@@ -8,7 +8,6 @@
     "errorId": "లోపు ID: {{digest}}",
     "appConfigLoad": "యాప్ కాన్ఫిగరేషన్ లోడ్ చేయడం విఫలమైంది. మళ్ళీ ప్రయత్నించండి.",
     "somethingWentWrong": "ఏదో తప్పు జరిగింది",
-    "unexpectedError": "అనూహ్యమైన లోపు సంభవించింది. మళ్ళీ ప్రయత్నించండి.",
     "failedToLoadPageError": "{{page}} పేజీని లోడ్ చేయడం విఫలమైంది. మళ్ళీ ప్రయత్నించండి."
   },
   "locale": {
@@ -66,8 +65,7 @@
       "pageName": "లీడర్‌బోర్డ్"
     },
     "multiladder": {
-      "pageName": "మల్టీ లాడర్",
-      "pageDescription": "IPL బోనస్ లాడర్‌లో పైకి చేరి నిజమైన నగదు బహుమతులను సంపాదించండి."
+      "pageName": "మల్టీ లాడర్"
     },
     "promotions": {
       "pageName": "ప్రమోషన్‌లు"
@@ -574,7 +572,6 @@
   },
   "footer": {
     "socialLinks": "సోషల్ లింక్‌లు",
-    "logoAlt": "లోగో",
     "contactAlt": "సంప్రదింపు",
     "copyright": "© కాపీరైట్ 2026 {{brandName}}. అన్ని హక్కులు రిజర్వ్ చేయబడ్డాయి.",
     "version": "వెర్షన్"
@@ -582,11 +579,6 @@
   "theme": {
     "switchToLight": "లైట్ మోడ్‌కి మారండి",
     "switchToDark": "డార్క్ మోడ్‌కి మారండి"
-  },
-  "multiLadder": {
-    "allMilestonesComplete": "అన్ని మైల్‌స్టోన్‌లు పూర్తయ్యాయి!",
-    "milestoneUnlocked": "మైల్‌స్టోన్ అన్‌లాక్ చేయబడింది",
-    "tierReached": "{{tierName}} చేరుకున్నారు!"
   },
   "notAuthorized": {
     "message": "ఈ పేజీని యాక్సెస్ చేయడానికి మీకు అనుమతి లేదు."
@@ -692,11 +684,6 @@
       "milestoneUnlocked": "మైల్‌స్టోన్ అన్‌లాక్ చేయబడింది",
       "tierAchieved": "టైర్ సాధించబడింది!"
     }
-  },
-  "pwa": {
-    "title": "సెట్‌బెట్ యాప్",
-    "subTitle": "సెట్‌బెట్",
-    "description": "బెట్టింగ్‌కి మీ అంతిమ గమ్యం"
   },
   "jackpot": {
     "monthlyJackpot": "నెలవారీ జాక్‌పాట్",

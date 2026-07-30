@@ -8,7 +8,6 @@
     "errorId": "ભૂલ ID: {{digest}}",
     "appConfigLoad": "એપ કૉન્ફિગ લોડ કરવામાં નિષ્ફળ. ફરી પ્રયાસ કરો.",
     "somethingWentWrong": "કંઈક ખોટું થયું",
-    "unexpectedError": "અણધારી ભૂલ આવી. કૃપા કરીને ફરી પ્રયાસ કરો.",
     "failedToLoadPageError": "{{page}} પૃષ્ઠ લોડ કરવામાં નિષ્ફળ. ફરી પ્રયાસ કરો."
   },
   "locale": {
@@ -66,8 +65,7 @@
       "pageName": "લીડરબોર્ડ"
     },
     "multiladder": {
-      "pageName": "મલ્ટી લેડર",
-      "pageDescription": "IPL બોનસ લેડરમાં આગળ વધો અને વાસ્તવિક રોકડ ઇનામો મેળવો."
+      "pageName": "મલ્ટી લેડર"
     },
     "promotions": {
       "pageName": "પ્રમોશન્સ"
@@ -574,7 +572,6 @@
   },
   "footer": {
     "socialLinks": "સોશ્યલ લિંક્સ",
-    "logoAlt": "લોગો",
     "contactAlt": "સંપર્ક",
     "copyright": "© કૉપીરાઇટ 2026 {{brandName}}. સર્વ અધિકાર સુરક્ષિત.",
     "version": "આવૃત્તિ"
@@ -582,11 +579,6 @@
   "theme": {
     "switchToLight": "લાઇટ મોડ પર સ્વિચ કરો",
     "switchToDark": "ડાર્ક મોડ પર સ્વિચ કરો"
-  },
-  "multiLadder": {
-    "allMilestonesComplete": "બધા માઇલસ્ટોન પૂર્ણ!",
-    "milestoneUnlocked": "માઇલસ્ટોન અનલૉક થઈ ગઈ",
-    "tierReached": "{{tierName}} પ્રાપ્ત!"
   },
   "notAuthorized": {
     "message": "આ પૃષ્ઠ ઍક્સેસ કરવા માટે તમે અધિકૃત નથી."
@@ -712,10 +704,5 @@
     "you": "તમે",
     "youBadge": "તમે",
     "place": "{{position}} સ્થાન"
-  },
-  "pwa": {
-    "title": "Setbet એપ",
-    "subTitle": "Setbet",
-    "description": "બૅટિંગ માટેની તમારી અંતિમ મંઝિલ"
   }
 }

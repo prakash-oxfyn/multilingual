@@ -8,7 +8,6 @@
     "errorId": "Error ID: {{digest}}",
     "appConfigLoad": "Failed to load app configuration. Please try again.",
     "somethingWentWrong": "Something went wrong",
-    "unexpectedError": "An unexpected error occurred. Please try again.",
     "failedToLoadPageError": "Failed to load {{page}} page. Please try again."
   },
   "locale": {
@@ -66,8 +65,7 @@
       "pageName": "Leaderboard"
     },
     "multiladder": {
-      "pageName": "Multi Ladder",
-      "pageDescription": "Bet your way up the IPL Bonus Ladder and earn real-money rewards."
+      "pageName": "Multi Ladder"
     },
     "promotions": {
       "pageName": "Promotions"
@@ -574,7 +572,6 @@
   },
   "footer": {
     "socialLinks": "Social Links",
-    "logoAlt": "logo",
     "contactAlt": "Contact",
     "copyright": "© Copyright 2026 {{brandName}}. All Rights Reserved.",
     "version": "Version"
@@ -582,11 +579,6 @@
   "theme": {
     "switchToLight": "Switch to Light Mode",
     "switchToDark": "Switch to Dark Mode"
-  },
-  "multiLadder": {
-    "allMilestonesComplete": "All milestones complete!",
-    "milestoneUnlocked": "Milestone unlocked",
-    "tierReached": "{{tierName}} reached!"
   },
   "notAuthorized": {
     "message": "You are not authorized to access this page."
@@ -712,10 +704,5 @@
     "you": "You",
     "youBadge": "YOU",
     "place": "{{position}} place"
-  },
-  "pwa": {
-    "title": "Setbet App",
-    "subTitle": "Setbet",
-    "description": "Your final destination for Betting"
   }
 }
