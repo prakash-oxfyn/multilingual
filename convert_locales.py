@@ -2,7 +2,7 @@ import json
 import sys
 from pathlib import Path
 
-from openpyxl import Workbook
+from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font
 
 
@@ -14,7 +14,6 @@ def flatten_json(data, module="", prefix=""):
 
     for key, value in data.items():
         if module == "":
-            # First level becomes the Module
             rows.extend(flatten_json(value, key, ""))
         else:
             if isinstance(value, dict):
@@ -34,6 +33,37 @@ def auto_adjust_columns(ws):
         ws.column_dimensions[letter].width = min(length + 4, 80)
 
 
+def workbook_matches(output_file, language, rows):
+    """
+    Returns True if the existing workbook already contains exactly
+    the same data as what we're about to generate.
+    """
+    if not output_file.exists():
+        return False
+
+    try:
+        wb = load_workbook(output_file, data_only=True)
+        ws = wb.active
+
+        expected = [("Module", "Translation Key", language)]
+        expected.extend(rows)
+
+        actual = []
+
+        for row in ws.iter_rows(values_only=True):
+            actual.append(tuple("" if v is None else v for v in row))
+
+        expected = [
+            tuple("" if v is None else v for v in row)
+            for row in expected
+        ]
+
+        return actual == expected
+
+    except Exception:
+        return False
+
+
 def convert_file(json_file, output_dir):
     language = json_file.stem.upper()
 
@@ -43,6 +73,13 @@ def convert_file(json_file, output_dir):
         data = json.load(f)
 
     rows = flatten_json(data)
+
+    output_file = output_dir / f"{json_file.stem}.xlsx"
+
+    # Skip rewriting if nothing changed
+    if workbook_matches(output_file, language, rows):
+        print(f"✓ {output_file.name} unchanged")
+        return
 
     wb = Workbook()
     ws = wb.active
@@ -61,7 +98,6 @@ def convert_file(json_file, output_dir):
 
     auto_adjust_columns(ws)
 
-    output_file = output_dir / f"{json_file.stem}.xlsx"
     wb.save(output_file)
 
     print(f"✓ Created {output_file.name}")
