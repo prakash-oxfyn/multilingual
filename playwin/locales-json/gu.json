@@ -1,0 +1,701 @@
+{
+  "errors": {
+    "appCrashErrorHeader": "એપ્લિકેશન ભૂલ",
+    "appCrashError": "એપ્લિકેશન અણધારી રીતે બંધ થઈ ગઈ.",
+    "header": "અરે! કંઈક ખોટું થયું",
+    "generic": "ફરી પ્રયાસ કરો અથવા હોમ પેજ પર પાછા જાઓ.",
+    "pageLoadError": "આ પૃષ્ઠ લોડ કરતી વખતે કોઈ ભૂલ આવી. કૃપા કરીને ફરી પ્રયાસ કરો.",
+    "errorId": "ભૂલ ID: {{digest}}",
+    "appConfigLoad": "એપ કૉન્ફિગ લોડ કરવામાં નિષ્ફળ. ફરી પ્રયાસ કરો.",
+    "somethingWentWrong": "કંઈક ખોટું થયું",
+    "failedToLoadPageError": "{{page}} પૃષ્ઠ લોડ કરવામાં નિષ્ફળ. ફરી પ્રયાસ કરો."
+  },
+  "locale": {
+    "unavailable": {
+      "title": "ભાષા ઉપલબ્ધ નથી",
+      "message": "{{locale}} ભાષા હાલમાં ઉપલબ્ધ નથી. મૂળભૂત ભાષા દર્શાવવામાં આવી રહી છે."
+    }
+  },
+  "context": {
+    "idleWarning": "નિષ્ક્રિયતાને કારણે 1 મિનિટમાં તમે લૉગ આઉટ થઈ જશો",
+    "brandIdError": "બ્રાન્ડ ID મેળવવામાં નિષ્ફળ.",
+    "initializationError": "બ્રાન્ડ પ્રારંભ કરવામાં નિષ્ફળ. કૃપા કરીને રિફ્રેશ કરો."
+  },
+  "seo": {
+    "accountSettings": {
+      "pageName": "એકાઉન્ટ સેટિંગ્સ"
+    },
+    "bankInfo": {
+      "pageName": "બેંક માહિતી"
+    },
+    "bonus": {
+      "pageName": "બોનસ"
+    },
+    "deposit": {
+      "pageName": "જમા કરો"
+    },
+    "kyc": {
+      "pageName": "KYC ચકાસણી"
+    },
+    "profile": {
+      "pageName": "પ્રોફાઇલ"
+    },
+    "transactionHistory": {
+      "pageName": "વ્યવહાર ઇતિહાસ"
+    },
+    "wallet": {
+      "pageName": "વૉલેટ"
+    },
+    "withdraw": {
+      "pageName": "ઉપાડ"
+    },
+    "casino": {
+      "pageName": "કેસિનો"
+    },
+    "exchange": {
+      "pageName": "એક્સચેન્જ"
+    },
+    "liveCasino": {
+      "pageName": "લાઈવ કેસિનો"
+    },
+    "sports": {
+      "pageName": "રમતગમત"
+    },
+    "leaderboard": {
+      "pageName": "લીડરબોર્ડ"
+    },
+    "multiladder": {
+      "pageName": "મલ્ટી લેડર"
+    },
+    "promotions": {
+      "pageName": "પ્રમોશન્સ"
+    },
+    "jackpot": {
+      "pageName": "જેકપોટ"
+    },
+    "jackpotWinners": {
+      "pageName": "જેકપોટ વિજેતાઓ"
+    },
+    "cms": {
+      "defaultPageName": "પેજ"
+    }
+  },
+  "common": {
+    "submit": "સબમિટ કરો",
+    "submitting": "સબમિટ થઈ રહ્યું છે…",
+    "loading": "લોડ થઈ રહ્યું છે",
+    "edit": "સંપાદિત કરો",
+    "cancel": "રદ કરો",
+    "close": "બંધ કરો",
+    "retry": "ફરી પ્રયાસ કરો",
+    "tryAgain": "ફરી પ્રયાસ કરો",
+    "goBackHome": "હોમ પર પાછા જાઓ",
+    "readMore": "વધુ વાંચો",
+    "seeAll": "બધું જુઓ",
+    "pick": "પસંદ કરો",
+    "ok": "ઠીક છે",
+    "or": "અથવા",
+    "of": "નો",
+    "update": "અપડેટ કરો",
+    "updating": "અપડેટ થઈ રહ્યું છે…",
+    "yes": "હા",
+    "no": "ના",
+    "copied": "કૉપી થઈ ગયું",
+    "copy": "કૉપી કરો",
+    "gotIt": "સમજી ગયું!",
+    "downloadImage": "છબી ડાઉનલોડ કરો",
+    "notAvailable": "ઉપલબ્ધ નથી",
+    "total": "કુલ",
+    "goToSlide": "સ્લાઇડ {{index}} પર જાઓ",
+    "logoAlt": "લોગો",
+    "whatsappCta": "WhatsApp પર તમારી ID મેળવો",
+    "noDataAvailable": "કોઈ ડેટા ઉપલબ્ધ નથી",
+    "creditedToWallet": "તમારા વૉલેટમાં જમા કરવામાં આવ્યું",
+    "imageUpload": {
+      "preview": "પૂર્વાવલોકન",
+      "imagePreviewAlt": "અપલોડ કરેલી રસીદ પૂર્વાવલોકન",
+      "modalImageAlt": "રસીદ પૂર્વાવલોકન",
+      "removeImage": "છબી દૂર કરો",
+      "clickToUpload": "અપલોડ કરવા ક્લિક કરો",
+      "dragAndDrop": "અથવા ખેંચો અને છોડો",
+      "fileTypesHint": "JPG, JPEG, PNG અથવા SVG (મહત્તમ 1MB)",
+      "browseFiles": "ફાઇલ બ્રાઉઝ કરો",
+      "toastInvalidFileTypeErr": "માત્ર JPG, JPEG, PNG અને SVG ફાઇલો માન્ય છે.",
+      "toastFileSizeExceededErr": "ફાઇલ કદ 1MB ની મર્યાદા કરતાં વધી ગઈ છે.",
+      "toastValidFileErr": "કૃપા કરીને પ્રથમ માન્ય ફાઇલ પસંદ કરો.",
+      "toastNoFileErr": "કોઈ ફાઇલ પસંદ નથી"
+    },
+    "banner": {
+      "defaultAlt": "બૅનર {{index}}"
+    },
+    "timeLeft": {
+      "dayLeft": "{{count}} દિવસ બાકી",
+      "daysLeft": "{{count}} દિવસ બાકી",
+      "hoursLeft": "{{count}} કલાક બાકી",
+      "minsLeft": "{{count}} મિનિટ બાકી",
+      "expired": "સમય સમાપ્ત"
+    },
+    "days": {
+      "mo": "સો",
+      "tu": "મં",
+      "we": "બુ",
+      "th": "ગુ",
+      "fr": "શુ",
+      "sa": "શ",
+      "su": "ર"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "લૉગ ઇન",
+      "usernamePlaceholder": "વપરાશકર્તા નામ",
+      "passwordPlaceholder": "પાસવર્ડ",
+      "forgotPassword": "પાસવર્ડ ભૂલ્યા?",
+      "submitIdle": "હવે લૉગ ઇન કરો",
+      "submitLoading": "લૉગ ઇન થઈ રહ્યું છે…",
+      "noAccount": "ખાતું નથી?",
+      "registerNow": "હવે નોંધણી કરો",
+      "whatsappCta": "WhatsApp પર તમારી ID મેળવો",
+      "bannerAltPrefix": "લૉગ ઇન બૅનર",
+      "toastSuccess": "લૉગ ઇન સફળ",
+      "toastError": "લૉગ ઇન નિષ્ફળ",
+      "validation": {
+        "usernameRequired": "વપરાશકર્તા નામ જરૂરી છે",
+        "usernameMinLength": "ઓછામાં ઓછા 3 અક્ષર",
+        "usernameMaxLength": "16 અક્ષરથી વધુ ન હોઈ શકે",
+        "usernameNoSpaces": "વપરાશકર્તા નામમાં ખાલી જગ્યા માન્ય નથી",
+        "passwordRequired": "પાસવર્ડ જરૂરી છે",
+        "passwordPattern": "પાસવર્ડ 8–15 અક્ષરનો હોવો જોઈએ, જેમાં અપરકેઝ, લોઅરકેઝ, સંખ્યા અને વિશેષ અક્ષર હોવા જોઈએ",
+        "showPassword": "પાસવર્ડ બતાવો",
+        "hidePassword": "પાસવર્ડ છુપાવો"
+      }
+    },
+    "register": {
+      "title": "નોંધણી",
+      "usernamePlaceholder": "વપરાશકર્તા નામ",
+      "passwordPlaceholder": "પાસવર્ડ",
+      "confirmPasswordPlaceholder": "પાસવર્ડ ની પુષ્ટિ કરો",
+      "promoCodePlaceholder": "પ્રોમો કોડ (વૈકલ્પિક)",
+      "countryPlaceholder": "દેશ",
+      "mobileNumberPlaceholder": "મોબાઇલ નંબર",
+      "checkboxAge": "હું ઓછામાં ઓછો 18 વર્ષનો/ની છું",
+      "checkboxTerms": "હું શરતો અને ગોપનીયતા સ્વીકારું છું",
+      "submitIdle": "હવે નોંધણી કરો",
+      "submitLoading": "નોંધણી થઈ રહી છે...",
+      "whatsappCta": "WhatsApp પર તમારી ID મેળવો",
+      "bannerAltPrefix": "નોંધણી બૅનર",
+      "toastSuccess": "સફળતાપૂર્વક નોંધણી થઈ",
+      "toastError": "નોંધણી નિષ્ફળ",
+      "validation": {
+        "usernameRequired": "વપરાશકર્તા નામ જરૂરી છે",
+        "usernameMinLength": "ઓછામાં ઓછા 3 અક્ષર",
+        "usernameMaxLength": "મહત્તમ 16 અક્ષર",
+        "usernameNoSpaces": "વપરાશકર્તા નામમાં ખાલી જગ્યા માન્ય નથી",
+        "passwordRequired": "પાસવર્ડ જરૂરી છે",
+        "passwordPattern": "8–15 અક્ષર, અપરકેઝ, લોઅરકેઝ, સંખ્યા અને વિશેષ અક્ષર સહિત હોવા જોઈએ",
+        "confirmPasswordRequired": "પાસવર્ડ ની પુષ્ટિ જરૂરી છે",
+        "confirmPasswordMismatch": "પાસવર્ડ મેળ ખાતા નથી",
+        "countryRequired": "દેશ કોડ જરૂરી છે",
+        "mobileNumberRequired": "મોબાઇલ નંબર જરૂરી છે",
+        "mobileNumberInvalid": "અમાન્ય નંબર",
+        "ageRequired": "18+ વર્ષ હોવા જરૂરી છે",
+        "termsRequired": "શરતો સ્વીકારવી જરૂરી છે",
+        "showPassword": "પાસવર્ડ બતાવો",
+        "hidePassword": "પાસવર્ડ છુપાવો",
+        "showConfirmPassword": "પુષ્ટિ પાસવર્ડ બતાવો",
+        "hideConfirmPassword": "પુષ્ટિ પાસવર્ડ છુપાવો"
+      }
+    }
+  },
+  "deviceLogout": {
+    "warning": "ચેતવણી",
+    "noPermission": "આ એક્સેસ કરવાની તમારી પાસે પરવાનગી નથી.",
+    "sessionExpired": "તમારો સત્ર સમાપ્ત થઈ ગયો છે. કૃપા કરીને ફરીથી લૉગ ઇન કરો."
+  },
+  "games": {
+    "noGamesTitle": "કોઈ રમત ઉપલબ્ધ નથી",
+    "noGamesDescription": "કોઈ રમત ઉપલબ્ધ નથી. કૃપા કરીને પાછળથી તપાસો.",
+    "exploreButton": "રમતો એક્સ્પ્લોર કરો",
+    "allGameProviders": "બધા ગેમ પ્રૉવાઇડર",
+    "searchGames": "રમતો શોધો...",
+    "pleaseWait": "કૃપા રાહ જુઓ...",
+    "searchGamesAriaLabel": "રમતો શોધો",
+    "toasts": {
+      "fetchDetailsError": "ગેમ વિગત મેળવવામાં નિષ્ફળ.",
+      "refreshError": "રમતો રિફ્રેશ કરવામાં નિષ્ફળ.",
+      "failedToFetchGame": "ગેમ મેળવવામાં નિષ્ફળ.",
+      "failedToChangeProvider": "પ્રૉવાઇડર બદલવામાં નિષ્ફળ.",
+      "failedToLoadMoreGames": "વધુ ગેમ્સ લોડ કરવામાં નિષ્ફળ."
+    }
+  },
+  "accountSettings": {
+    "title": "એકાઉન્ટ સેટિંગ્સ",
+    "tabs": {
+      "depositLimit": "ડિપૉઝિટ મર્યાદા",
+      "contactPreference": "સંપર્ક પ્રાધાન્ય",
+      "changePassword": "પાસવર્ડ બદલો",
+      "selfExclusion": "સ્વ-બાકાત",
+      "deactivate": "નિષ્ક્રિય કરો"
+    },
+    "changePassword": {
+      "newPasswordPlaceholder": "નવો પાસવર્ડ દાખલ કરો",
+      "confirmPasswordPlaceholder": "પુષ્ટિ પાસવર્ડ દાખલ કરો",
+      "hint1": "પાસવર્ડ 8-16 અક્ષરનો હોવો જોઈએ, જેમાં ઓછામાં ઓછો એક લોઅરકેઝ, એક અપરકેઝ, એક સંખ્યા અને એક વિશેષ અક્ષર હોવો જોઈએ, ખાલી જગ્યા વિના.",
+      "hint2": "નવો પાસવર્ડ અને પુષ્ટિ પાસવર્ડ મેળ ખાવા જોઈએ.",
+      "toastSuccess": "પાસવર્ડ સફળતાપૂર્વક અપડેટ થઈ ગયો.",
+      "toastError": "પાસવર્ડ અપડેટ કરવામાં નિષ્ફળ.",
+      "validation": {
+        "passwordRequired": "પાસવર્ડ જરૂરી છે",
+        "passwordMinLength": "પાસવર્ડ ઓછામાં ઓછા 8 અક્ષરનો હોવો જોઈએ",
+        "passwordPattern": "અપરકેઝ, લોઅરકેઝ, સંખ્યા અને વિશેષ અક્ષર સામેલ હોવા જોઈએ",
+        "confirmRequired": "કૃપા કરીને તમારો પાસવર્ડ ની પુષ્ટિ કરો",
+        "confirmMismatch": "પાસવર્ડ મેળ ખાતા નથી"
+      }
+    },
+    "contactPreference": {
+      "labels": {
+        "all": "બધા",
+        "email": "ઇ-મેઇલ",
+        "whatsapp": "WhatsApp",
+        "telegram": "Telegram",
+        "sms": "SMS",
+        "call": "કૉલ",
+        "none": "કોઈ નહીં"
+      },
+      "toastSuccess": "સંપર્ક સેટિંગ્સ સફળતાપૂર્વક અપડેટ થઈ.",
+      "toastError": "સંપર્ક સેટિંગ્સ અપડેટ કરવામાં નિષ્ફળ."
+    },
+    "depositLimit": {
+      "dailyLabel": "દૈનિક ડિપૉઝિટ મર્યાદા",
+      "weeklyLabel": "સાપ્તાહિક ડિપૉઝિટ મર્યાદા",
+      "monthlyLabel": "માસિક ડિપૉઝિટ મર્યાદા",
+      "hint1": "ડિપૉઝિટ મર્યાદા સક્ષમ કરવાથી વપરાશકર્તા ચોક્કસ સમયગાળા માટે ડિપૉઝિટ કરવાથી પ્રતિબંધિત થઈ શકે છે. એકવાર મર્યાદા સેટ થઈ ગઈ, ત્યારે નિર્ધારિત સમય સમાપ્ત ન થાય ત્યાં સુધી વપરાશકર્તા કોઈ ડિપૉઝિટ કરી શકશે નહીં.",
+      "hint2": "જો તમે આ ડિપૉઝિટ મર્યાદા લાગુ કરવા ઇચ્છો, તો સમયગાળો અને જે રકમ ઓળંગવી ન ઇચ્છો તે પસંદ કરી શકો છો.",
+      "toastSuccess": "ડિપૉઝિટ મર્યાદા સફળતાપૂર્વક અપડેટ થઈ.",
+      "toastError": "ડિપૉઝિટ મર્યાદા અપડેટ કરવામાં નિષ્ફળ.",
+      "validation": {
+        "dailyExceedsWeeklyOrMonthly": "દૈનિક મર્યાદા સાપ્તાહિક અથવા માસિક મર્યાદા કરતાં વધારે ન હોઈ શકે.",
+        "weeklyOutOfRange": "સાપ્તાહિક મર્યાદા દૈનિક અને માસિક મર્યાદાની વચ્ચે હોવી જોઈએ.",
+        "monthlyTooSmall": "માસિક મર્યાદા દૈનિક અથવા સાપ્તાહિક મર્યાદા કરતાં નાની ન હોઈ શકે."
+      }
+    },
+    "selfExclusion": {
+      "checkboxLabel": "હું મારા ખાતાને આ સમય માટે સ્વ-બાકાત કરવા ઇચ્છું છું:",
+      "selectPlaceholder": "સમયગાળો પસંદ કરો",
+      "toastSuccess": "તમારું ખાતું {{timePeriod}} માટે સ્વ-બાકાત કરવામાં આવ્યું છે.",
+      "hint": "આ સમયગાળા દરમિયાન તમે વેબસાઇટ પર રમી નહીં શકો અને કોઈ માર્કેટિંગ ઇ-મેઇલ અથવા પ્રોમોશન પ્રાપ્ત નહીં થાય.",
+      "confirmText": "શું તમે ખરેખર {{timePeriod}} માટે તમારા ખાતાને સ્વ-બાકાત કરવા ઇચ્છો છો?",
+      "periods": {
+        "1 day": "1 દિવસ",
+        "1 week": "1 અઠવાડિયું",
+        "1 month": "1 મહિનો",
+        "6 weeks": "6 અઠવાડિયા",
+        "undetermined": "અનિર્ધારિત"
+      }
+    },
+    "deactivate": {
+      "checkboxLabel": "હું મારા ખાતાને આ સમય માટે સ્વ-બાકાત કરવા ઇચ્છું છું:",
+      "selectPlaceholder": "સમયગાળો પસંદ કરો",
+      "hint": "આ સમય દરમિયાન તમે તમારા ખાતામાં સાઇન ઇન કરી નહીં શકો અથવા અસાધારણ સંજોગો સિવાય ખાતું ફરી સક્ષમ નહીં કરી શકો. નિષ્ક્રિય સમય સમાપ્ત થયા પછી, તમને સ્ટ્રેચ ઑપ્શન આપવામાં આવશે. બધા ફૉન્ડ્સ પ્રત્યાર્પણ કરવામાં આવશે અને બધા દાવ રદ્દ ગણાશે.",
+      "toastSuccess": "નિષ્ક્રિય સ્ટેટ સફળતાપૂર્વક અપડેટ થઈ.",
+      "toastError": "ખાતું નિષ્ક્રિય કરવામાં નિષ્ફળ."
+    }
+  },
+  "deposit": {
+    "title": "ડિપૉઝિટ",
+    "selectAmount": "રકમ પસંદ કરો",
+    "helpText": "મદદ જોઈએ? ડિપૉઝિટ માર્ગદર્શિકા જુઓ અથવા અમને લાઇવ ચૅટ / ઇ-મેઇલ પર સંપર્ક કરો.",
+    "enterAmount": "રકમ દાખલ કરો",
+    "bonusCode": "બોનસ કોડ",
+    "bonusCodePlaceholder": "બોનસ કોડ દાખલ કરો",
+    "bankLimitText": "બૅન્ક મર્યાદા : ₹{{limit}}",
+    "paymentMethods": {
+      "bank": "બૅન્ક ટ્રાન્સફર",
+      "qr": "QR ટ્રાન્સફર",
+      "upi": "UPI",
+      "azeePay": "Azee Pay"
+    },
+    "azeePayAlt": "azee-pay",
+    "toastSuccess": "ડિપૉઝિટ સફળ.",
+    "paymentDetailsTitle": "તમારી ચુકવણી વિગત",
+    "enterUtr": "UTR નંબર દાખલ કરો",
+    "whatsappCta": "ડિપૉઝિટ માટે WhatsApp કરો",
+    "transferDetails": "ટ્રાન્સફર વિગત",
+    "previousPromotion": "પહેલાનું પ્રોમોશન",
+    "nextPromotion": "આગળનું પ્રોમોશન",
+    "qrCodeAlt": "QR કોડ",
+    "transferLabels": {
+      "qrCode": "QR કોડ",
+      "qrName": "QR નામ",
+      "id": "ID",
+      "upiId": "UPI ID",
+      "upiName": "UPI નામ",
+      "paymentUpiName": "ચુકવણી UPI નામ",
+      "bankName": "બૅન્ક નામ",
+      "accountHolderName": "ખાતા ધારકનું નામ",
+      "accountNumber": "ખાતા નંબર",
+      "accountType": "ખાતા પ્રકાર",
+      "ifscCode": "IFSC કોડ",
+      "branch": "શાખા"
+    },
+    "campaign": {
+      "title": "પ્રોમોશન્સ",
+      "giftAlt": "ભેટ",
+      "minDepositLimitLabel": "ન્યૂનતમ ડિપૉઝિટ મર્યાદા: ₹{{limit}}",
+      "claimUntil": "ક્લેઇમ ક્યાં સુધી: {{date}}",
+      "applyCode": "કોડ લાગુ કરો",
+      "noContent": "કોઈ સામગ્રી ઉપલબ્ધ નથી"
+    },
+    "psp": {
+      "paymentVerifying": "ચુકવણી ચકાસાઈ રહી છે…",
+      "continueToPay": "ચુકવણી ચાલુ રાખો",
+      "toastSuccess": "ડિપૉઝિટ સફળતાપૂર્વક પ્રક્રિયા થઈ",
+      "toastProcessedCheckSupport": "ડિપૉઝિટ પ્રક્રિયા થઈ. કૃપા કરીને સહાય ટીમ સાથે ચકાસો",
+      "toastUnableToVerify": "ચુકવણી ચકાસી શકાઈ નહીં",
+      "toastVerifyingPayment": "ચુકવણી ચકાસી રહ્યા છીએ...",
+      "toastSomethingWentWrong": "કંઈક ખોટું થયું"
+    },
+    "validation": {
+      "toastAmountGreaterThanZero": "રકમ 0 કરતાં વધારે હોવી જોઈએ",
+      "amountExceedsLimit": "રકમ ₹{{limit}} ની મર્યાદા કરતાં વધી ગઈ",
+      "minDepositRequired": "ઓછામાં ઓછી {{min}} ની ડિપૉઝિટ જરૂરી છે",
+      "toastUtrRequired": "કૃપા કરીને UTR નંબર દાખલ કરો"
+    }
+  },
+  "withdraw": {
+    "title": "ઉપાડ",
+    "withdrawableMoney": "ઉપાડ બૅલૅન્સ",
+    "selectBankPlaceholder": "બૅન્ક ખાતું પસંદ કરો",
+    "enterAmountPlaceholder": "રકમ દાખલ કરો",
+    "whatsappCta": "WhatsApp દ્વારા ઉપાડ",
+    "submit": "ઉપાડ કરો",
+    "submitting": "ઉપાડ થઈ રહ્યો છે…",
+    "validation": {
+      "bankRequired": "બૅન્ક ખાતું પસંદ કરો",
+      "amountRequired": "રકમ જરૂરી છે",
+      "amountNumbersOnly": "રકમ ફક્ત સંખ્યા ધરાવવી જોઈએ",
+      "amountExceedsMax": "તમે મહત્તમ ₹{{max}} ઉપાડ કરી શકો છો",
+      "amountMinimum": "રકમ ₹500 કરતાં વધારે હોવી જોઈએ"
+    },
+    "toasts": {
+      "success": "રકમ સફળતાપૂર્વક ઉપાડવામાં આવી.",
+      "error": "ઉપાડ પ્રક્રિયા કરવામાં નિષ્ફળ."
+    }
+  },
+  "wallet": {
+    "title": "વૉલેટ",
+    "realMoney": "રિઅલ મની ₹ {{amount}}",
+    "withdrawableMoney": "ઉપાડ યોગ્ય મની ₹ {{amount}}",
+    "moneySuffix": "{{wallet}} મની"
+  },
+  "bonus": {
+    "title": "બોનસ",
+    "tabs": {
+      "active": "સક્રિય બોનસ",
+      "unclaimed": "ક્લૅઇમ ન કરેલો બોનસ",
+      "redeemed": "રિડીમ કરેલો બોનસ"
+    },
+    "toastExpired": "કૅમ્પેઇન સમય સમાપ્ત",
+    "toastError": "કૅમ્પેઇન સમાપ્ત કરવામાં નિષ્ફળ.",
+    "noCampaigns": "કોઈ કૅમ્પેઇન ઉપલબ્ધ નથી. કૃપા કરીને પાછળથી તપાસો.",
+    "campaignName": "કૅમ્પેઇન નામ",
+    "campaignCode": "કૅમ્પેઇન કોડ",
+    "minOdds": "ન્યૂનતમ ઑડ્ઝ",
+    "bonusAmount": "બોનસ રકમ",
+    "bonusPercentage": "બોનસ ટકાવારી",
+    "warning": "ચેતવણી",
+    "cancelConfirm": "શું તમે ખરેખર બોનસ રદ કરવા ઇચ્છો છો?"
+  },
+  "kyc": {
+    "title": "KYC",
+    "subtitle": "KYC અપડેટ કરો",
+    "documentTypeLabel": "દસ્તાવેજ પ્રકાર",
+    "documentNumberLabel": "દસ્તાવેજ નંબર",
+    "documentTypePlaceholder": "દસ્તાવેજ પ્રકાર દાખલ કરો",
+    "documentNumberPlaceholder": "દસ્તાવેજ નંબર દાખલ કરો",
+    "frontImageLabel": "આગળની છબી",
+    "backImageLabel": "પાછળની છબી",
+    "save": "સાચવો",
+    "saving": "સાચવી રહ્યા છીએ…",
+    "toastSuccess": "KYC સફળતાપૂર્વક અપડેટ થઈ.",
+    "toastError": "KYC અપડેટ કરવામાં નિષ્ફળ.",
+    "toastAlreadyVerified": "KYC પહેલેથી ચકાસાઈ ગઈ છે",
+    "toastPending": "KYC સ્ટેટ્સ પ્રતીક્ષારત છે",
+    "toastRejected": "KYC નકારી કઢાઈ",
+    "validation": {
+      "documentTypeRequired": "કૃપા કરીને દસ્તાવેજ પ્રકાર પસંદ કરો",
+      "documentNumberRequired": "કૃપા કરીને તમારો દસ્તાવેજ નંબર દાખલ કરો",
+      "aadharInvalid": "માન્ય 12-અંકનો આધાર નંબર દાખલ કરો",
+      "panInvalid": "માન્ય PAN નંબર દાખલ કરો",
+      "frontImageRequired": "આગળની છબી જરૂરી છે",
+      "backImageRequired": "પાછળની છબી જરૂરી છે"
+    }
+  },
+  "profile": {
+    "title": "પ્રૉફાઇલ",
+    "yourPersonalData": "તમારો વ્યક્તિગત ડેટા",
+    "updatePersonalData": "વ્યક્તિગત વિગત અપડેટ કરો",
+    "personalDetails": "તમારી વ્યક્તિગત વિગતો",
+    "fields": {
+      "firstName": "પ્રથમ નામ",
+      "lastName": "છેલ્લું નામ",
+      "userName": "વપરાશકર્તા નામ",
+      "email": "ઇ-મેઇલ",
+      "dateOfBirth": "જન્મ તારીખ",
+      "city": "શહેર",
+      "country": "દેશ",
+      "state": "રાજ્ય",
+      "countryCode": "દેશ કોડ",
+      "phone": "ફોન નંબર",
+      "address": "સરનામું",
+      "currency": "ચલણ",
+      "zipCode": "ઝિપ કોડ"
+    },
+    "validation": {
+      "firstNameRequired": "તમારું પ્રથમ નામ દાખલ કરો",
+      "firstNameMaxLength": "પ્રથમ નામ 10 અક્ષરથી વધુ ન હોઈ શકે",
+      "lastNameRequired": "તમારું છેલ્લું નામ દાખલ કરો",
+      "lastNameMaxLength": "છેલ્લું નામ 10 અક્ષરથી વધુ ન હોઈ શકે",
+      "emailPattern": "માન્ય ઇ-મેઇલ દાખલ કરો",
+      "dobRequired": "તમારી જન્મ તારીખ પસંદ કરો",
+      "countryCodeRequired": "દેશ કોડ દાખલ કરો",
+      "zipCodeRequired": "કૃપા કરીને પિનકોડ દાખલ કરો"
+    },
+    "toasts": {
+      "success": "ખેલાડીની વિગત સફળતાપૂર્વક અપડેટ થઈ",
+      "error": "ખેલાડીની પ્રૉફાઇલ અપડેટ કરવામાં નિષ્ફળ."
+    }
+  },
+  "promotions": {
+    "noPromotions": "કોઈ પ્રોમોશન ઉપલબ્ધ નથી.",
+    "imageAlt": "promotion_card_image"
+  },
+  "bankInfo": {
+    "title": "બૅન્ક માહિતી",
+    "bankDetailsTitle": "તમારો બૅન્ક ડેટા",
+    "accountDetailsTitle": "બેંક ખાતાની વિગતો",
+    "labels": {
+      "accountNo": "ખાતા નંબર",
+      "bankName": "બૅન્ક નામ",
+      "branchName": "શાખા નામ",
+      "ifscCode": "IFSC કોડ",
+      "accountType": "ખાતા પ્રકાર",
+      "accountHolderName": "ખાતા ધારકનું નામ",
+      "amount": "રકમ",
+      "email": "ઇ-મેઇલ સરનામું"
+    },
+    "placeholders": {
+      "selectAccount": "બૅન્ક ખાતું પસંદ કરો",
+      "enterAccountNo": "ખાતા નંબર દાખલ કરો",
+      "enterBankName": "બૅન્ક નામ દાખલ કરો",
+      "enterAccountHolderName": "ખાતા ધારકનું નામ દાખલ કરો",
+      "enterBranchName": "શાખા નામ દાખલ કરો",
+      "enterIfscCode": "IFSC કોડ દાખલ કરો",
+      "enterAccountType": "ખાતા પ્રકાર દાખલ કરો",
+      "savings": "બચત",
+      "current": "ચાલુ"
+    },
+    "validation": {
+      "accountNoRequired": "ખાતા નંબર જરૂરી છે",
+      "accountNoNumbersOnly": "ખાતા નંબર ફક્ત સંખ્યા ધરાવવો જોઈએ",
+      "accountNoMaxLength": "ખાતા નંબર 16 અંક કરતાં વધુ ન હોઈ શકે",
+      "accountNoDuplicate": "આ ખાતા નંબર પહેલેથી નોંધાયેલ છે.",
+      "bankNameRequired": "બૅન્ક નામ જરૂરી છે",
+      "accountHolderNameRequired": "ખાતા ધારકનું નામ જરૂરી છે",
+      "branchNameRequired": "શાખા નામ જરૂરી છે",
+      "ifscCodeRequired": "IFSC કોડ જરૂરી છે",
+      "ifscCodeInvalid": "માન્ય IFSC કોડ દાખલ કરો (4 અક્ષર + 7 અંક)",
+      "accountTypeRequired": "કૃપા કરીને ખાતા પ્રકાર પસંદ કરો",
+      "limitReached": "તમે 5 બૅન્ક ખાતાઓની મહત્તમ મર્યાદા પહોંચ્યા છો."
+    },
+    "toasts": {
+      "createSuccess": "બૅન્ક ખાતું સફળતાપૂર્વક બનાવવામાં આવ્યું.",
+      "createError": "બૅન્ક ખાતું બનાવવામાં નિષ્ફળ.",
+      "updateSuccess": "બૅન્ક ખાતું સફળતાપૂર્વક અપડેટ થઈ.",
+      "updateError": "બૅન્ક ખાતું અપડેટ કરવામાં નિષ્ફળ",
+      "alreadyExists": "બૅન્ક ખાતું પહેલેથી અસ્તિત્વ ધરાવે છે"
+    }
+  },
+  "transactionHistory": {
+    "title": "વ્યવહાર ઇતિહાસ",
+    "tabs": {
+      "gameHistory": "ગેમ ઇતિહાસ",
+      "depositSummary": "ડિપૉઝિટ સારાંશ",
+      "withdrawSummary": "ઉપાડ સારાંશ",
+      "allTransactions": "બધા વ્યવહાર"
+    },
+    "transactionTable": {
+      "columns": {
+        "serialNo": "ક્રમ નં.",
+        "description": "વર્ણન",
+        "gameName": "ગેમ નામ",
+        "startBalance": "પ્રારંભ બૅલૅન્સ",
+        "amount": "રકમ",
+        "endBalance": "અંત બૅલૅન્સ",
+        "timeStamp": "ટાઇમ સ્ટૅમ્પ",
+        "transactionStatus": "વ્યવહાર સ્ટેટ્સ",
+        "providerName": "પ્રૉવાઇડર નામ",
+        "transactionId": "વ્યવહાર ID",
+        "gameTransactionId": "ગેમ વ્યવહાર ID",
+        "referenceId": "સંદર્ભ ID",
+        "transactionNo": "વ્યવહાર નં.",
+        "status": "સ્ટેટ્સ"
+      },
+      "pagination": {
+        "rowsPerPage": "પ્રતિ પૃષ્ઠ પ્રવૃત્તિઓ:",
+        "prev": "પહેલા",
+        "next": "આગળ"
+      },
+      "dateSelector": {
+        "today": "આજ",
+        "yesterday": "ગઈ કાલ",
+        "thisWeek": "આ અઠવાડિયે",
+        "lastWeek": "ગત અઠવાડિયે",
+        "thisMonth": "આ મહિને",
+        "lastMonth": "ગત મહિને"
+      }
+    },
+    "filters": {
+      "allGames": "All Games"
+    }
+  },
+  "partners": {
+    "provider": "પ્રૉવાઇડર"
+  },
+  "header": {
+    "loginButton": "લૉગ ઇન",
+    "registerButton": "નોંધણી",
+    "helloUser": "નમસ્તે, {{userName}}",
+    "balance": "બૅલૅન્સ",
+    "logout": "લૉગ આઉટ",
+    "toasts": {
+      "logoutSuccess": "લૉગ આઉટ સફળ"
+    }
+  },
+  "footer": {
+    "socialLinks": "સોશ્યલ લિંક્સ",
+    "contactAlt": "સંપર્ક",
+    "copyright": "© કૉપીરાઇટ 2026 {{brandName}}. સર્વ અધિકાર સુરક્ષિત.",
+    "version": "આવૃત્તિ"
+  },
+  "theme": {
+    "switchToLight": "લાઇટ મોડ પર સ્વિચ કરો",
+    "switchToDark": "ડાર્ક મોડ પર સ્વિચ કરો"
+  },
+  "notAuthorized": {
+    "message": "આ પૃષ્ઠ ઍક્સેસ કરવા માટે તમે અધિકૃત નથી."
+  },
+  "notFound": {
+    "code": "404",
+    "title": "અરે! પૃષ્ઠ મળ્યું નહીં",
+    "description": "જે પૃષ્ઠ તમે શોધી રહ્યા છો તે અસ્તિત્વ ધરાવ્યું નથી અથવા ખસેડવામાં આવ્યું છે. ચાલો તમને પાછા જ્યાં હોવ ત્યાં મોકલીએ."
+  },
+  "leaderboard": {
+    "title": "ટૂર્નામૅન્ટ",
+    "termsAndConditions": "નિયમો અને શરતો",
+    "myRank": "મારો ક્રમ",
+    "start": "શરૂ",
+    "end": "અંત",
+    "rank": "ક્રમ",
+    "player": "ખેલાડી",
+    "points": "પૉઇન્ટ",
+    "prize": "ઇનામ",
+    "noPlayersFound": "કોઈ ખેલાડી મળ્યા નહીં",
+    "noActiveTournaments": "હાલ કોઈ સક્રિય ટૂર્નામૅન્ટ નથી",
+    "trophyAlt": "ટ્રૉફી"
+  },
+  "ladder": {
+    "loading": "તમારી લૅડર લોડ થઈ રહી છે…",
+    "allMilestones": "બધા માઇલસ્ટોન",
+    "creditedInstantly": "તમારા વૉલેટમાં તરત ક્રેડિટ",
+    "fullTermsApply": "સંપૂર્ણ T&C લાગૂ.",
+    "simulatingProgress": "પ્રગતિ સિમ્યુલેટ થઈ રહી છે",
+    "simulateProgress": "તમારી પ્રગતિ સિમ્યુલેટ કરો",
+    "simulateBetAmount": "દાવ રકમ સિમ્યુલેટ કરો",
+    "toNextReward": "આગળના ઇનામ સુધી",
+    "unlocked": "અનલૉક",
+    "stillToEarn": "હજૂ કમાવવા",
+    "nextReward": "આગળનું ઇનામ",
+    "moreToUnlock": "અનલૉક કરવા વધુ",
+    "percentThere": "ત્યાં સુધી",
+    "allMilestonesCompletePre": "બધા માઇલસ્ટોન પૂર્ણ",
+    "allMilestonesCompletePost": "કમાયા!",
+    "bonusCredited": "{{count}} બોનસ ક્રેડિટ",
+    "bonusesCredited": "{{count}} બોનસ ક્રેડિટ",
+    "milestoneName": "{{name}} માઇલસ્ટોન",
+    "creditedInstantlyLabel": "તરત ક્રેડિટ",
+    "bonusEarnedLabel": "બોનસ કમાયા",
+    "totalPossible": "કુલ સંભવ",
+    "creditedRewards": "ક્રેડિટ ઇનામ",
+    "credited": "ક્રેડિટ",
+    "realMoney": "રિઅલ મની",
+    "completedAt": "પૂર્ણ સ્થળ",
+    "tierPercentThere": "{{pct}}% ત્યાં",
+    "cumulativeBets": "સંચિત દાવ",
+    "promotion": "બોનસ લૅડર પ્રોમોશન",
+    "termsAndConditions": "નિયમો અને શરતો",
+    "termsDialogLabel": "બોનસ લૅડર નિયમો અને શરતો",
+    "understandAndClose": "હું સમજ્યો — બંધ કરો",
+    "variants": {
+      "deposit": {
+        "placed": "ડિપૉઝિટ",
+        "totalPlacedShort": "કુલ ડિપૉઝિટ",
+        "totalPlacedLong": "આ કૅમ્પેઇનમાં કુલ ડિપૉઝિટ",
+        "milestonesUnlocked": "{{done}} of {{total}} માઇલસ્ટોન પ્રાપ્ત",
+        "betMoreToUnlock": "ડિપૉઝિટ",
+        "noRewardsYet": "હજૂ કોઈ ઇનામ નહીં — પ્રથમ ક્વૉલિફાઇંગ ડિપૉઝિટ કરો",
+        "cumulativeUnit": "સંચિત ડિપૉઝિટ",
+        "keepGoing": "ડિપૉઝિટ ચાલૂ રાખો →",
+        "overlayNextCta": "ડિપૉઝિટ"
+      },
+      "bet": {
+        "placed": "લગાવ્યો",
+        "totalPlacedShort": "કુલ દાવ",
+        "totalPlacedLong": "આ કૅમ્પેઇનમાં કુલ દાવ",
+        "milestonesUnlocked": "{{done}} of {{total}} માઇલસ્ટોન અનલૉક",
+        "betMoreToUnlock": "દાવ",
+        "noRewardsYet": "હજૂ કોઈ ઇનામ નહીં — પ્રથમ ક્વૉલિફાઇંગ દાવ લગાવો",
+        "cumulativeUnit": "સંચિત દાવ",
+        "keepGoing": "દાવ ચાલૂ રાખો →",
+        "overlayNextCta": "દાવ"
+      }
+    },
+    "overlay": {
+      "allMilestonesComplete": "બધા માઇલસ્ટોન પૂર્ણ!",
+      "milestoneUnlocked": "માઇલસ્ટોન અનલૉક",
+      "tierReached": "{{name}} પ્રાપ્ત!",
+      "rolloverNote": "રિઅલ મની · રૉલઓવર: 1× · ક્યારેય સમાપ્ત નહીં",
+      "nextMilestone": "આગળ માઇલસ્ટોન — {{name}}",
+      "betMore": "દાવ",
+      "betMoreToEarn": "વધુ કમાવવા",
+      "allDoneTitle": "તમે બધા માઇલસ્ટોન પૂર્ણ કર્યા!",
+      "allDoneSubtitle": "બધા બોનસ તમારા વૉલેટમાં ક્રેડિટ થઈ ગયા.",
+      "viewLadder": "મારી લૅડર જુઓ",
+      "viewLadderArrow": "મારી લૅડર જુઓ →"
+    },
+    "achievement": {
+      "milestoneUnlocked": "માઇલસ્ટોન અનલૉક",
+      "tierAchieved": "ટિઅર પ્રાપ્ત!"
+    }
+  },
+  "jackpot": {
+    "monthlyJackpot": "માસિક જેકપોટ",
+    "title": "જેકપોટ વિજેતાઓ",
+    "winner": "જેકપોટ વિજેતા",
+    "congratulationDefault": "અભિનંદન — તમે આ મહિનાના જેકપોટ વિજેતાઓમાંના એક છો!",
+    "youWonThisMonthPre": "તમે જીત્યા",
+    "youWonThisMonthPost": "આ મહિને",
+    "loadError": "{{month}} માટેના વિજેતાઓ લોડ કરી શકાયા નથી.",
+    "noWinners": "{{month}} માટે હજી સુધી કોઈ જેકપોટ વિજેતા નથી.",
+    "checkBack": "આગામી ડ્રો પછી ફરી તપાસો.",
+    "loadMore": "વધુ વિજેતાઓ લોડ કરો",
+    "winnerCount": "{{month}} માટે {{count}} વિજેતા",
+    "winnersCount": "{{month}} માટે {{count}} વિજેતાઓ",
+    "previousMonth": "પાછલો મહિનો",
+    "nextMonth": "આગલો મહિનો",
+    "backToThisMonth": "આ મહિને પાછા જાઓ",
+    "you": "તમે",
+    "youBadge": "તમે",
+    "place": "{{position}} સ્થાન"
+  }
+}

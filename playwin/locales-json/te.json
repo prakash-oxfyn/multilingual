@@ -1,0 +1,701 @@
+{
+  "errors": {
+    "appCrashErrorHeader": "అప్లికేషన్ లోపం",
+    "appCrashError": "అప్లికేషన్ అనూహ్యంగా క్రాష్ అయింది.",
+    "header": "అయ్యో! ఏదో తప్పు జరిగింది",
+    "generic": "దయచేసి మళ్ళీ ప్రయత్నించండి లేదా హోమ్‌పేజీకి తిరిగి వెళ్ళండి.",
+    "pageLoadError": "ఈ పేజీని లోడ్ చేయడంలో సమస్య ఏర్పడింది. మళ్ళీ ప్రయత్నించండి.",
+    "errorId": "లోపు ID: {{digest}}",
+    "appConfigLoad": "యాప్ కాన్ఫిగరేషన్ లోడ్ చేయడం విఫలమైంది. మళ్ళీ ప్రయత్నించండి.",
+    "somethingWentWrong": "ఏదో తప్పు జరిగింది",
+    "failedToLoadPageError": "{{page}} పేజీని లోడ్ చేయడం విఫలమైంది. మళ్ళీ ప్రయత్నించండి."
+  },
+  "locale": {
+    "unavailable": {
+      "title": "భాష అందుబాటులో లేదు",
+      "message": "{{locale}} భాష ప్రస్తుతం అందుబాటులో లేదు. డిఫాల్ట్ భాషను చూపిస్తున్నాము."
+    }
+  },
+  "context": {
+    "idleWarning": "నిష్క్రియత కారణంగా 1 నిమిషంలో మీరు లాగ్ అవుట్ అవుతారు",
+    "brandIdError": "బ్రాండ్ IDని పొందడం విఫలమైంది.",
+    "initializationError": "బ్రాండ్‌ను ప్రారంభించడం విఫలమైంది. దయచేసి రిఫ్రెష్ చేయండి."
+  },
+  "seo": {
+    "accountSettings": {
+      "pageName": "ఖాతా సెట్టింగ్‌లు"
+    },
+    "bankInfo": {
+      "pageName": "బ్యాంక్ సమాచారం"
+    },
+    "bonus": {
+      "pageName": "బోనస్"
+    },
+    "deposit": {
+      "pageName": "డిపాజిట్"
+    },
+    "kyc": {
+      "pageName": "KYC ధృవీకరణ"
+    },
+    "profile": {
+      "pageName": "ప్రొఫైల్"
+    },
+    "transactionHistory": {
+      "pageName": "లావాదేవీల చరిత్ర"
+    },
+    "wallet": {
+      "pageName": "వాలెట్"
+    },
+    "withdraw": {
+      "pageName": "ఉపసంహరణ"
+    },
+    "casino": {
+      "pageName": "కాసినో"
+    },
+    "exchange": {
+      "pageName": "ఎక్స్చేంజ్"
+    },
+    "liveCasino": {
+      "pageName": "లైవ్ కాసినో"
+    },
+    "sports": {
+      "pageName": "క్రీడలు"
+    },
+    "leaderboard": {
+      "pageName": "లీడర్‌బోర్డ్"
+    },
+    "multiladder": {
+      "pageName": "మల్టీ లాడర్"
+    },
+    "promotions": {
+      "pageName": "ప్రమోషన్‌లు"
+    },
+    "cms": {
+      "defaultPageName": "పేజీ"
+    },
+    "jackpot": {
+      "pageName": "జాక్‌పాట్"
+    },
+    "jackpotWinners": {
+      "pageName": "జాక్‌పాట్ విజేతలు"
+    }
+  },
+  "common": {
+    "submit": "సమర్పించండి",
+    "submitting": "సమర్పిస్తోంది…",
+    "loading": "లోడ్ అవుతోంది",
+    "edit": "సవరించు",
+    "cancel": "రద్దు చేయి",
+    "close": "మూసివేయి",
+    "retry": "మళ్ళీ ప్రయత్నించు",
+    "tryAgain": "మళ్ళీ ప్రయత్నించండి",
+    "goBackHome": "హోమ్‌కి తిరిగి వెళ్ళు",
+    "readMore": "మరింత చదవండి",
+    "seeAll": "అన్నీ చూడండి",
+    "pick": "ఎంచుకో",
+    "ok": "సరే",
+    "or": "లేదా",
+    "of": "యొక్క",
+    "update": "అప్‌డేట్ చేయి",
+    "updating": "అప్‌డేట్ అవుతోంది…",
+    "yes": "అవును",
+    "no": "కాదు",
+    "copied": "కాపీ చేయబడింది",
+    "copy": "కాపీ",
+    "downloadImage": "చిత్రాన్ని డౌన్‌లోడ్ చేయండి",
+    "notAvailable": "అందుబాటులో లేదు",
+    "total": "మొత్తం",
+    "goToSlide": "స్లైడ్ {{index}}కి వెళ్ళు",
+    "logoAlt": "లోగో",
+    "whatsappCta": "వాట్సాప్‌లో మీ ID పొందండి",
+    "noDataAvailable": "డేటా అందుబాటులో లేదు",
+    "imageUpload": {
+      "preview": "ప్రివ్యూ",
+      "imagePreviewAlt": "అప్‌లోడ్ చేసిన రసీదు ప్రివ్యూ",
+      "modalImageAlt": "రసీదు ప్రివ్యూ",
+      "removeImage": "చిత్రాన్ని తొలగించు",
+      "clickToUpload": "అప్‌లోడ్ చేయడానికి క్లిక్ చేయండి",
+      "dragAndDrop": "లేదా లాగి వదలండి",
+      "fileTypesHint": "JPG, JPEG, PNG లేదా SVG (గరిష్టం 1MB)",
+      "browseFiles": "ఫైళ్ళను బ్రౌజ్ చేయండి",
+      "toastInvalidFileTypeErr": "JPG, JPEG, PNG మరియు SVG ఫైళ్ళు మాత్రమే అనుమతించబడతాయి.",
+      "toastFileSizeExceededErr": "ఫైల్ పరిమాణం 1MB పరిమితిని మించిపోయింది.",
+      "toastValidFileErr": "దయచేసి ముందుగా చెల్లుబాటు అయ్యే ఫైల్‌ను ఎంచుకోండి.",
+      "toastNoFileErr": "ఏ ఫైలూ ఎంచుకోబడలేదు"
+    },
+    "banner": {
+      "defaultAlt": "బ్యానర్ {{index}}"
+    },
+    "timeLeft": {
+      "dayLeft": "{{count}} రోజు మిగిలింది",
+      "daysLeft": "{{count}} రోజులు మిగిలాయి",
+      "hoursLeft": "{{count}} గంటలు మిగిలాయి",
+      "minsLeft": "{{count}} నిమిషాలు మిగిలాయి",
+      "expired": "గడువు ముగిసింది"
+    },
+    "days": {
+      "mo": "సోమ",
+      "tu": "మంగ",
+      "we": "బుధ",
+      "th": "గురు",
+      "fr": "శుక్ర",
+      "sa": "శని",
+      "su": "ఆది"
+    },
+    "gotIt": "అర్థమైంది!",
+    "creditedToWallet": "మీ వాలెట్‌లో జమ చేయబడింది"
+  },
+  "auth": {
+    "login": {
+      "title": "లాగిన్",
+      "usernamePlaceholder": "వినియోగదారు పేరు",
+      "passwordPlaceholder": "పాస్‌వర్డ్",
+      "forgotPassword": "పాస్‌వర్డ్ మర్చిపోయారా?",
+      "submitIdle": "ఇప్పుడే లాగిన్ చేయండి",
+      "submitLoading": "లాగిన్ అవుతోంది…",
+      "noAccount": "ఖాతా లేదా?",
+      "registerNow": "ఇప్పుడే నమోదు చేయండి",
+      "whatsappCta": "వాట్సాప్‌లో మీ ID పొందండి",
+      "bannerAltPrefix": "లాగిన్ బ్యానర్",
+      "toastSuccess": "లాగిన్ విజయవంతమైంది",
+      "toastError": "లాగిన్ విఫలమైంది",
+      "validation": {
+        "usernameRequired": "వినియోగదారు పేరు అవసరం",
+        "usernameMinLength": "కనీసం 3 అక్షరాలు",
+        "usernameMaxLength": "16 అక్షరాలు మించకూడదు",
+        "usernameNoSpaces": "వినియోగదారు పేరులో ఖాళీలు అనుమతించబడవు",
+        "passwordRequired": "పాస్‌వర్డ్ అవసరం",
+        "passwordPattern": "పాస్‌వర్డ్ 8–15 అక్షరాలు, పెద్దక్షరం, చిన్నక్షరం, సంఖ్య మరియు ప్రత్యేక అక్షరంతో ఉండాలి",
+        "showPassword": "పాస్‌వర్డ్ చూపించు",
+        "hidePassword": "పాస్‌వర్డ్ దాచు"
+      }
+    },
+    "register": {
+      "title": "నమోదు చేయండి",
+      "usernamePlaceholder": "వినియోగదారు పేరు",
+      "passwordPlaceholder": "పాస్‌వర్డ్",
+      "confirmPasswordPlaceholder": "పాస్‌వర్డ్ నిర్ధారించండి",
+      "promoCodePlaceholder": "ప్రోమో కోడ్ (ఐచ్ఛికం)",
+      "countryPlaceholder": "దేశం",
+      "mobileNumberPlaceholder": "మొబైల్ నంబర్",
+      "checkboxAge": "నాకు కనీసం 18 సంవత్సరాల వయసు ఉంది",
+      "checkboxTerms": "నేను నిబంధనలు మరియు గోప్యతకు అంగీకరిస్తున్నాను",
+      "submitIdle": "ఇప్పుడే నమోదు చేయండి",
+      "submitLoading": "నమోదు అవుతోంది...",
+      "whatsappCta": "వాట్సాప్‌లో మీ ID పొందండి",
+      "bannerAltPrefix": "నమోదు బ్యానర్",
+      "toastSuccess": "విజయవంతంగా నమోదు చేయబడింది",
+      "toastError": "నమోదు విఫలమైంది",
+      "validation": {
+        "usernameRequired": "వినియోగదారు పేరు అవసరం",
+        "usernameMinLength": "కనీసం 3 అక్షరాలు",
+        "usernameMaxLength": "గరిష్టం 16 అక్షరాలు",
+        "usernameNoSpaces": "వినియోగదారు పేరులో ఖాళీలు అనుమతించబడవు",
+        "passwordRequired": "పాస్‌వర్డ్ అవసరం",
+        "passwordPattern": "పెద్దక్షరం, చిన్నక్షరం, సంఖ్య మరియు ప్రత్యేక అక్షరంతో 8–15 అక్షరాలు ఉండాలి",
+        "confirmPasswordRequired": "పాస్‌వర్డ్ నిర్ధారణ అవసరం",
+        "confirmPasswordMismatch": "పాస్‌వర్డులు సరిపోలడం లేదు",
+        "countryRequired": "దేశ కోడ్ అవసరం",
+        "mobileNumberRequired": "మొబైల్ నంబర్ అవసరం",
+        "mobileNumberInvalid": "చెల్లని నంబర్",
+        "ageRequired": "18+ వయసు ఉండాలి",
+        "termsRequired": "నిబంధనలను అంగీకరించాలి",
+        "showPassword": "పాస్‌వర్డ్ చూపించు",
+        "hidePassword": "పాస్‌వర్డ్ దాచు",
+        "showConfirmPassword": "నిర్ధారణ పాస్‌వర్డ్ చూపించు",
+        "hideConfirmPassword": "నిర్ధారణ పాస్‌వర్డ్ దాచు"
+      }
+    }
+  },
+  "deviceLogout": {
+    "warning": "హెచ్చరిక",
+    "noPermission": "ఈ పేజీని యాక్సెస్ చేయడానికి మీకు అనుమతి లేదు.",
+    "sessionExpired": "మీ సెషన్ గడువు ముగిసింది. దయచేసి మళ్ళీ లాగిన్ చేయండి."
+  },
+  "games": {
+    "noGamesTitle": "గేమ్‌లు అందుబాటులో లేవు",
+    "noGamesDescription": "గేమ్‌లు అందుబాటులో లేవు. దయచేసి తర్వాత తనిఖీ చేయండి.",
+    "exploreButton": "గేమ్‌లను అన్వేషించండి",
+    "allGameProviders": "అన్ని గేమ్ ప్రొవైడర్లు",
+    "searchGames": "గేమ్‌లను వెతకండి...",
+    "pleaseWait": "దయచేసి వేచి ఉండండి...",
+    "searchGamesAriaLabel": "గేమ్‌లను వెతకు",
+    "toasts": {
+      "fetchDetailsError": "గేమ్ వివరాలు పొందడం విఫలమైంది.",
+      "refreshError": "గేమ్‌లను రిఫ్రెష్ చేయడం విఫలమైంది.",
+      "failedToFetchGame": "గేమ్ పొందడం విఫలమైంది.",
+      "failedToChangeProvider": "ప్రొవైడర్‌ను మార్చడం విఫలమైంది.",
+      "failedToLoadMoreGames": "మరిన్ని గేమ్‌లను లోడ్ చేయడం విఫలమైంది."
+    }
+  },
+  "accountSettings": {
+    "title": "ఖాతా సెట్టింగ్‌లు",
+    "tabs": {
+      "depositLimit": "డిపాజిట్ పరిమితి",
+      "contactPreference": "సంప్రదింపు ప్రాధాన్యత",
+      "changePassword": "పాస్‌వర్డ్ మార్చు",
+      "selfExclusion": "స్వీయ మినహాయింపు",
+      "deactivate": "నిష్క్రియం చేయి"
+    },
+    "changePassword": {
+      "newPasswordPlaceholder": "కొత్త పాస్‌వర్డ్ నమోదు చేయండి",
+      "confirmPasswordPlaceholder": "పాస్‌వర్డ్ నిర్ధారించండి",
+      "hint1": "పాస్‌వర్డ్ 8-16 అక్షరాలు, కనీసం ఒక చిన్నక్షరం, ఒక పెద్దక్షరం, ఒక సంఖ్య మరియు ఒక ప్రత్యేక అక్షరం కలిగి ఉండాలి, ఖాళీలు లేకుండా.",
+      "hint2": "కొత్త పాస్‌వర్డ్ మరియు నిర్ధారణ పాస్‌వర్డ్ సరిపోలాలి.",
+      "toastSuccess": "పాస్‌వర్డ్ విజయవంతంగా నవీకరించబడింది.",
+      "toastError": "పాస్‌వర్డ్ నవీకరించడం విఫలమైంది.",
+      "validation": {
+        "passwordRequired": "పాస్‌వర్డ్ అవసరం",
+        "passwordMinLength": "పాస్‌వర్డ్ కనీసం 8 అక్షరాలు ఉండాలి",
+        "passwordPattern": "పెద్దక్షరం, చిన్నక్షరం, సంఖ్య మరియు ప్రత్యేక అక్షరం చేర్చాలి",
+        "confirmRequired": "పాస్‌వర్డ్ నిర్ధారించండి",
+        "confirmMismatch": "పాస్‌వర్డులు సరిపోలడం లేదు"
+      }
+    },
+    "contactPreference": {
+      "labels": {
+        "all": "అన్నీ",
+        "email": "ఇమెయిల్",
+        "whatsapp": "వాట్సాప్",
+        "telegram": "టెలిగ్రామ్",
+        "sms": "SMS",
+        "call": "కాల్",
+        "none": "ఏదీ వద్దు"
+      },
+      "toastSuccess": "సంప్రదింపు సెట్టింగ్‌లు విజయవంతంగా నవీకరించబడ్డాయి.",
+      "toastError": "సంప్రదింపు సెట్టింగ్‌లు నవీకరించడం విఫలమైంది."
+    },
+    "depositLimit": {
+      "dailyLabel": "రోజువారీ డిపాజిట్ పరిమితి",
+      "weeklyLabel": "వారపు డిపాజిట్ పరిమితి",
+      "monthlyLabel": "నెలవారీ డిపాజిట్ పరిమితి",
+      "hint1": "డిపాజిట్ పరిమితిని ప్రారంభించడం వలన వినియోగదారు నిర్దిష్ట కాలానికి డిపాజిట్ చేయకుండా ఉండవచ్చు. పరిమితి నిర్ణయించిన తర్వాత, నిర్ణయించిన కాలం ముగిసే వరకు డిపాజిట్ చేయడం సాధ్యం కాదు.",
+      "hint2": "మీరు ఈ డిపాజిట్ పరిమితిని అమలు చేయాలనుకుంటే, కాలం మరియు మొత్తాన్ని ఎంచుకోండి.",
+      "toastSuccess": "డిపాజిట్ పరిమితి విజయవంతంగా నవీకరించబడింది.",
+      "toastError": "డిపాజిట్ పరిమితి నవీకరించడం విఫలమైంది.",
+      "validation": {
+        "dailyExceedsWeeklyOrMonthly": "రోజువారీ పరిమితి వారపు లేదా నెలవారీ పరిమితి కంటే ఎక్కువగా ఉండకూడదు.",
+        "weeklyOutOfRange": "వారపు పరిమితి రోజువారీ మరియు నెలవారీ పరిమితుల మధ్య ఉండాలి.",
+        "monthlyTooSmall": "నెలవారీ పరిమితి రోజువారీ లేదా వారపు పరిమితి కంటే తక్కువగా ఉండకూడదు."
+      }
+    },
+    "selfExclusion": {
+      "checkboxLabel": "నా ఖాతాను ఈ కాలానికి స్వీయ మినహాయింపు చేయాలనుకుంటున్నాను:",
+      "selectPlaceholder": "కాల వ్యవధిని ఎంచుకోండి",
+      "toastSuccess": "మీ ఖాతా {{timePeriod}} కోసం స్వీయ మినహాయింపు చేయబడింది.",
+      "hint": "ఈ కాలంలో మీరు వెబ్‌సైట్‌లో ఆడలేరు మరియు మార్కెటింగ్ ఇమెయిల్‌లు లేదా ప్రమోషన్‌లు అందవు.",
+      "confirmText": "మీరు {{timePeriod}} కోసం మీ ఖాతాను స్వీయ మినహాయింపు చేయాలనుకుంటున్నారా?",
+      "periods": {
+        "1 day": "1 రోజు",
+        "1 week": "1 వారం",
+        "1 month": "1 నెల",
+        "6 weeks": "6 వారాలు",
+        "undetermined": "నిర్ణయించబడలేదు"
+      }
+    },
+    "deactivate": {
+      "checkboxLabel": "నా ఖాతాను ఈ కాలానికి స్వీయ మినహాయింపు చేయాలనుకుంటున్నాను:",
+      "selectPlaceholder": "కాల వ్యవధిని ఎంచుకోండి",
+      "hint": "ఈ సమయంలో మీరు మీ ఖాతాలోకి సైన్ ఇన్ చేయలేరు లేదా పునఃప్రారంభించలేరు. నిష్క్రియ కాలం ముగిసిన తర్వాత పొడిగించే ఎంపిక అందుబాటులో ఉంటుంది. అన్ని నిధులు తిరిగి ఇవ్వబడతాయి మరియు అన్ని బెట్‌లు రద్దు చేయబడతాయి.",
+      "toastSuccess": "నిష్క్రియ స్థితి విజయవంతంగా నవీకరించబడింది.",
+      "toastError": "ఖాతాను నిష్క్రియం చేయడం విఫలమైంది."
+    }
+  },
+  "deposit": {
+    "title": "డిపాజిట్",
+    "selectAmount": "మొత్తాన్ని ఎంచుకోండి",
+    "helpText": "సహాయం కావాలా? డిపాజిట్ గైడ్ చూడండి లేదా లైవ్ చాట్ / ఇమెయిల్‌లో సంప్రదించండి.",
+    "enterAmount": "మొత్తాన్ని నమోదు చేయండి",
+    "bonusCode": "బోనస్ కోడ్",
+    "bonusCodePlaceholder": "బోనస్ కోడ్ నమోదు చేయండి",
+    "bankLimitText": "బ్యాంకు పరిమితి : ₹{{limit}}",
+    "paymentMethods": {
+      "bank": "బ్యాంకు బదిలీ",
+      "qr": "QR బదిలీ",
+      "upi": "UPI",
+      "azeePay": "అజీ పే"
+    },
+    "azeePayAlt": "azee-pay",
+    "toastSuccess": "డిపాజిట్ విజయవంతమైంది.",
+    "paymentDetailsTitle": "మీ చెల్లింపు వివరాలు",
+    "enterUtr": "UTR నంబర్ నమోదు చేయండి",
+    "whatsappCta": "డిపాజిట్ కోసం ఇక్కడ వాట్సాప్ చేయండి",
+    "transferDetails": "బదిలీ వివరాలు",
+    "previousPromotion": "మునుపటి ప్రమోషన్",
+    "nextPromotion": "తదుపరి ప్రమోషన్",
+    "qrCodeAlt": "QR కోడ్",
+    "transferLabels": {
+      "qrCode": "QR కోడ్",
+      "qrName": "QR పేరు",
+      "id": "ID",
+      "upiId": "UPI ID",
+      "upiName": "UPI పేరు",
+      "paymentUpiName": "చెల్లింపు UPI పేరు",
+      "bankName": "బ్యాంకు పేరు",
+      "accountHolderName": "ఖాతా హోల్డర్ పేరు",
+      "accountNumber": "ఖాతా నంబర్",
+      "accountType": "ఖాతా రకం",
+      "ifscCode": "IFSC కోడ్",
+      "branch": "శాఖ"
+    },
+    "campaign": {
+      "title": "ప్రమోషన్లు",
+      "giftAlt": "బహుమతి",
+      "minDepositLimitLabel": "కనీస డిపాజిట్ పరిమితి: ₹{{limit}}",
+      "claimUntil": "క్లెయిమ్ చేయవలసిన తేదీ: {{date}}",
+      "applyCode": "కోడ్ వర్తింపజేయి",
+      "noContent": "కంటెంట్ అందుబాటులో లేదు"
+    },
+    "psp": {
+      "paymentVerifying": "చెల్లింపు ధృవీకరిస్తోంది…",
+      "continueToPay": "చెల్లింపు కొనసాగించండి",
+      "toastSuccess": "డిపాజిట్ విజయవంతంగా ప్రాసెస్ చేయబడింది",
+      "toastProcessedCheckSupport": "డిపాజిట్ ప్రాసెస్ చేయబడింది. సపోర్ట్ టీమ్‌తో తనిఖీ చేయండి",
+      "toastUnableToVerify": "చెల్లింపు ధృవీకరించడం సాధ్యం కాలేదు",
+      "toastVerifyingPayment": "చెల్లింపు ధృవీకరిస్తోంది...",
+      "toastSomethingWentWrong": "ఏదో తప్పు జరిగింది"
+    },
+    "validation": {
+      "toastAmountGreaterThanZero": "మొత్తం 0 కంటే ఎక్కువగా ఉండాలి",
+      "amountExceedsLimit": "మొత్తం ₹{{limit}} పరిమితిని మించిపోయింది",
+      "minDepositRequired": "కనీసం {{min}} డిపాజిట్ అవసరం",
+      "toastUtrRequired": "దయచేసి UTR నంబర్ నమోదు చేయండి"
+    }
+  },
+  "withdraw": {
+    "title": "ఉపసంహరణ",
+    "withdrawableMoney": "ఉపసంహరణ బ్యాలెన్స్",
+    "selectBankPlaceholder": "బ్యాంకు ఖాతాను ఎంచుకోండి",
+    "enterAmountPlaceholder": "మొత్తాన్ని నమోదు చేయండి",
+    "whatsappCta": "వాట్సాప్ ద్వారా ఉపసంహరణ",
+    "submit": "ఉపసంహరించుకో",
+    "submitting": "ఉపసంహరిస్తోంది…",
+    "validation": {
+      "bankRequired": "బ్యాంకు ఖాతాను ఎంచుకోండి",
+      "amountRequired": "మొత్తం అవసరం",
+      "amountNumbersOnly": "మొత్తంలో సంఖ్యలు మాత్రమే ఉండాలి",
+      "amountExceedsMax": "మీరు గరిష్టంగా ₹{{max}} ఉపసంహరించుకోవచ్చు",
+      "amountMinimum": "మొత్తం ₹500 కంటే ఎక్కువగా ఉండాలి"
+    },
+    "toasts": {
+      "success": "మొత్తం విజయవంతంగా ఉపసంహరించబడింది.",
+      "error": "ఉపసంహరణ ప్రాసెస్ చేయడం విఫలమైంది."
+    }
+  },
+  "wallet": {
+    "title": "వాలెట్",
+    "realMoney": "నిజమైన డబ్బు ₹ {{amount}}",
+    "withdrawableMoney": "ఉపసంహరించదగిన డబ్బు ₹ {{amount}}",
+    "moneySuffix": "{{wallet}} డబ్బు"
+  },
+  "bonus": {
+    "title": "బోనస్",
+    "tabs": {
+      "active": "చురుకైన బోనస్",
+      "unclaimed": "క్లెయిమ్ చేయని బోనస్",
+      "redeemed": "రిడీమ్ చేసిన బోనస్"
+    },
+    "toastExpired": "క్యాంపెయిన్ గడువు ముగిసింది",
+    "toastError": "క్యాంపెయిన్ గడువు ముగించడం విఫలమైంది.",
+    "noCampaigns": "క్యాంపెయిన్‌లు అందుబాటులో లేవు. దయచేసి తర్వాత తనిఖీ చేయండి.",
+    "campaignName": "క్యాంపెయిన్ పేరు",
+    "campaignCode": "క్యాంపెయిన్ కోడ్",
+    "minOdds": "కనీస ఆడ్స్",
+    "bonusAmount": "బోనస్ మొత్తం",
+    "bonusPercentage": "బోనస్ శాతం",
+    "warning": "హెచ్చరిక",
+    "cancelConfirm": "మీరు నిజంగా బోనస్ రద్దు చేయాలనుకుంటున్నారా?"
+  },
+  "kyc": {
+    "title": "KYC",
+    "subtitle": "KYC నవీకరించండి",
+    "documentTypeLabel": "పత్రం రకం",
+    "documentNumberLabel": "పత్రం నంబర్",
+    "documentTypePlaceholder": "పత్రం రకం నమోదు చేయండి",
+    "documentNumberPlaceholder": "పత్రం నంబర్ నమోదు చేయండి",
+    "frontImageLabel": "ముందు చిత్రం",
+    "backImageLabel": "వెనుక చిత్రం",
+    "save": "సేవ్ చేయి",
+    "saving": "సేవ్ అవుతోంది…",
+    "toastSuccess": "KYC విజయవంతంగా నవీకరించబడింది.",
+    "toastError": "KYC నవీకరించడం విఫలమైంది.",
+    "toastAlreadyVerified": "KYC ఇప్పటికే ధృవీకరించబడింది",
+    "toastPending": "KYC స్థితి పెండింగ్‌లో ఉంది",
+    "toastRejected": "KYC తిరస్కరించబడింది",
+    "validation": {
+      "documentTypeRequired": "పత్రం రకాన్ని ఎంచుకోండి",
+      "documentNumberRequired": "పత్రం నంబర్ నమోదు చేయండి",
+      "aadharInvalid": "చెల్లుబాటు అయ్యే 12-అంకెల ఆధార్ నంబర్ నమోదు చేయండి",
+      "panInvalid": "చెల్లుబాటు అయ్యే PAN నంబర్ నమోదు చేయండి",
+      "frontImageRequired": "ముందు చిత్రం అవసరం",
+      "backImageRequired": "వెనుక చిత్రం అవసరం"
+    }
+  },
+  "profile": {
+    "title": "ప్రొఫైల్",
+    "yourPersonalData": "మీ వ్యక్తిగత డేటా",
+    "updatePersonalData": "వ్యక్తిగత వివరాలు నవీకరించండి",
+    "personalDetails": "మీ వ్యక్తిగత వివరాలు",
+    "fields": {
+      "firstName": "మొదటి పేరు",
+      "lastName": "చివరి పేరు",
+      "userName": "వినియోగదారు పేరు",
+      "email": "ఇమెయిల్",
+      "dateOfBirth": "పుట్టిన తేదీ",
+      "city": "నగరం",
+      "country": "దేశం",
+      "state": "రాష్ట్రం",
+      "countryCode": "దేశ కోడ్",
+      "phone": "ఫోన్ నంబర్",
+      "address": "చిరునామా",
+      "currency": "కరెన్సీ",
+      "zipCode": "జిప్ కోడ్"
+    },
+    "validation": {
+      "firstNameRequired": "మొదటి పేరు నమోదు చేయండి",
+      "firstNameMaxLength": "మొదటి పేరు 10 అక్షరాలు మించకూడదు",
+      "lastNameRequired": "చివరి పేరు నమోదు చేయండి",
+      "lastNameMaxLength": "చివరి పేరు 10 అక్షరాలు మించకూడదు",
+      "emailPattern": "చెల్లుబాటు అయ్యే ఇమెయిల్ నమోదు చేయండి",
+      "dobRequired": "పుట్టిన తేదీ ఎంచుకోండి",
+      "countryCodeRequired": "దేశ కోడ్ నమోదు చేయండి",
+      "zipCodeRequired": "పిన్‌కోడ్ నమోదు చేయండి"
+    },
+    "toasts": {
+      "success": "ప్లేయర్ వివరాలు విజయవంతంగా నవీకరించబడ్డాయి",
+      "error": "ప్లేయర్ ప్రొఫైల్ నవీకరించడం విఫలమైంది."
+    }
+  },
+  "promotions": {
+    "noPromotions": "ప్రమోషన్‌లు అందుబాటులో లేవు.",
+    "imageAlt": "ప్రమోషన్_కార్డ్_చిత్రం"
+  },
+  "bankInfo": {
+    "title": "బ్యాంకు సమాచారం",
+    "bankDetailsTitle": "మీ బ్యాంకు డేటా",
+    "accountDetailsTitle": "బ్యాంక్ ఖాతా వివరాలు",
+    "labels": {
+      "accountNo": "ఖాతా నంబర్",
+      "bankName": "బ్యాంకు పేరు",
+      "branchName": "శాఖ పేరు",
+      "ifscCode": "IFSC కోడ్",
+      "accountType": "ఖాతా రకం",
+      "accountHolderName": "ఖాతా హోల్డర్ పేరు",
+      "amount": "మొత్తం",
+      "email": "ఇమెయిల్ చిరునామా"
+    },
+    "placeholders": {
+      "selectAccount": "బ్యాంకు ఖాతాను ఎంచుకోండి",
+      "enterAccountNo": "ఖాతా నంబర్ నమోదు చేయండి",
+      "enterBankName": "బ్యాంకు పేరు నమోదు చేయండి",
+      "enterAccountHolderName": "ఖాతా హోల్డర్ పేరు నమోదు చేయండి",
+      "enterBranchName": "శాఖ పేరు నమోదు చేయండి",
+      "enterIfscCode": "IFSC కోడ్ నమోదు చేయండి",
+      "enterAccountType": "ఖాతా రకం నమోదు చేయండి",
+      "savings": "పొదుపు",
+      "current": "కరెంట్"
+    },
+    "validation": {
+      "accountNoRequired": "ఖాతా నంబర్ అవసరం",
+      "accountNoNumbersOnly": "ఖాతా నంబర్‌లో సంఖ్యలు మాత్రమే ఉండాలి",
+      "accountNoMaxLength": "ఖాతా నంబర్ 16 అంకెలు మించకూడదు",
+      "accountNoDuplicate": "ఈ ఖాతా నంబర్ ఇప్పటికే నమోదు చేయబడింది.",
+      "bankNameRequired": "బ్యాంకు పేరు అవసరం",
+      "accountHolderNameRequired": "ఖాతా హోల్డర్ పేరు అవసరం",
+      "branchNameRequired": "శాఖ పేరు అవసరం",
+      "ifscCodeRequired": "IFSC కోడ్ అవసరం",
+      "ifscCodeInvalid": "చెల్లుబాటు అయ్యే IFSC కోడ్ నమోదు చేయండి (4 అక్షరాలు + 7 అంకెలు)",
+      "accountTypeRequired": "ఖాతా రకాన్ని ఎంచుకోండి",
+      "limitReached": "మీరు గరిష్టంగా 5 బ్యాంకు ఖాతాల పరిమితిని చేరుకున్నారు."
+    },
+    "toasts": {
+      "createSuccess": "బ్యాంకు ఖాతా విజయవంతంగా సృష్టించబడింది.",
+      "createError": "బ్యాంకు ఖాతా సృష్టించడం విఫలమైంది.",
+      "updateSuccess": "బ్యాంకు ఖాతా విజయవంతంగా నవీకరించబడింది.",
+      "updateError": "బ్యాంకు ఖాతా నవీకరించడం విఫలమైంది.",
+      "alreadyExists": "బ్యాంకు ఖాతా ఇప్పటికే ఉంది"
+    }
+  },
+  "transactionHistory": {
+    "title": "లావాదేవీల చరిత్ర",
+    "tabs": {
+      "gameHistory": "గేమ్ చరిత్ర",
+      "depositSummary": "డిపాజిట్ సారాంశం",
+      "withdrawSummary": "ఉపసంహరణ సారాంశం",
+      "allTransactions": "అన్ని లావాదేవీలు"
+    },
+    "transactionTable": {
+      "columns": {
+        "serialNo": "క్రమ సంఖ్య",
+        "description": "వివరణ",
+        "gameName": "గేమ్ పేరు",
+        "startBalance": "ప్రారంభ బ్యాలెన్స్",
+        "amount": "మొత్తం",
+        "endBalance": "చివరి బ్యాలెన్స్",
+        "timeStamp": "టైమ్ స్టాంప్",
+        "transactionStatus": "లావాదేవీ స్థితి",
+        "providerName": "ప్రొవైడర్ పేరు",
+        "transactionId": "లావాదేవీ ID",
+        "gameTransactionId": "గేమ్ లావాదేవీ ID",
+        "referenceId": "రెఫరెన్స్ ID",
+        "transactionNo": "లావాదేవీ నంబర్",
+        "status": "స్థితి"
+      },
+      "pagination": {
+        "rowsPerPage": "పేజీకి వరుసలు:",
+        "prev": "మునుపటి",
+        "next": "తదుపరి"
+      },
+      "dateSelector": {
+        "today": "నేడు",
+        "yesterday": "నిన్న",
+        "thisWeek": "ఈ వారం",
+        "lastWeek": "గత వారం",
+        "thisMonth": "ఈ నెల",
+        "lastMonth": "గత నెల"
+      }
+    },
+    "filters": {
+      "allGames": "అన్ని గేమ్‌లు"
+    }
+  },
+  "partners": {
+    "provider": "ప్రొవైడర్"
+  },
+  "header": {
+    "loginButton": "లాగిన్",
+    "registerButton": "నమోదు చేయండి",
+    "helloUser": "నమస్కారం, {{userName}}",
+    "balance": "బ్యాలెన్స్",
+    "logout": "లాగ్ అవుట్",
+    "toasts": {
+      "logoutSuccess": "లాగ్ అవుట్ విజయవంతమైంది"
+    }
+  },
+  "footer": {
+    "socialLinks": "సోషల్ లింక్‌లు",
+    "contactAlt": "సంప్రదింపు",
+    "copyright": "© కాపీరైట్ 2026 {{brandName}}. అన్ని హక్కులు రిజర్వ్ చేయబడ్డాయి.",
+    "version": "వెర్షన్"
+  },
+  "theme": {
+    "switchToLight": "లైట్ మోడ్‌కి మారండి",
+    "switchToDark": "డార్క్ మోడ్‌కి మారండి"
+  },
+  "notAuthorized": {
+    "message": "ఈ పేజీని యాక్సెస్ చేయడానికి మీకు అనుమతి లేదు."
+  },
+  "notFound": {
+    "code": "404",
+    "title": "అయ్యో! పేజీ కనుగొనబడలేదు",
+    "description": "మీరు వెతుకుతున్న పేజీ లేదు లేదా తరలించబడింది. తిరిగి వెళ్ళండి."
+  },
+  "leaderboard": {
+    "title": "టోర్నమెంట్",
+    "termsAndConditions": "నిబంధనలు మరియు షరతులు",
+    "myRank": "నా ర్యాంక్",
+    "start": "ప్రారంభం",
+    "end": "ముగింపు",
+    "rank": "ర్యాంక్",
+    "player": "ప్లేయర్",
+    "points": "పాయింట్లు",
+    "prize": "బహుమతి",
+    "noPlayersFound": "ప్లేయర్లు ఎవరూ కనుగొనబడలేదు",
+    "noActiveTournaments": "ప్రస్తుతం చురుకైన టోర్నమెంట్‌లు లేవు",
+    "trophyAlt": "ట్రోఫీ"
+  },
+  "ladder": {
+    "loading": "మీ లేడర్‌లు లోడ్ అవుతున్నాయి…",
+    "allMilestones": "అన్ని మైల్‌స్టోన్‌లు",
+    "creditedInstantly": "మీ వాలెట్‌కి తక్షణమే క్రెడిట్ చేయబడింది",
+    "fullTermsApply": "పూర్తి నిబంధనలు వర్తిస్తాయి.",
+    "simulatingProgress": "పురోగతిని అనుకరిస్తోంది",
+    "simulateProgress": "మీ పురోగతిని అనుకరించండి",
+    "simulateBetAmount": "బెట్ మొత్తాన్ని అనుకరించండి",
+    "toNextReward": "తదుపరి బహుమతికి",
+    "unlocked": "అన్‌లాక్ చేయబడింది",
+    "stillToEarn": "ఇంకా సంపాదించాలి",
+    "nextReward": "తదుపరి బహుమతి",
+    "moreToUnlock": "అన్‌లాక్ చేయడానికి ఇంకా",
+    "percentThere": "దారిలో",
+    "allMilestonesCompletePre": "అన్ని మైల్‌స్టోన్‌లు పూర్తయ్యాయి",
+    "allMilestonesCompletePost": "సంపాదించారు!",
+    "bonusCredited": "{{count}} బోనస్ క్రెడిట్ చేయబడింది",
+    "bonusesCredited": "{{count}} బోనస్‌లు క్రెడిట్ చేయబడ్డాయి",
+    "milestoneName": "{{name}} మైల్‌స్టోన్",
+    "creditedInstantlyLabel": "తక్షణమే క్రెడిట్ చేయబడింది",
+    "bonusEarnedLabel": "సంపాదించిన బోనస్",
+    "totalPossible": "మొత్తం సాధ్యం",
+    "creditedRewards": "క్రెడిట్ చేయబడిన బహుమతులు",
+    "credited": "క్రెడిట్ చేయబడింది",
+    "realMoney": "నిజమైన డబ్బు",
+    "completedAt": "పూర్తయిన సమయం",
+    "tierPercentThere": "{{pct}}% దారిలో",
+    "cumulativeBets": "మొత్తం బెట్‌లు",
+    "promotion": "బోనస్ లేడర్ ప్రమోషన్",
+    "termsAndConditions": "నిబంధనలు మరియు షరతులు",
+    "termsDialogLabel": "బోనస్ లేడర్ నిబంధనలు మరియు షరతులు",
+    "understandAndClose": "అర్థమైంది — మూసివేయి",
+    "variants": {
+      "deposit": {
+        "placed": "డిపాజిట్ చేయబడింది",
+        "totalPlacedShort": "మొత్తం డిపాజిట్",
+        "totalPlacedLong": "ఈ క్యాంపెయిన్‌లో మొత్తం డిపాజిట్",
+        "milestonesUnlocked": "{{total}}లో {{done}} మైల్‌స్టోన్‌లు చేరుకున్నారు",
+        "betMoreToUnlock": "డిపాజిట్ చేయండి",
+        "noRewardsYet": "ఇంకా బహుమతులు లేవు — మొదటి అర్హత డిపాజిట్ చేయండి",
+        "cumulativeUnit": "మొత్తం డిపాజిట్‌లు",
+        "keepGoing": "డిపాజిట్ కొనసాగించండి →",
+        "overlayNextCta": "డిపాజిట్"
+      },
+      "bet": {
+        "placed": "ఉంచబడింది",
+        "totalPlacedShort": "మొత్తం బెట్‌లు ఉంచబడ్డాయి",
+        "totalPlacedLong": "ఈ క్యాంపెయిన్‌లో మొత్తం బెట్‌లు ఉంచబడ్డాయి",
+        "milestonesUnlocked": "{{total}}లో {{done}} మైల్‌స్టోన్‌లు అన్‌లాక్ చేయబడ్డాయి",
+        "betMoreToUnlock": "బెట్",
+        "noRewardsYet": "ఇంకా బహుమతులు లేవు — మొదటి అర్హత బెట్ ఉంచండి",
+        "cumulativeUnit": "మొత్తం బెట్‌లు",
+        "keepGoing": "బెట్టింగ్ కొనసాగించండి →",
+        "overlayNextCta": "బెట్"
+      }
+    },
+    "overlay": {
+      "allMilestonesComplete": "అన్ని మైల్‌స్టోన్‌లు పూర్తయ్యాయి!",
+      "milestoneUnlocked": "మైల్‌స్టోన్ అన్‌లాక్ చేయబడింది",
+      "tierReached": "{{name}} చేరుకున్నారు!",
+      "rolloverNote": "నిజమైన డబ్బు · రోల్‌ఓవర్: 1× · గడువు ముగిసేది లేదు",
+      "nextMilestone": "తదుపరి మైల్‌స్టోన్ — {{name}}",
+      "betMore": "బెట్",
+      "betMoreToEarn": "సంపాదించడానికి ఇంకా",
+      "allDoneTitle": "మీరు అన్ని మైల్‌స్టోన్‌లు పూర్తి చేశారు!",
+      "allDoneSubtitle": "అన్ని బోనస్‌లు మీ వాలెట్‌కి క్రెడిట్ చేయబడ్డాయి.",
+      "viewLadder": "నా లేడర్ చూడు",
+      "viewLadderArrow": "నా లేడర్ చూడు →"
+    },
+    "achievement": {
+      "milestoneUnlocked": "మైల్‌స్టోన్ అన్‌లాక్ చేయబడింది",
+      "tierAchieved": "టైర్ సాధించబడింది!"
+    }
+  },
+  "jackpot": {
+    "monthlyJackpot": "నెలవారీ జాక్‌పాట్",
+    "title": "జాక్‌పాట్ విజేతలు",
+    "winner": "జాక్‌పాట్ విజేత",
+    "congratulationDefault": "అభినందనలు — ఈ నెల జాక్‌పాట్ విజేతలలో మీరు ఒకరు!",
+    "youWonThisMonthPre": "మీరు గెలుచుకున్నారు",
+    "youWonThisMonthPost": "ఈ నెల",
+    "loadError": "{{month}} కోసం విజేతలను లోడ్ చేయలేకపోయాం.",
+    "noWinners": "{{month}} కోసం ఇంకా జాక్‌పాట్ విజేతలు లేరు.",
+    "checkBack": "తదుపరి డ్రా తర్వాత మళ్లీ చూడండి.",
+    "loadMore": "మరిన్ని విజేతలను లోడ్ చేయండి",
+    "winnerCount": "{{month}} కోసం {{count}} విజేత",
+    "winnersCount": "{{month}} కోసం {{count}} విజేతలు",
+    "previousMonth": "మునుపటి నెల",
+    "nextMonth": "తదుపరి నెల",
+    "backToThisMonth": "ఈ నెలకు తిరిగి వెళ్ళండి",
+    "you": "మీరు",
+    "youBadge": "మీరు",
+    "place": "{{position}} స్థానం"
+  }
+}
