@@ -111,6 +111,7 @@
     "whatsappCta": "Get Your ID on WhatsApp",
     "noDataAvailable": "No data available",
     "creditedToWallet": "Credited to your wallet",
+    "congratulations": "Congratulations!",
     "imageUpload": {
       "preview": "Preview",
       "imagePreviewAlt": "Uploaded receipt preview",
@@ -391,12 +392,11 @@
   "bonus": {
     "title": "Bonus",
     "tabs": {
+      "claim": "Claim Bonus",
       "active": "Active Bonus",
       "unclaimed": "Unclaimed Bonus",
       "redeemed": "Redeemed Bonus"
     },
-    "toastExpired": "Campaign Expired",
-    "toastError": "Failed to expire campaign.",
     "noCampaigns": "No Campaigns available. Please check back later.",
     "campaignName": "Campaign Name",
     "campaignCode": "Campaign Code",
@@ -404,7 +404,16 @@
     "bonusAmount": "Bonus Amount",
     "bonusPercentage": "Bonus Percentage",
     "warning": "Warning",
-    "cancelConfirm": "Do you really want to cancel the bonus?"
+    "cancelConfirm": "Do you really want to cancel the bonus?",
+    "promoCode": "Promo code",
+    "promoCodePlaceholder": "Enter Promo code",
+    "claimIdle": "Claim your Bonus",
+    "claimLoading": "Claiming...",
+    "toasts": {
+      "expireCampaignError": "Failed to expire campaign.",
+      "campaignExpired": "Campaign Expired",
+      "claimError": "Failed to claim Bonus."
+    }
   },
   "kyc": {
     "title": "KYC",
