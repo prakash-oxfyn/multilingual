@@ -392,6 +392,7 @@
   "bonus": {
     "title": "Bonus",
     "tabs": {
+      "claim": "Claim Bonus",
       "active": "Active Bonus",
       "unclaimed": "Unclaimed Bonus",
       "redeemed": "Redeemed Bonus"
