@@ -143,7 +143,13 @@
       "su": "ఆది"
     },
     "gotIt": "అర్థమైంది!",
-    "creditedToWallet": "మీ వాలెట్‌లో జమ చేయబడింది"
+    "creditedToWallet": "మీ వాలెట్‌లో జమ చేయబడింది",
+    "congratulations": "అభినందనలు!",
+    "selectPlaceholder": "ఎంచుకోండి...",
+    "searchPlaceholder": "శోధించండి...",
+    "noMatches": "ఎలాంటి మ్యాచ్‌లు లేవు",
+    "selectMonth": "నెలను ఎంచుకోండి",
+    "selectYear": "సంవత్సరాన్ని ఎంచుకోండి"
   },
   "auth": {
     "login": {
@@ -393,7 +399,8 @@
     "tabs": {
       "active": "చురుకైన బోనస్",
       "unclaimed": "క్లెయిమ్ చేయని బోనస్",
-      "redeemed": "రిడీమ్ చేసిన బోనస్"
+      "redeemed": "రిడీమ్ చేసిన బోనస్",
+      "claim": "బోనస్‌ను క్లెయిమ్ చేయండి"
     },
     "toastExpired": "క్యాంపెయిన్ గడువు ముగిసింది",
     "toastError": "క్యాంపెయిన్ గడువు ముగించడం విఫలమైంది.",
@@ -404,10 +411,19 @@
     "bonusAmount": "బోనస్ మొత్తం",
     "bonusPercentage": "బోనస్ శాతం",
     "warning": "హెచ్చరిక",
-    "cancelConfirm": "మీరు నిజంగా బోనస్ రద్దు చేయాలనుకుంటున్నారా?"
+    "cancelConfirm": "మీరు నిజంగా బోనస్ రద్దు చేయాలనుకుంటున్నారా?",
+    "promoCode": "ప్రోమో కోడ్",
+    "promoCodePlaceholder": "ప్రోమో కోడ్ నమోదు చేయండి",
+    "claimIdle": "మీ బోనస్‌ను క్లెయిమ్ చేయండి",
+    "claimLoading": "దావా చేస్తున్నాం...",
+    "toasts": {
+      "expireCampaignError": "క్యాంపెయిన్‌ను గడువు ముగింపుగా మారుస్తే విఫలమయ్యింది.",
+      "campaignExpired": "క్యాంపెయిన్ గడువు ముగిసింది",
+      "claimError": "బోనస్‌ను క్లెయిమ్ చేయడంలో విఫలమయ్యింది."
+    }
   },
   "kyc": {
-    "title": "KYC",
+    "title": "గ్రাহక గుర్తింపు ధృవీకరణ",
     "subtitle": "KYC నవీకరించండి",
     "documentTypeLabel": "పత్రం రకం",
     "documentNumberLabel": "పత్రం నంబర్",
@@ -459,7 +475,8 @@
       "emailPattern": "చెల్లుబాటు అయ్యే ఇమెయిల్ నమోదు చేయండి",
       "dobRequired": "పుట్టిన తేదీ ఎంచుకోండి",
       "countryCodeRequired": "దేశ కోడ్ నమోదు చేయండి",
-      "zipCodeRequired": "పిన్‌కోడ్ నమోదు చేయండి"
+      "zipCodeRequired": "పిన్‌కోడ్ నమోదు చేయండి",
+      "zipCodeInvalid": "పిన్‌కోడ్ 6 అంకెల సంఖ్యగా ఉండాలి"
     },
     "toasts": {
       "success": "ప్లేయర్ వివరాలు విజయవంతంగా నవీకరించబడ్డాయి",

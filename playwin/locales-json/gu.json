@@ -143,7 +143,13 @@
       "fr": "શુ",
       "sa": "શ",
       "su": "ર"
-    }
+    },
+    "congratulations": "અભિનંદન!",
+    "selectPlaceholder": "પસંદ કરો...",
+    "searchPlaceholder": "શોધો...",
+    "noMatches": "મેલ મળ્યા નથી",
+    "selectMonth": "મહિનો પસંદ કરો",
+    "selectYear": "વર્ષ પસંદ કરો"
   },
   "auth": {
     "login": {
@@ -393,7 +399,8 @@
     "tabs": {
       "active": "સક્રિય બોનસ",
       "unclaimed": "ક્લૅઇમ ન કરેલો બોનસ",
-      "redeemed": "રિડીમ કરેલો બોનસ"
+      "redeemed": "રિડીમ કરેલો બોનસ",
+      "claim": "બોનસ મેળવાવો"
     },
     "toastExpired": "કૅમ્પેઇન સમય સમાપ્ત",
     "toastError": "કૅમ્પેઇન સમાપ્ત કરવામાં નિષ્ફળ.",
@@ -404,10 +411,19 @@
     "bonusAmount": "બોનસ રકમ",
     "bonusPercentage": "બોનસ ટકાવારી",
     "warning": "ચેતવણી",
-    "cancelConfirm": "શું તમે ખરેખર બોનસ રદ કરવા ઇચ્છો છો?"
+    "cancelConfirm": "શું તમે ખરેખર બોનસ રદ કરવા ઇચ્છો છો?",
+    "promoCode": "પ્રોમો કોડ",
+    "promoCodePlaceholder": "પ્રોમો કોડ દાખલ કરો",
+    "claimIdle": "તમારો બોનસ દાવો કરો",
+    "claimLoading": "દાવો કરવામાં આવી રહ્યું છે...",
+    "toasts": {
+      "expireCampaignError": "આ અભિયાન સમાપ્ત કરવામાં નિષ્ફળ રહ્યું.",
+      "campaignExpired": "અભિયાન સમય સમાપ્ત",
+      "claimError": "બોનસ દાવો કરવામાં નિષ્ફળ."
+    }
   },
   "kyc": {
-    "title": "KYC",
+    "title": "ગ્રાહક ઓળખ ચકાસણી",
     "subtitle": "KYC અપડેટ કરો",
     "documentTypeLabel": "દસ્તાવેજ પ્રકાર",
     "documentNumberLabel": "દસ્તાવેજ નંબર",
@@ -459,7 +475,8 @@
       "emailPattern": "માન્ય ઇ-મેઇલ દાખલ કરો",
       "dobRequired": "તમારી જન્મ તારીખ પસંદ કરો",
       "countryCodeRequired": "દેશ કોડ દાખલ કરો",
-      "zipCodeRequired": "કૃપા કરીને પિનકોડ દાખલ કરો"
+      "zipCodeRequired": "કૃપા કરીને પિનકોડ દાખલ કરો",
+      "zipCodeInvalid": "પિનકોડ 6 અંકોનો હોવો જોઈએ"
     },
     "toasts": {
       "success": "ખેલાડીની વિગત સફળતાપૂર્વક અપડેટ થઈ",
@@ -468,7 +485,7 @@
   },
   "promotions": {
     "noPromotions": "કોઈ પ્રોમોશન ઉપલબ્ધ નથી.",
-    "imageAlt": "promotion_card_image"
+    "imageAlt": "પ્રમોશન_કાર્ડ_છબી"
   },
   "bankInfo": {
     "title": "બૅન્ક માહિતી",

@@ -143,7 +143,13 @@
       "su": "ஞாயி"
     },
     "gotIt": "புரிந்தது!",
-    "creditedToWallet": "பணப்பையில் வரவு வைக்கப்பட்டது"
+    "creditedToWallet": "பணப்பையில் வரவு வைக்கப்பட்டது",
+    "congratulations": "வாழ்த்துக்கள்!",
+    "selectPlaceholder": "தேர்ந்தெடுக்கவும்...",
+    "searchPlaceholder": "தேடுங்கள்...",
+    "noMatches": "பொருந்தும் பொருட்கள் இல்லை",
+    "selectMonth": "மாதத்தை தேர்வு செய்யவும்",
+    "selectYear": "ஆண்டை தேர்வு செய்யவும்"
   },
   "auth": {
     "login": {
@@ -393,7 +399,8 @@
     "tabs": {
       "active": "செயலில் உள்ள போனஸ்",
       "unclaimed": "கோரப்படாத போனஸ்",
-      "redeemed": "பயன்படுத்தப்பட்ட போனஸ்"
+      "redeemed": "பயன்படுத்தப்பட்ட போனஸ்",
+      "claim": "போனஸை பெறவும்"
     },
     "toastExpired": "பிரச்சாரம் காலாவதியானது",
     "toastError": "பிரச்சாரத்தை காலாவதி செய்ய தோல்வி.",
@@ -404,10 +411,19 @@
     "bonusAmount": "போனஸ் தொகை",
     "bonusPercentage": "போனஸ் சதவீதம்",
     "warning": "எச்சரிக்கை",
-    "cancelConfirm": "போனஸை ரத்து செய்ய விரும்புகிறீர்களா?"
+    "cancelConfirm": "போனஸை ரத்து செய்ய விரும்புகிறீர்களா?",
+    "promoCode": "ப்ரோமோ குறியீடு",
+    "promoCodePlaceholder": "ப்ரோமோ குறியீட்டை உள்ளிடவும்",
+    "claimIdle": "உங்கள் போனஸை கோரவும்",
+    "claimLoading": "கோரப்படுகிறது...",
+    "toasts": {
+      "expireCampaignError": "கம்பெயினை காலாவதியாக்க முடியவில்லை.",
+      "campaignExpired": "கம்பெயின் காலாவதி",
+      "claimError": "போனஸ் கோருவதில் தோல்வி"
+    }
   },
   "kyc": {
-    "title": "KYC",
+    "title": "வாடிக்கையாளர் அடையாள சரிபார்ப்பு",
     "subtitle": "KYC புதுப்பிக்கவும்",
     "documentTypeLabel": "ஆவண வகை",
     "documentNumberLabel": "ஆவண எண்",
@@ -459,7 +475,8 @@
       "emailPattern": "சரியான மின்னஞ்சல் உள்ளிடவும்",
       "dobRequired": "பிறந்த தேதியை தேர்வு செய்யவும்",
       "countryCodeRequired": "நாட்டு குறியீட்டை உள்ளிடவும்",
-      "zipCodeRequired": "பின்கோடை உள்ளிடவும்"
+      "zipCodeRequired": "பின்கோடை உள்ளிடவும்",
+      "zipCodeInvalid": "பின்கோடு 6 எண்கள் இருக்க வேண்டும்"
     },
     "toasts": {
       "success": "வீரர் விவரங்கள் வெற்றிகரமாக புதுப்பிக்கப்பட்டன",

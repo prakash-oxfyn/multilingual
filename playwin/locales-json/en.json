@@ -112,6 +112,11 @@
     "noDataAvailable": "No data available",
     "creditedToWallet": "Credited to your wallet",
     "congratulations": "Congratulations!",
+    "selectPlaceholder": "Select...",
+    "searchPlaceholder": "Search...",
+    "noMatches": "No matches",
+    "selectMonth": "Select month",
+    "selectYear": "Select year",
     "imageUpload": {
       "preview": "Preview",
       "imagePreviewAlt": "Uploaded receipt preview",
@@ -468,7 +473,8 @@
       "emailPattern": "Enter a valid email",
       "dobRequired": "Select your DOB",
       "countryCodeRequired": "Enter Country Code",
-      "zipCodeRequired": "Please enter the pincode"
+      "zipCodeRequired": "Please enter the pincode",
+      "zipCodeInvalid": "Pincode must be a 6-digit number"
     },
     "toasts": {
       "success": "Updated Player Details Successfully",

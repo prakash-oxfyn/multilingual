@@ -143,7 +143,13 @@
       "su": "रवि"
     },
     "gotIt": "समझ गया!",
-    "creditedToWallet": "आपके वॉलेट में जमा कर दिया गया"
+    "creditedToWallet": "आपके वॉलेट में जमा कर दिया गया",
+    "congratulations": "बधाई हो!",
+    "selectPlaceholder": "चुनें...",
+    "searchPlaceholder": "खोजें...",
+    "noMatches": "कोई मेल नहीं मिला",
+    "selectMonth": "महीना चुनें",
+    "selectYear": "साल चुनें"
   },
   "auth": {
     "login": {
@@ -393,7 +399,8 @@
     "tabs": {
       "active": "सक्रिय बोनस",
       "unclaimed": "अदावा बोनस",
-      "redeemed": "रिडीम किया बोनस"
+      "redeemed": "रिडीम किया बोनस",
+      "claim": "बोनस प्राप्त करें"
     },
     "toastExpired": "अभियान समाप्त हो गया",
     "toastError": "अभियान समाप्त करने में विफल।",
@@ -404,10 +411,19 @@
     "bonusAmount": "बोनस राशि",
     "bonusPercentage": "बोनस प्रतिशत",
     "warning": "चेतावनी",
-    "cancelConfirm": "क्या आप वाकई बोनस रद्द करना चाहते हैं?"
+    "cancelConfirm": "क्या आप वाकई बोनस रद्द करना चाहते हैं?",
+    "promoCode": "प्रोमो कोड",
+    "promoCodePlaceholder": "प्रोमो कोड दर्ज करें",
+    "claimIdle": "अपना बोनस क्लेम करें",
+    "claimLoading": "क्लेम कर रहे हैं...",
+    "toasts": {
+      "expireCampaignError": "कैंपेन समाप्त करने में विफल।",
+      "campaignExpired": "कैंपेन समाप्त",
+      "claimError": "बोनस क्लेम करने में विफल।"
+    }
   },
   "kyc": {
-    "title": "KYC",
+    "title": "ग्राहक पहचान सत्यापन",
     "subtitle": "KYC अपडेट करें",
     "documentTypeLabel": "दस्तावेज़ प्रकार",
     "documentNumberLabel": "दस्तावेज़ नंबर",
@@ -459,7 +475,8 @@
       "emailPattern": "वैध ईमेल दर्ज करें",
       "dobRequired": "जन्म तिथि चुनें",
       "countryCodeRequired": "देश कोड दर्ज करें",
-      "zipCodeRequired": "पिनकोड दर्ज करें"
+      "zipCodeRequired": "पिनकोड दर्ज करें",
+      "zipCodeInvalid": "पिनकोड 6 अंकों का होना चाहिए"
     },
     "toasts": {
       "success": "खिलाड़ी विवरण सफलतापूर्वक अपडेट किया गया",
