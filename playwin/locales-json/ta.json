@@ -364,7 +364,7 @@
     "validation": {
       "toastAmountGreaterThanZero": "தொகை 0 ஐ விட அதிகமாக இருக்க வேண்டும்",
       "amountExceedsLimit": "தொகை ₹{{limit}} வரம்பை மீறுகிறது",
-      "minDepositRequired": "குறைந்தது {{min}} வைப்பு தேவை",
+      "minDepositRequired": "குறைந்தது ₹{{min}} வைப்பு தேவை",
       "toastUtrRequired": "UTR எண்ணை உள்ளிடவும்"
     }
   },
@@ -569,7 +569,8 @@
         "thisWeek": "இந்த வாரம்",
         "lastWeek": "கடந்த வாரம்",
         "thisMonth": "இந்த மாதம்",
-        "lastMonth": "கடந்த மாதம்"
+        "lastMonth": "கடந்த மாதம்",
+        "custom": "தனிப்பயன் வரம்பு"
       }
     },
     "filters": {

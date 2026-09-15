@@ -364,7 +364,7 @@
     "validation": {
       "toastAmountGreaterThanZero": "राशि 0 से अधिक होनी चाहिए",
       "amountExceedsLimit": "राशि ₹{{limit}} की सीमा से अधिक है",
-      "minDepositRequired": "न्यूनतम {{min}} की जमा आवश्यक है",
+      "minDepositRequired": "न्यूनतम ₹{{min}} की जमा आवश्यक है",
       "toastUtrRequired": "कृपया UTR नंबर दर्ज करें"
     }
   },
@@ -569,7 +569,8 @@
         "thisWeek": "इस सप्ताह",
         "lastWeek": "पिछले सप्ताह",
         "thisMonth": "इस महीने",
-        "lastMonth": "पिछले महीने"
+        "lastMonth": "पिछले महीने",
+        "custom": "कस्टम रेंज"
       }
     },
     "filters": {

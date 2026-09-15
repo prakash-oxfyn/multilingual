@@ -364,7 +364,7 @@
     "validation": {
       "toastAmountGreaterThanZero": "Amount should be greater than 0",
       "amountExceedsLimit": "Amount exceeds the limit of ₹{{limit}}",
-      "minDepositRequired": "A minimum deposit of {{min}} is required",
+      "minDepositRequired": "A minimum deposit of ₹{{min}} is required",
       "toastUtrRequired": "Please enter the UTR Number"
     }
   },
@@ -567,7 +567,8 @@
         "thisWeek": "This Week",
         "lastWeek": "Last Week",
         "thisMonth": "This Month",
-        "lastMonth": "Last Month"
+        "lastMonth": "Last Month",
+        "custom": "Custom Range"
       }
     },
     "filters": {

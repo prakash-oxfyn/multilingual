@@ -364,7 +364,7 @@
     "validation": {
       "toastAmountGreaterThanZero": "રકમ 0 કરતાં વધારે હોવી જોઈએ",
       "amountExceedsLimit": "રકમ ₹{{limit}} ની મર્યાદા કરતાં વધી ગઈ",
-      "minDepositRequired": "ઓછામાં ઓછી {{min}} ની ડિપૉઝિટ જરૂરી છે",
+      "minDepositRequired": "ઓછામાં ઓછી ₹{{min}} ની ડિપૉઝિટ જરૂરી છે",
       "toastUtrRequired": "કૃપા કરીને UTR નંબર દાખલ કરો"
     }
   },
@@ -569,7 +569,8 @@
         "thisWeek": "આ અઠવાડિયે",
         "lastWeek": "ગત અઠવાડિયે",
         "thisMonth": "આ મહિને",
-        "lastMonth": "ગત મહિને"
+        "lastMonth": "ગત મહિને",
+        "custom": "કસ્ટમ રેંજ"
       }
     },
     "filters": {
