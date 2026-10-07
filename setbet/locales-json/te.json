@@ -143,7 +143,13 @@
       "su": "ఆది"
     },
     "gotIt": "అర్థమైంది!",
-    "creditedToWallet": "మీ వాలెట్‌లో జమ చేయబడింది"
+    "creditedToWallet": "మీ వాలెట్‌లో జమ చేయబడింది",
+    "congratulations": "అభినందనలు!",
+    "selectPlaceholder": "ఎంచుకోండి...",
+    "searchPlaceholder": "శోధించండి...",
+    "noMatches": "ఎలాంటి మ్యాచ్‌లు లేవు",
+    "selectMonth": "నెలను ఎంచుకోండి",
+    "selectYear": "సంవత్సరాన్ని ఎంచుకోండి"
   },
   "auth": {
     "login": {
@@ -358,7 +364,7 @@
     "validation": {
       "toastAmountGreaterThanZero": "మొత్తం 0 కంటే ఎక్కువగా ఉండాలి",
       "amountExceedsLimit": "మొత్తం ₹{{limit}} పరిమితిని మించిపోయింది",
-      "minDepositRequired": "కనీసం {{min}} డిపాజిట్ అవసరం",
+      "minDepositRequired": "కనీసం ₹{{min}} డిపాజిట్ అవసరం",
       "toastUtrRequired": "దయచేసి UTR నంబర్ నమోదు చేయండి"
     }
   },
@@ -393,7 +399,8 @@
     "tabs": {
       "active": "చురుకైన బోనస్",
       "unclaimed": "క్లెయిమ్ చేయని బోనస్",
-      "redeemed": "రిడీమ్ చేసిన బోనస్"
+      "redeemed": "రిడీమ్ చేసిన బోనస్",
+      "claim": "బోనస్‌ను క్లెయిమ్ చేయండి"
     },
     "toastExpired": "క్యాంపెయిన్ గడువు ముగిసింది",
     "toastError": "క్యాంపెయిన్ గడువు ముగించడం విఫలమైంది.",
@@ -404,10 +411,19 @@
     "bonusAmount": "బోనస్ మొత్తం",
     "bonusPercentage": "బోనస్ శాతం",
     "warning": "హెచ్చరిక",
-    "cancelConfirm": "మీరు నిజంగా బోనస్ రద్దు చేయాలనుకుంటున్నారా?"
+    "cancelConfirm": "మీరు నిజంగా బోనస్ రద్దు చేయాలనుకుంటున్నారా?",
+    "promoCode": "ప్రోమో కోడ్",
+    "promoCodePlaceholder": "ప్రోమో కోడ్ నమోదు చేయండి",
+    "claimIdle": "మీ బోనస్‌ను క్లెయిమ్ చేయండి",
+    "claimLoading": "దావా చేస్తున్నాం...",
+    "toasts": {
+      "expireCampaignError": "క్యాంపెయిన్‌ను గడువు ముగింపుగా మారుస్తే విఫలమయ్యింది.",
+      "campaignExpired": "క్యాంపెయిన్ గడువు ముగిసింది",
+      "claimError": "బోనస్‌ను క్లెయిమ్ చేయడంలో విఫలమయ్యింది."
+    }
   },
   "kyc": {
-    "title": "KYC",
+    "title": "గ్రাহక గుర్తింపు ధృవీకరణ",
     "subtitle": "KYC నవీకరించండి",
     "documentTypeLabel": "పత్రం రకం",
     "documentNumberLabel": "పత్రం నంబర్",
@@ -432,6 +448,7 @@
     }
   },
   "profile": {
+    "personalDetails": "మీ వ్యక్తిగత వివరాలు",
     "title": "ప్రొఫైల్",
     "yourPersonalData": "మీ వ్యక్తిగత డేటా",
     "updatePersonalData": "వ్యక్తిగత వివరాలు నవీకరించండి",
@@ -458,7 +475,8 @@
       "emailPattern": "చెల్లుబాటు అయ్యే ఇమెయిల్ నమోదు చేయండి",
       "dobRequired": "పుట్టిన తేదీ ఎంచుకోండి",
       "countryCodeRequired": "దేశ కోడ్ నమోదు చేయండి",
-      "zipCodeRequired": "పిన్‌కోడ్ నమోదు చేయండి"
+      "zipCodeRequired": "పిన్‌కోడ్ నమోదు చేయండి",
+      "zipCodeInvalid": "పిన్‌కోడ్ 6 అంకెల సంఖ్యగా ఉండాలి"
     },
     "toasts": {
       "success": "ప్లేయర్ వివరాలు విజయవంతంగా నవీకరించబడ్డాయి",
@@ -470,6 +488,7 @@
     "imageAlt": "ప్రమోషన్_కార్డ్_చిత్రం"
   },
   "bankInfo": {
+    "accountDetailsTitle": "బ్యాంక్ ఖాతా వివరాలు",
     "title": "బ్యాంకు సమాచారం",
     "bankDetailsTitle": "మీ బ్యాంకు డేటా",
     "labels": {
@@ -578,7 +597,8 @@
   },
   "theme": {
     "switchToLight": "లైట్ మోడ్‌కి మారండి",
-    "switchToDark": "డార్క్ మోడ్‌కి మారండి"
+    "switchToDark": "డార్క్ మోడ్‌కి మారండి",
+    "label": "థీమ్"
   },
   "notAuthorized": {
     "message": "ఈ పేజీని యాక్సెస్ చేయడానికి మీకు అనుమతి లేదు."
@@ -704,5 +724,33 @@
     "you": "మీరు",
     "youBadge": "మీరు",
     "place": "{{position}} స్థానం"
+  },
+  "layoutSwitcher": {
+    "button": "లేఅవుట్",
+    "title": "లేఅవుట్‌ను ఎంచుకోండి",
+    "header": "హెడర్",
+    "banner": "బ్యానర్",
+    "games": "హోమ్ గేమ్స్",
+    "close": "మూసివేయి",
+    "options": {
+      "topnav": "టాప్ నావ్",
+      "sidenav": "సైడ్ నావ్",
+      "groupnav": "గ్రూప్ నావ్",
+      "flat": "ఫ్లాట్",
+      "coverflow": "కవర్‌ఫ్లో 3D",
+      "grid": "గ్రిడ్",
+      "slider": "స్లైడర్",
+      "slidercard": "స్లైడర్ కార్డ్స్"
+    }
+  },
+  "sidebar": {
+    "casino": "క్యాసినో",
+    "liveCasino": "లైవ్ క్యాసినో",
+    "viewAllCasinos": "అన్ని క్యాసినోలను చూడండి",
+    "viewAllLiveCasinos": "అన్ని లైవ్ క్యాసినోలను చూడండి",
+    "myAccount": "నా ఖాతా"
+  },
+  "bottomNav": {
+    "support": "సహాయం"
   }
 }

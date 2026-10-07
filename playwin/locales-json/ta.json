@@ -569,8 +569,7 @@
         "thisWeek": "இந்த வாரம்",
         "lastWeek": "கடந்த வாரம்",
         "thisMonth": "இந்த மாதம்",
-        "lastMonth": "கடந்த மாதம்",
-        "custom": "தனிப்பயன் வரம்பு"
+        "lastMonth": "கடந்த மாதம்"
       }
     },
     "filters": {
@@ -598,7 +597,8 @@
   },
   "theme": {
     "switchToLight": "ஒளி பயன்முறைக்கு மாறவும்",
-    "switchToDark": "இருண்ட பயன்முறைக்கு மாறவும்"
+    "switchToDark": "இருண்ட பயன்முறைக்கு மாறவும்",
+    "label": "தீம்"
   },
   "notAuthorized": {
     "message": "இந்த பக்கத்தை அணுக உங்களுக்கு அனுமதி இல்லை."
@@ -715,5 +715,33 @@
     "you": "நீங்கள்",
     "youBadge": "நீங்கள்",
     "place": "{{position}} இடம்"
+  },
+  "layoutSwitcher": {
+    "button": "லேஅவுட்",
+    "title": "லேஅவுட்டைத் தேர்ந்தெடுக்கவும்",
+    "header": "ஹெடர்",
+    "banner": "பேனர்",
+    "games": "முகப்பு கேம்கள்",
+    "close": "மூடு",
+    "options": {
+      "topnav": "மேல் நேவ்",
+      "sidenav": "பக்க நேவ்",
+      "groupnav": "குரூப் நேவ்",
+      "flat": "ஃப்ளாட்",
+      "coverflow": "கவர்ஃப்ளோ 3D",
+      "grid": "கிரிட்",
+      "slider": "ஸ்லைடர்",
+      "slidercard": "ஸ்லைடர் கார்டுகள்"
+    }
+  },
+  "sidebar": {
+    "casino": "கேசினோ",
+    "liveCasino": "லைவ் கேசினோ",
+    "viewAllCasinos": "அனைத்து கேசினோக்களையும் காண்க",
+    "viewAllLiveCasinos": "அனைத்து லைவ் கேசினோக்களையும் காண்க",
+    "myAccount": "எனது கணக்கு"
+  },
+  "bottomNav": {
+    "support": "உதவி"
   }
 }

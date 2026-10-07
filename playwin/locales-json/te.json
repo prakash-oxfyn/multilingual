@@ -569,8 +569,7 @@
         "thisWeek": "ఈ వారం",
         "lastWeek": "గత వారం",
         "thisMonth": "ఈ నెల",
-        "lastMonth": "గత నెల",
-        "custom": "కస్టమ్ రేంజ్"
+        "lastMonth": "గత నెల"
       }
     },
     "filters": {
@@ -598,7 +597,8 @@
   },
   "theme": {
     "switchToLight": "లైట్ మోడ్‌కి మారండి",
-    "switchToDark": "డార్క్ మోడ్‌కి మారండి"
+    "switchToDark": "డార్క్ మోడ్‌కి మారండి",
+    "label": "థీమ్"
   },
   "notAuthorized": {
     "message": "ఈ పేజీని యాక్సెస్ చేయడానికి మీకు అనుమతి లేదు."
@@ -715,5 +715,33 @@
     "you": "మీరు",
     "youBadge": "మీరు",
     "place": "{{position}} స్థానం"
+  },
+  "layoutSwitcher": {
+    "button": "లేఅవుట్",
+    "title": "లేఅవుట్‌ను ఎంచుకోండి",
+    "header": "హెడర్",
+    "banner": "బ్యానర్",
+    "games": "హోమ్ గేమ్స్",
+    "close": "మూసివేయి",
+    "options": {
+      "topnav": "టాప్ నావ్",
+      "sidenav": "సైడ్ నావ్",
+      "groupnav": "గ్రూప్ నావ్",
+      "flat": "ఫ్లాట్",
+      "coverflow": "కవర్‌ఫ్లో 3D",
+      "grid": "గ్రిడ్",
+      "slider": "స్లైడర్",
+      "slidercard": "స్లైడర్ కార్డ్స్"
+    }
+  },
+  "sidebar": {
+    "casino": "క్యాసినో",
+    "liveCasino": "లైవ్ క్యాసినో",
+    "viewAllCasinos": "అన్ని క్యాసినోలను చూడండి",
+    "viewAllLiveCasinos": "అన్ని లైవ్ క్యాసినోలను చూడండి",
+    "myAccount": "నా ఖాతా"
+  },
+  "bottomNav": {
+    "support": "సహాయం"
   }
 }

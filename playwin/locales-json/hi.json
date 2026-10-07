@@ -569,8 +569,7 @@
         "thisWeek": "इस सप्ताह",
         "lastWeek": "पिछले सप्ताह",
         "thisMonth": "इस महीने",
-        "lastMonth": "पिछले महीने",
-        "custom": "कस्टम रेंज"
+        "lastMonth": "पिछले महीने"
       }
     },
     "filters": {
@@ -598,7 +597,8 @@
   },
   "theme": {
     "switchToLight": "लाइट मोड में बदलें",
-    "switchToDark": "डार्क मोड में बदलें"
+    "switchToDark": "डार्क मोड में बदलें",
+    "label": "थीम"
   },
   "notAuthorized": {
     "message": "आपको इस पेज तक पहुंचने की अनुमति नहीं है।"
@@ -715,5 +715,33 @@
     "you": "आप",
     "youBadge": "आप",
     "place": "{{position}} स्थान"
+  },
+  "layoutSwitcher": {
+    "button": "लेआउट",
+    "title": "लेआउट चुनें",
+    "header": "हेडर",
+    "banner": "बैनर",
+    "games": "होम गेम्स",
+    "close": "बंद करें",
+    "options": {
+      "topnav": "टॉप नेव",
+      "sidenav": "साइड नेव",
+      "groupnav": "ग्रुप नेव",
+      "flat": "फ्लैट",
+      "coverflow": "कवरफ्लो 3D",
+      "grid": "ग्रिड",
+      "slider": "स्लाइडर",
+      "slidercard": "स्लाइडर कार्ड"
+    }
+  },
+  "sidebar": {
+    "casino": "कैसीनो",
+    "liveCasino": "लाइव कैसीनो",
+    "viewAllCasinos": "सभी कैसीनो देखें",
+    "viewAllLiveCasinos": "सभी लाइव कैसीनो देखें",
+    "myAccount": "मेरा खाता"
+  },
+  "bottomNav": {
+    "support": "सहायता"
   }
 }

@@ -567,8 +567,7 @@
         "thisWeek": "This Week",
         "lastWeek": "Last Week",
         "thisMonth": "This Month",
-        "lastMonth": "Last Month",
-        "custom": "Custom Range"
+        "lastMonth": "Last Month"
       }
     },
     "filters": {
@@ -596,7 +595,8 @@
   },
   "theme": {
     "switchToLight": "Switch to Light Mode",
-    "switchToDark": "Switch to Dark Mode"
+    "switchToDark": "Switch to Dark Mode",
+    "label": "Theme"
   },
   "notAuthorized": {
     "message": "You are not authorized to access this page."
@@ -713,5 +713,33 @@
     "you": "You",
     "youBadge": "YOU",
     "place": "{{position}} place"
+  },
+  "layoutSwitcher": {
+    "button": "Layout",
+    "title": "Select a Layout",
+    "header": "Header",
+    "banner": "Banner",
+    "games": "Home games",
+    "close": "Close",
+    "options": {
+      "topnav": "Top nav",
+      "sidenav": "Side nav",
+      "groupnav": "Group nav",
+      "flat": "Flat",
+      "coverflow": "Coverflow 3D",
+      "grid": "Grid",
+      "slider": "Slider",
+      "slidercard": "Slider cards"
+    }
+  },
+  "sidebar": {
+    "casino": "Casino",
+    "liveCasino": "Live Casino",
+    "viewAllCasinos": "View all casinos",
+    "viewAllLiveCasinos": "View all Live casinos",
+    "myAccount": "My Account"
+  },
+  "bottomNav": {
+    "support": "Support"
   }
 }

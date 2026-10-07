@@ -112,6 +112,11 @@
     "noDataAvailable": "No data available",
     "creditedToWallet": "Credited to your wallet",
     "congratulations": "Congratulations!",
+    "selectPlaceholder": "Select...",
+    "searchPlaceholder": "Search...",
+    "noMatches": "No matches",
+    "selectMonth": "Select month",
+    "selectYear": "Select year",
     "imageUpload": {
       "preview": "Preview",
       "imagePreviewAlt": "Uploaded receipt preview",
@@ -359,7 +364,7 @@
     "validation": {
       "toastAmountGreaterThanZero": "Amount should be greater than 0",
       "amountExceedsLimit": "Amount exceeds the limit of ₹{{limit}}",
-      "minDepositRequired": "A minimum deposit of {{min}} is required",
+      "minDepositRequired": "A minimum deposit of ₹{{min}} is required",
       "toastUtrRequired": "Please enter the UTR Number"
     }
   },
@@ -441,6 +446,7 @@
     }
   },
   "profile": {
+    "personalDetails": "Your Personal Details",
     "title": "Profile",
     "yourPersonalData": "Your Personal Data",
     "updatePersonalData": "Update Personal Details",
@@ -467,7 +473,8 @@
       "emailPattern": "Enter a valid email",
       "dobRequired": "Select your DOB",
       "countryCodeRequired": "Enter Country Code",
-      "zipCodeRequired": "Please enter the pincode"
+      "zipCodeRequired": "Please enter the pincode",
+      "zipCodeInvalid": "Pincode must be a 6-digit number"
     },
     "toasts": {
       "success": "Updated Player Details Successfully",
@@ -479,6 +486,7 @@
     "imageAlt": "promotion_card_image"
   },
   "bankInfo": {
+    "accountDetailsTitle": "Bank Account Details",
     "title": "Bank Information",
     "bankDetailsTitle": "Your Bank Data",
     "labels": {
@@ -587,7 +595,8 @@
   },
   "theme": {
     "switchToLight": "Switch to Light Mode",
-    "switchToDark": "Switch to Dark Mode"
+    "switchToDark": "Switch to Dark Mode",
+    "label": "Theme"
   },
   "notAuthorized": {
     "message": "You are not authorized to access this page."
@@ -713,5 +722,33 @@
     "you": "You",
     "youBadge": "YOU",
     "place": "{{position}} place"
+  },
+  "layoutSwitcher": {
+    "button": "Layout",
+    "title": "Select a Layout",
+    "header": "Header",
+    "banner": "Banner",
+    "games": "Home games",
+    "close": "Close",
+    "options": {
+      "topnav": "Top nav",
+      "sidenav": "Side nav",
+      "groupnav": "Group nav",
+      "flat": "Flat",
+      "coverflow": "Coverflow 3D",
+      "grid": "Grid",
+      "slider": "Slider",
+      "slidercard": "Slider cards"
+    }
+  },
+  "sidebar": {
+    "casino": "Casino",
+    "liveCasino": "Live Casino",
+    "viewAllCasinos": "View all casinos",
+    "viewAllLiveCasinos": "View all Live casinos",
+    "myAccount": "My Account"
+  },
+  "bottomNav": {
+    "support": "Support"
   }
 }
