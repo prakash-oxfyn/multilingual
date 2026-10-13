@@ -91,6 +91,7 @@
     "tryAgain": "మళ్ళీ ప్రయత్నించండి",
     "goBackHome": "హోమ్‌కి తిరిగి వెళ్ళు",
     "readMore": "మరింత చదవండి",
+    "play": "ఆడండి",
     "seeAll": "అన్నీ చూడండి",
     "pick": "ఎంచుకో",
     "ok": "సరే",
@@ -582,6 +583,7 @@
   "header": {
     "loginButton": "లాగిన్",
     "registerButton": "నమోదు చేయండి",
+    "more": "మరిన్ని",
     "helloUser": "నమస్కారం, {{userName}}",
     "balance": "బ్యాలెన్స్",
     "logout": "లాగ్ అవుట్",
@@ -730,17 +732,28 @@
     "title": "లేఅవుట్‌ను ఎంచుకోండి",
     "header": "హెడర్",
     "banner": "బ్యానర్",
+    "quicklinks": "త్వరిత లింకులు",
     "games": "హోమ్ గేమ్స్",
+    "about": "మా గురించి",
     "close": "మూసివేయి",
     "options": {
       "topnav": "టాప్ నావ్",
       "sidenav": "సైడ్ నావ్",
       "groupnav": "గ్రూప్ నావ్",
+      "pillnav": "పిల్ నావ్",
       "flat": "ఫ్లాట్",
       "coverflow": "కవర్‌ఫ్లో 3D",
+      "pills": "పిల్స్",
+      "panels": "ప్యానెల్స్",
+      "cards": "కార్డ్స్",
+      "bento": "బెంటో",
+      "showcase": "షోకేస్",
       "grid": "గ్రిడ్",
       "slider": "స్లైడర్",
-      "slidercard": "స్లైడర్ కార్డ్స్"
+      "slidercard": "స్లైడర్ కార్డ్స్",
+      "rail": "రైల్",
+      "hero": "హీరో",
+      "columns": "కాలమ్స్"
     }
   },
   "sidebar": {
@@ -752,5 +765,11 @@
   },
   "bottomNav": {
     "support": "సహాయం"
+  },
+  "quickLinks": {
+    "playNow": "ఇప్పుడే ఆడండి"
+  },
+  "homePromotions": {
+    "title": "ప్రమోషన్‌లు"
   }
 }
