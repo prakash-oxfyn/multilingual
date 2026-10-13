@@ -583,6 +583,7 @@
   "header": {
     "loginButton": "உள்நுழைவு",
     "registerButton": "பதிவு செய்யுங்கள்",
+    "more": "மேலும்",
     "helloUser": "வணக்கம், {{userName}}",
     "balance": "இருப்பு",
     "logout": "வெளியேறு",
@@ -739,15 +740,18 @@
       "topnav": "மேல் நேவ்",
       "sidenav": "பக்க நேவ்",
       "groupnav": "குரூப் நேவ்",
+      "pillnav": "பில் நேவ்",
       "flat": "ஃப்ளாட்",
       "coverflow": "கவர்ஃப்ளோ 3D",
       "pills": "பில்ஸ்",
       "panels": "பேனல்கள்",
       "cards": "கார்டுகள்",
       "bento": "பென்டோ",
+      "showcase": "ஷோகேஸ்",
       "grid": "கிரிட்",
       "slider": "ஸ்லைடர்",
       "slidercard": "ஸ்லைடர் கார்டுகள்",
+      "rail": "ரெயில்",
       "hero": "ஹீரோ",
       "columns": "நெடுவரிசைகள்"
     }

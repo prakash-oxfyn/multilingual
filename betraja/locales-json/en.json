@@ -581,6 +581,7 @@
   "header": {
     "loginButton": "LOGIN",
     "registerButton": "REGISTER",
+    "more": "More",
     "helloUser": "Hello, {{userName}}",
     "balance": "Balance",
     "logout": "Logout",
@@ -737,15 +738,18 @@
       "topnav": "Top nav",
       "sidenav": "Side nav",
       "groupnav": "Group nav",
+      "pillnav": "Pill nav",
       "flat": "Flat",
       "coverflow": "Coverflow 3D",
       "pills": "Pills",
       "panels": "Panels",
       "cards": "Cards",
       "bento": "Bento",
+      "showcase": "Showcase",
       "grid": "Grid",
       "slider": "Slider",
       "slidercard": "Slider cards",
+      "rail": "Rail",
       "hero": "Hero",
       "columns": "Columns"
     }

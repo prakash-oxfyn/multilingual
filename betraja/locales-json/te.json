@@ -583,6 +583,7 @@
   "header": {
     "loginButton": "లాగిన్",
     "registerButton": "నమోదు చేయండి",
+    "more": "మరిన్ని",
     "helloUser": "నమస్కారం, {{userName}}",
     "balance": "బ్యాలెన్స్",
     "logout": "లాగ్ అవుట్",
@@ -739,15 +740,18 @@
       "topnav": "టాప్ నావ్",
       "sidenav": "సైడ్ నావ్",
       "groupnav": "గ్రూప్ నావ్",
+      "pillnav": "పిల్ నావ్",
       "flat": "ఫ్లాట్",
       "coverflow": "కవర్‌ఫ్లో 3D",
       "pills": "పిల్స్",
       "panels": "ప్యానెల్స్",
       "cards": "కార్డ్స్",
       "bento": "బెంటో",
+      "showcase": "షోకేస్",
       "grid": "గ్రిడ్",
       "slider": "స్లైడర్",
       "slidercard": "స్లైడర్ కార్డ్స్",
+      "rail": "రైల్",
       "hero": "హీరో",
       "columns": "కాలమ్స్"
     }
