@@ -91,6 +91,7 @@
     "tryAgain": "फिर से प्रयास करें",
     "goBackHome": "होम पर वापस जाएं",
     "readMore": "और पढ़ें",
+    "play": "खेलें",
     "seeAll": "सभी देखें",
     "pick": "चुनें",
     "ok": "ठीक है",
@@ -582,6 +583,7 @@
   "header": {
     "loginButton": "लॉगिन",
     "registerButton": "पंजीकरण करें",
+    "more": "और",
     "helloUser": "नमस्ते, {{userName}}",
     "balance": "बैलेंस",
     "logout": "लॉग आउट",
@@ -607,6 +609,10 @@
     "code": "404",
     "title": "उफ़! पेज नहीं मिला",
     "description": "जो पेज आप ढूंढ रहे हैं वह मौजूद नहीं है या हटा दिया गया है। चलिए आपको वापस ले चलते हैं।"
+  },
+  "aboutSection": {
+    "defaultTitle": "{{brandName}} के बारे में",
+    "bgAlt": "पृष्ठभूमि छवि"
   },
   "leaderboard": {
     "title": "टूर्नामेंट",
@@ -721,17 +727,28 @@
     "title": "लेआउट चुनें",
     "header": "हेडर",
     "banner": "बैनर",
+    "quicklinks": "क्विक लिंक्स",
     "games": "होम गेम्स",
+    "about": "हमारे बारे में",
     "close": "बंद करें",
     "options": {
       "topnav": "टॉप नेव",
       "sidenav": "साइड नेव",
       "groupnav": "ग्रुप नेव",
+      "pillnav": "पिल नेव",
       "flat": "फ्लैट",
       "coverflow": "कवरफ्लो 3D",
+      "pills": "पिल्स",
+      "panels": "पैनल्स",
+      "cards": "कार्ड्स",
+      "bento": "बेंटो",
+      "showcase": "शोकेस",
       "grid": "ग्रिड",
       "slider": "स्लाइडर",
-      "slidercard": "स्लाइडर कार्ड"
+      "slidercard": "स्लाइडर कार्ड",
+      "rail": "रेल",
+      "hero": "हीरो",
+      "columns": "कॉलम"
     }
   },
   "sidebar": {
@@ -743,5 +760,11 @@
   },
   "bottomNav": {
     "support": "सहायता"
+  },
+  "quickLinks": {
+    "playNow": "अभी खेलें"
+  },
+  "homePromotions": {
+    "title": "प्रमोशन"
   }
 }

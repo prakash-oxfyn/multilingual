@@ -91,6 +91,7 @@
     "tryAgain": "Try Again",
     "goBackHome": "Go Back Home",
     "readMore": "Read More",
+    "play": "Play",
     "seeAll": "See All",
     "pick": "Pick",
     "ok": "OK",
@@ -580,6 +581,7 @@
   "header": {
     "loginButton": "LOGIN",
     "registerButton": "REGISTER",
+    "more": "More",
     "helloUser": "Hello, {{userName}}",
     "balance": "Balance",
     "logout": "Logout",
@@ -605,6 +607,10 @@
     "code": "404",
     "title": "Oops! Page Not Found",
     "description": "The page you're looking for doesn't exist or has been moved. Let's get you back to where you belong."
+  },
+  "aboutSection": {
+    "defaultTitle": "ABOUT {{brandName}}",
+    "bgAlt": "about background"
   },
   "leaderboard": {
     "title": "Tournament",
@@ -719,17 +725,28 @@
     "title": "Select a Layout",
     "header": "Header",
     "banner": "Banner",
+    "quicklinks": "Quick links",
     "games": "Home games",
+    "about": "About",
     "close": "Close",
     "options": {
       "topnav": "Top nav",
       "sidenav": "Side nav",
       "groupnav": "Group nav",
+      "pillnav": "Pill nav",
       "flat": "Flat",
       "coverflow": "Coverflow 3D",
+      "pills": "Pills",
+      "panels": "Panels",
+      "cards": "Cards",
+      "bento": "Bento",
+      "showcase": "Showcase",
       "grid": "Grid",
       "slider": "Slider",
-      "slidercard": "Slider cards"
+      "slidercard": "Slider cards",
+      "rail": "Rail",
+      "hero": "Hero",
+      "columns": "Columns"
     }
   },
   "sidebar": {
@@ -741,5 +758,11 @@
   },
   "bottomNav": {
     "support": "Support"
+  },
+  "quickLinks": {
+    "playNow": "Play Now"
+  },
+  "homePromotions": {
+    "title": "Promotions"
   }
 }
