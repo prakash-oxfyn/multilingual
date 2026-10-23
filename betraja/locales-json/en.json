@@ -387,6 +387,20 @@
     "toasts": {
       "success": "Amount Withdrawal successfully.",
       "error": "Failed to process withdrawal."
+    },
+    "available": "Available for withdrawal",
+    "amountLabel": "Amount (₹)",
+    "all": "All",
+    "bankAccount": "Bank account",
+    "noBank": "No bank account added",
+    "noBankHint": "Add one to withdraw your balance",
+    "addAccount": "Add account",
+    "withdrawNow": "Withdraw Now",
+    "info": {
+      "title": "Withdrawal Info",
+      "min": "Min Withdrawal",
+      "maxPerDay": "Max Per Day",
+      "dailyTransactionLimit": "Max Per Day Transaction Limit"
     }
   },
   "wallet": {
@@ -448,6 +462,7 @@
   },
   "profile": {
     "title": "Profile",
+    "playerId": "Player ID: {{id}}",
     "personalDetails": "Your Personal Details",
     "yourPersonalData": "Your Personal Data",
     "updatePersonalData": "Update Personal Details",
@@ -726,32 +741,33 @@
     "place": "{{position}} place"
   },
   "layoutSwitcher": {
+    "colors": "Colours",
+    "brandDefault": "Brand default",
+    "randomize": "Randomize",
+    "palettes": {
+      "lavender": "Lavender",
+      "lilac": "Lilac",
+      "coral": "Coral",
+      "crimson": "Crimson",
+      "navy": "Navy",
+      "ocean": "Ocean",
+      "mint": "Mint",
+      "gold": "Gold",
+      "emerald": "Emerald",
+      "flame": "Flame",
+      "lime": "Lime",
+      "lemon": "Lemon",
+      "aqua": "Aqua",
+      "amber": "Amber"
+    },
     "button": "Layout",
     "title": "Select a Layout",
-    "header": "Header",
-    "banner": "Banner",
-    "quicklinks": "Quick links",
-    "games": "Home games",
-    "about": "About",
     "close": "Close",
-    "options": {
-      "topnav": "Top nav",
-      "sidenav": "Side nav",
-      "groupnav": "Group nav",
-      "pillnav": "Pill nav",
-      "flat": "Flat",
-      "coverflow": "Coverflow 3D",
-      "pills": "Pills",
-      "panels": "Panels",
-      "cards": "Cards",
-      "bento": "Bento",
-      "showcase": "Showcase",
-      "grid": "Grid",
-      "slider": "Slider",
-      "slidercard": "Slider cards",
-      "rail": "Rail",
-      "hero": "Hero",
-      "columns": "Columns"
+    "layouts": {
+      "classic": "Classic",
+      "sidebar": "Sidebar",
+      "grouped": "Grouped",
+      "modern": "Modern"
     }
   },
   "sidebar": {

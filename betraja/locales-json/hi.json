@@ -387,6 +387,20 @@
     "toasts": {
       "success": "राशि सफलतापूर्वक निकाली गई।",
       "error": "निकासी प्रसंस्कृत करने में विफल।"
+    },
+    "available": "निकासी के लिए उपलब्ध",
+    "amountLabel": "राशि (₹)",
+    "all": "सभी",
+    "bankAccount": "बैंक खाता",
+    "noBank": "कोई बैंक खाता नहीं जोड़ा गया",
+    "noBankHint": "अपना बैलेंस निकालने के लिए एक खाता जोड़ें",
+    "addAccount": "खाता जोड़ें",
+    "withdrawNow": "अभी निकालें",
+    "info": {
+      "title": "निकासी जानकारी",
+      "min": "न्यूनतम निकासी",
+      "maxPerDay": "प्रति दिन अधिकतम",
+      "dailyTransactionLimit": "प्रति दिन अधिकतम लेनदेन सीमा"
     }
   },
   "wallet": {
@@ -452,6 +466,7 @@
     "title": "प्रोफ़ाइल",
     "yourPersonalData": "आपका व्यक्तिगत डेटा",
     "updatePersonalData": "व्यक्तिगत विवरण अपडेट करें",
+    "playerId": "प्लेयर आईडी: {{id}}",
     "personalDetails": "आपकी व्यक्तिगत जानकारी",
     "fields": {
       "firstName": "पहला नाम",
@@ -728,32 +743,33 @@
     "place": "{{position}} स्थान"
   },
   "layoutSwitcher": {
+    "colors": "रंग",
+    "brandDefault": "ब्रांड डिफ़ॉल्ट",
+    "randomize": "रैंडम चुनें",
+    "palettes": {
+      "lavender": "लैवेंडर",
+      "lilac": "लाइलैक",
+      "coral": "कोरल",
+      "crimson": "क्रिमसन",
+      "navy": "नेवी",
+      "ocean": "ओशन",
+      "mint": "मिंट",
+      "gold": "गोल्ड",
+      "emerald": "एमराल्ड",
+      "flame": "फ्लेम",
+      "lime": "लाइम",
+      "lemon": "लेमन",
+      "aqua": "एक्वा",
+      "amber": "एम्बर"
+    },
     "button": "लेआउट",
     "title": "लेआउट चुनें",
-    "header": "हेडर",
-    "banner": "बैनर",
-    "quicklinks": "क्विक लिंक्स",
-    "games": "होम गेम्स",
-    "about": "हमारे बारे में",
     "close": "बंद करें",
-    "options": {
-      "topnav": "टॉप नेव",
-      "sidenav": "साइड नेव",
-      "groupnav": "ग्रुप नेव",
-      "pillnav": "पिल नेव",
-      "flat": "फ्लैट",
-      "coverflow": "कवरफ्लो 3D",
-      "pills": "पिल्स",
-      "panels": "पैनल्स",
-      "cards": "कार्ड्स",
-      "bento": "बेंटो",
-      "showcase": "शोकेस",
-      "grid": "ग्रिड",
-      "slider": "स्लाइडर",
-      "slidercard": "स्लाइडर कार्ड",
-      "rail": "रेल",
-      "hero": "हीरो",
-      "columns": "कॉलम"
+    "layouts": {
+      "classic": "क्लासिक",
+      "sidebar": "साइडबार",
+      "grouped": "ग्रुप्ड",
+      "modern": "मॉडर्न"
     }
   },
   "sidebar": {
