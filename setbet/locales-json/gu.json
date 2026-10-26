@@ -92,6 +92,8 @@
     "goBackHome": "હોમ પર પાછા જાઓ",
     "readMore": "વધુ વાંચો",
     "play": "રમો",
+    "viewMore": "વધુ જુઓ",
+    "viewLess": "ઓછું જુઓ",
     "seeAll": "બધું જુઓ",
     "pick": "પસંદ કરો",
     "ok": "ઠીક છે",
@@ -185,6 +187,7 @@
       "promoCodePlaceholder": "પ્રોમો કોડ (વૈકલ્પિક)",
       "countryPlaceholder": "દેશ",
       "mobileNumberPlaceholder": "મોબાઇલ નંબર",
+      "emailPlaceholder": "ઇ-મેઇલ",
       "checkboxAge": "હું ઓછામાં ઓછો 18 વર્ષનો/ની છું",
       "checkboxTerms": "હું શરતો અને ગોપનીયતા સ્વીકારું છું",
       "submitIdle": "હવે નોંધણી કરો",
@@ -205,12 +208,31 @@
         "countryRequired": "દેશ કોડ જરૂરી છે",
         "mobileNumberRequired": "મોબાઇલ નંબર જરૂરી છે",
         "mobileNumberInvalid": "અમાન્ય નંબર",
+        "emailRequired": "ઇ-મેઇલ જરૂરી છે",
+        "emailInvalid": "માન્ય ઇ-મેઇલ સરનામું દાખલ કરો",
         "ageRequired": "18+ વર્ષ હોવા જરૂરી છે",
         "termsRequired": "શરતો સ્વીકારવી જરૂરી છે",
         "showPassword": "પાસવર્ડ બતાવો",
         "hidePassword": "પાસવર્ડ છુપાવો",
         "showConfirmPassword": "પુષ્ટિ પાસવર્ડ બતાવો",
         "hideConfirmPassword": "પુષ્ટિ પાસવર્ડ છુપાવો"
+      },
+      "otp": {
+        "title": "તમારો ઇ-મેઇલ ચકાસો",
+        "sentTo": "નીચેના ઇ-મેઇલ પર મોકલેલો OTP દાખલ કરો",
+        "placeholder": "OTP દાખલ કરો",
+        "inputLabel": "OTP",
+        "expiresIn": "OTP ની બાકી માન્યતા:",
+        "resendIdle": "OTP ફરીથી મોકલો",
+        "resendLoading": "ફરીથી મોકલી રહ્યા છીએ...",
+        "verifyIdle": "OTP ચકાસો",
+        "verifyLoading": "ચકાસણી થઈ રહી છે...",
+        "toastSent": "તમારા ઇ-મેઇલ પર OTP મોકલવામાં આવ્યો છે",
+        "toastStartError": "ઇ-મેઇલ ચકાસણી શરૂ થઈ શકી નથી. કૃપા કરીને સપોર્ટનો સંપર્ક કરો.",
+        "toastVerifySuccess": "ઇ-મેઇલ ચકાસાયો અને નોંધણી સફળ થઈ",
+        "toastVerifyError": "OTP ચકાસવામાં નિષ્ફળ",
+        "toastResendSuccess": "OTP સફળતાપૂર્વક ફરીથી મોકલવામાં આવ્યો",
+        "toastResendError": "OTP ફરીથી મોકલવામાં નિષ્ફળ"
       }
     }
   },
@@ -387,6 +409,20 @@
     "toasts": {
       "success": "રકમ સફળતાપૂર્વક ઉપાડવામાં આવી.",
       "error": "ઉપાડ પ્રક્રિયા કરવામાં નિષ્ફળ."
+    },
+    "available": "ઉપાડ માટે ઉપલબ્ધ",
+    "amountLabel": "રકમ (₹)",
+    "all": "બધું",
+    "bankAccount": "બૅન્ક ખાતું",
+    "noBank": "કોઈ બૅન્ક ખાતું ઉમેરાયું નથી",
+    "noBankHint": "તમારું બૅલૅન્સ ઉપાડવા માટે એક ખાતું ઉમેરો",
+    "addAccount": "ખાતું ઉમેરો",
+    "withdrawNow": "હમણાં ઉપાડ કરો",
+    "info": {
+      "title": "ઉપાડ માહિતી",
+      "min": "ન્યૂનતમ ઉપાડ",
+      "maxPerDay": "દિવસ દીઠ મહત્તમ",
+      "dailyTransactionLimit": "દિવસ દીઠ મહત્તમ વ્યવહાર મર્યાદા"
     }
   },
   "wallet": {
@@ -449,6 +485,7 @@
     }
   },
   "profile": {
+    "playerId": "પ્લેયર આઈડી: {{id}}",
     "personalDetails": "તમારી વ્યક્તિગત વિગતો",
     "title": "પ્રૉફાઇલ",
     "yourPersonalData": "તમારો વ્યક્તિગત ડેટા",
@@ -728,32 +765,33 @@
     "place": "{{position}} સ્થાન"
   },
   "layoutSwitcher": {
+    "colors": "રંગો",
+    "brandDefault": "બ્રાન્ડ ડિફૉલ્ટ",
+    "randomize": "રેન્ડમ પસંદ કરો",
+    "palettes": {
+      "lavender": "લેવેન્ડર",
+      "lilac": "લાઇલેક",
+      "coral": "કોરલ",
+      "crimson": "ક્રિમસન",
+      "navy": "નેવી",
+      "ocean": "ઓશન",
+      "mint": "મિન્ટ",
+      "gold": "ગોલ્ડ",
+      "emerald": "એમરાલ્ડ",
+      "flame": "ફ્લેમ",
+      "lime": "લાઇમ",
+      "lemon": "લેમન",
+      "aqua": "એક્વા",
+      "amber": "એમ્બર"
+    },
     "button": "લેઆઉટ",
     "title": "લેઆઉટ પસંદ કરો",
-    "header": "હેડર",
-    "banner": "બેનર",
-    "quicklinks": "ક્વિક લિંક્સ",
-    "games": "હોમ ગેમ્સ",
-    "about": "અમારા વિશે",
     "close": "બંધ કરો",
-    "options": {
-      "topnav": "ટોપ નેવ",
-      "sidenav": "સાઇડ નેવ",
-      "groupnav": "ગ્રુપ નેવ",
-      "pillnav": "પિલ નેવ",
-      "flat": "ફ્લેટ",
-      "coverflow": "કવરફ્લો 3D",
-      "pills": "પિલ્સ",
-      "panels": "પેનલ્સ",
-      "cards": "કાર્ડ્સ",
-      "bento": "બેન્ટો",
-      "showcase": "શોકેસ",
-      "grid": "ગ્રિડ",
-      "slider": "સ્લાઇડર",
-      "slidercard": "સ્લાઇડર કાર્ડ",
-      "rail": "રેલ",
-      "hero": "હીરો",
-      "columns": "કૉલમ"
+    "layouts": {
+      "classic": "ક્લાસિક",
+      "sidebar": "સાઇડબાર",
+      "grouped": "ગ્રુપ્ડ",
+      "modern": "મોડર્ન"
     }
   },
   "sidebar": {

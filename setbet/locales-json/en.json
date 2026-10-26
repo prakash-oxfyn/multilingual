@@ -92,6 +92,8 @@
     "goBackHome": "Go Back Home",
     "readMore": "Read More",
     "play": "Play",
+    "viewMore": "View More",
+    "viewLess": "View Less",
     "seeAll": "See All",
     "pick": "Pick",
     "ok": "OK",
@@ -185,6 +187,7 @@
       "promoCodePlaceholder": "Promo Code (optional)",
       "countryPlaceholder": "Country",
       "mobileNumberPlaceholder": "Mobile number",
+      "emailPlaceholder": "Email",
       "checkboxAge": "I am at least 18 years old",
       "checkboxTerms": "I agree to the Terms and Privacy",
       "submitIdle": "Register Now",
@@ -205,12 +208,31 @@
         "countryRequired": "Country code is required",
         "mobileNumberRequired": "Mobile number is required",
         "mobileNumberInvalid": "Invalid number",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Enter a valid email address",
         "ageRequired": "Must be 18+",
         "termsRequired": "Must accept terms",
         "showPassword": "Show password",
         "hidePassword": "Hide password",
         "showConfirmPassword": "Show confirm password",
         "hideConfirmPassword": "Hide confirm password"
+      },
+      "otp": {
+        "title": "Verify Your Email",
+        "sentTo": "Enter the OTP sent to",
+        "placeholder": "Enter OTP",
+        "inputLabel": "OTP",
+        "expiresIn": "OTP expires in",
+        "resendIdle": "Resend OTP",
+        "resendLoading": "Resending...",
+        "verifyIdle": "Verify OTP",
+        "verifyLoading": "Verifying...",
+        "toastSent": "OTP sent to your email",
+        "toastStartError": "Could not start email verification. Please contact support.",
+        "toastVerifySuccess": "Email verified and registration successful",
+        "toastVerifyError": "Failed to verify OTP",
+        "toastResendSuccess": "OTP resent successfully",
+        "toastResendError": "Failed to resend OTP"
       }
     }
   },
@@ -387,6 +409,20 @@
     "toasts": {
       "success": "Amount Withdrawal successfully.",
       "error": "Failed to process withdrawal."
+    },
+    "available": "Available for withdrawal",
+    "amountLabel": "Amount (₹)",
+    "all": "All",
+    "bankAccount": "Bank account",
+    "noBank": "No bank account added",
+    "noBankHint": "Add one to withdraw your balance",
+    "addAccount": "Add account",
+    "withdrawNow": "Withdraw Now",
+    "info": {
+      "title": "Withdrawal Info",
+      "min": "Min Withdrawal",
+      "maxPerDay": "Max Per Day",
+      "dailyTransactionLimit": "Max Per Day Transaction Limit"
     }
   },
   "wallet": {
@@ -447,6 +483,7 @@
     }
   },
   "profile": {
+    "playerId": "Player ID: {{id}}",
     "personalDetails": "Your Personal Details",
     "title": "Profile",
     "yourPersonalData": "Your Personal Data",
@@ -726,32 +763,33 @@
     "place": "{{position}} place"
   },
   "layoutSwitcher": {
+    "colors": "Colours",
+    "brandDefault": "Brand default",
+    "randomize": "Randomize",
+    "palettes": {
+      "lavender": "Lavender",
+      "lilac": "Lilac",
+      "coral": "Coral",
+      "crimson": "Crimson",
+      "navy": "Navy",
+      "ocean": "Ocean",
+      "mint": "Mint",
+      "gold": "Gold",
+      "emerald": "Emerald",
+      "flame": "Flame",
+      "lime": "Lime",
+      "lemon": "Lemon",
+      "aqua": "Aqua",
+      "amber": "Amber"
+    },
     "button": "Layout",
     "title": "Select a Layout",
-    "header": "Header",
-    "banner": "Banner",
-    "quicklinks": "Quick links",
-    "games": "Home games",
-    "about": "About",
     "close": "Close",
-    "options": {
-      "topnav": "Top nav",
-      "sidenav": "Side nav",
-      "groupnav": "Group nav",
-      "pillnav": "Pill nav",
-      "flat": "Flat",
-      "coverflow": "Coverflow 3D",
-      "pills": "Pills",
-      "panels": "Panels",
-      "cards": "Cards",
-      "bento": "Bento",
-      "showcase": "Showcase",
-      "grid": "Grid",
-      "slider": "Slider",
-      "slidercard": "Slider cards",
-      "rail": "Rail",
-      "hero": "Hero",
-      "columns": "Columns"
+    "layouts": {
+      "classic": "Classic",
+      "sidebar": "Sidebar",
+      "grouped": "Grouped",
+      "modern": "Modern"
     }
   },
   "sidebar": {

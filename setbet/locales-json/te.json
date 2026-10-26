@@ -92,6 +92,8 @@
     "goBackHome": "హోమ్‌కి తిరిగి వెళ్ళు",
     "readMore": "మరింత చదవండి",
     "play": "ఆడండి",
+    "viewMore": "మరిన్ని చూడండి",
+    "viewLess": "తక్కువ చూడండి",
     "seeAll": "అన్నీ చూడండి",
     "pick": "ఎంచుకో",
     "ok": "సరే",
@@ -185,6 +187,7 @@
       "promoCodePlaceholder": "ప్రోమో కోడ్ (ఐచ్ఛికం)",
       "countryPlaceholder": "దేశం",
       "mobileNumberPlaceholder": "మొబైల్ నంబర్",
+      "emailPlaceholder": "ఇమెయిల్",
       "checkboxAge": "నాకు కనీసం 18 సంవత్సరాల వయసు ఉంది",
       "checkboxTerms": "నేను నిబంధనలు మరియు గోప్యతకు అంగీకరిస్తున్నాను",
       "submitIdle": "ఇప్పుడే నమోదు చేయండి",
@@ -205,12 +208,31 @@
         "countryRequired": "దేశ కోడ్ అవసరం",
         "mobileNumberRequired": "మొబైల్ నంబర్ అవసరం",
         "mobileNumberInvalid": "చెల్లని నంబర్",
+        "emailRequired": "ఇమెయిల్ అవసరం",
+        "emailInvalid": "చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి",
         "ageRequired": "18+ వయసు ఉండాలి",
         "termsRequired": "నిబంధనలను అంగీకరించాలి",
         "showPassword": "పాస్‌వర్డ్ చూపించు",
         "hidePassword": "పాస్‌వర్డ్ దాచు",
         "showConfirmPassword": "నిర్ధారణ పాస్‌వర్డ్ చూపించు",
         "hideConfirmPassword": "నిర్ధారణ పాస్‌వర్డ్ దాచు"
+      },
+      "otp": {
+        "title": "మీ ఇమెయిల్‌ను ధృవీకరించండి",
+        "sentTo": "కింది ఇమెయిల్‌కు పంపిన OTPని నమోదు చేయండి",
+        "placeholder": "OTP నమోదు చేయండి",
+        "inputLabel": "OTP",
+        "expiresIn": "OTP మిగిలిన సమయం:",
+        "resendIdle": "OTPని మళ్లీ పంపండి",
+        "resendLoading": "మళ్లీ పంపుతోంది...",
+        "verifyIdle": "OTPని ధృవీకరించండి",
+        "verifyLoading": "ధృవీకరిస్తోంది...",
+        "toastSent": "మీ ఇమెయిల్‌కు OTP పంపబడింది",
+        "toastStartError": "ఇమెయిల్ ధృవీకరణను ప్రారంభించలేకపోయాము. దయచేసి సపోర్ట్‌ను సంప్రదించండి.",
+        "toastVerifySuccess": "ఇమెయిల్ ధృవీకరించబడింది, నమోదు విజయవంతమైంది",
+        "toastVerifyError": "OTP ధృవీకరణ విఫలమైంది",
+        "toastResendSuccess": "OTP విజయవంతంగా మళ్లీ పంపబడింది",
+        "toastResendError": "OTPని మళ్లీ పంపడం విఫలమైంది"
       }
     }
   },
@@ -387,6 +409,20 @@
     "toasts": {
       "success": "మొత్తం విజయవంతంగా ఉపసంహరించబడింది.",
       "error": "ఉపసంహరణ ప్రాసెస్ చేయడం విఫలమైంది."
+    },
+    "available": "ఉపసంహరణకు అందుబాటులో ఉంది",
+    "amountLabel": "మొత్తం (₹)",
+    "all": "అన్నీ",
+    "bankAccount": "బ్యాంకు ఖాతా",
+    "noBank": "బ్యాంకు ఖాతా ఏదీ జోడించలేదు",
+    "noBankHint": "మీ బ్యాలెన్స్‌ను ఉపసంహరించడానికి ఒక ఖాతాను జోడించండి",
+    "addAccount": "ఖాతాను జోడించు",
+    "withdrawNow": "ఇప్పుడే ఉపసంహరించుకో",
+    "info": {
+      "title": "ఉపసంహరణ సమాచారం",
+      "min": "కనీస ఉపసంహరణ",
+      "maxPerDay": "రోజుకు గరిష్ఠం",
+      "dailyTransactionLimit": "రోజుకు గరిష్ఠ లావాదేవీ పరిమితి"
     }
   },
   "wallet": {
@@ -449,6 +485,7 @@
     }
   },
   "profile": {
+    "playerId": "ప్లేయర్ ఐడి: {{id}}",
     "personalDetails": "మీ వ్యక్తిగత వివరాలు",
     "title": "ప్రొఫైల్",
     "yourPersonalData": "మీ వ్యక్తిగత డేటా",
@@ -728,32 +765,33 @@
     "place": "{{position}} స్థానం"
   },
   "layoutSwitcher": {
+    "colors": "రంగులు",
+    "brandDefault": "బ్రాండ్ డిఫాల్ట్",
+    "randomize": "రాండమ్ ఎంపిక",
+    "palettes": {
+      "lavender": "లావెండర్",
+      "lilac": "లైలాక్",
+      "coral": "కోరల్",
+      "crimson": "క్రిమ్సన్",
+      "navy": "నేవీ",
+      "ocean": "ఓషన్",
+      "mint": "మింట్",
+      "gold": "గోల్డ్",
+      "emerald": "ఎమరాల్డ్",
+      "flame": "ఫ్లేమ్",
+      "lime": "లైమ్",
+      "lemon": "లెమన్",
+      "aqua": "ఆక్వా",
+      "amber": "ఆంబర్"
+    },
     "button": "లేఅవుట్",
     "title": "లేఅవుట్‌ను ఎంచుకోండి",
-    "header": "హెడర్",
-    "banner": "బ్యానర్",
-    "quicklinks": "త్వరిత లింకులు",
-    "games": "హోమ్ గేమ్స్",
-    "about": "మా గురించి",
     "close": "మూసివేయి",
-    "options": {
-      "topnav": "టాప్ నావ్",
-      "sidenav": "సైడ్ నావ్",
-      "groupnav": "గ్రూప్ నావ్",
-      "pillnav": "పిల్ నావ్",
-      "flat": "ఫ్లాట్",
-      "coverflow": "కవర్‌ఫ్లో 3D",
-      "pills": "పిల్స్",
-      "panels": "ప్యానెల్స్",
-      "cards": "కార్డ్స్",
-      "bento": "బెంటో",
-      "showcase": "షోకేస్",
-      "grid": "గ్రిడ్",
-      "slider": "స్లైడర్",
-      "slidercard": "స్లైడర్ కార్డ్స్",
-      "rail": "రైల్",
-      "hero": "హీరో",
-      "columns": "కాలమ్స్"
+    "layouts": {
+      "classic": "క్లాసిక్",
+      "sidebar": "సైడ్‌బార్",
+      "grouped": "గ్రూప్డ్",
+      "modern": "మోడర్న్"
     }
   },
   "sidebar": {
