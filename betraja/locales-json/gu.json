@@ -345,6 +345,7 @@
     "increaseAmount": "રકમ વધારો",
     "promotionCode": "પ્રોમોશન કોડ",
     "paymentMethod": "ચુકવણી પદ્ધતિ",
+    "depositInstantly": "₹{{amount}} તરત ડિપૉઝિટ કરો",
     "promoCard": {
       "name": "નામ",
       "code": "કોડ",

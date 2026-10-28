@@ -345,6 +345,7 @@
     "increaseAmount": "தொகையை அதிகரிக்கவும்",
     "promotionCode": "சலுகைக் குறியீடு",
     "paymentMethod": "கட்டண முறை",
+    "depositInstantly": "₹{{amount}} உடனடியாக வைப்பு செய்யவும்",
     "promoCard": {
       "name": "பெயர்",
       "code": "குறியீடு",

@@ -345,6 +345,7 @@
     "increaseAmount": "మొత్తాన్ని పెంచండి",
     "promotionCode": "ప్రమోషన్ కోడ్",
     "paymentMethod": "చెల్లింపు విధానం",
+    "depositInstantly": "₹{{amount}} తక్షణమే డిపాజిట్ చేయండి",
     "promoCard": {
       "name": "పేరు",
       "code": "కోడ్",

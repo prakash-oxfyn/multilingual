@@ -345,6 +345,7 @@
     "increaseAmount": "राशि बढ़ाएं",
     "promotionCode": "प्रमोशन कोड",
     "paymentMethod": "भुगतान का तरीका",
+    "depositInstantly": "₹{{amount}} तुरंत जमा करें",
     "promoCard": {
       "name": "नाम",
       "code": "कोड",

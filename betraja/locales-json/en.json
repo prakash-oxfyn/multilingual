@@ -345,6 +345,7 @@
     "increaseAmount": "Increase amount",
     "promotionCode": "Promotion Code",
     "paymentMethod": "Payment Method",
+    "depositInstantly": "Deposit ₹{{amount}} Instantly",
     "promoCard": {
       "name": "Name",
       "code": "Code",
