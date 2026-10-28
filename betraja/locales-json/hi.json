@@ -187,6 +187,7 @@
       "promoCodePlaceholder": "प्रोमो कोड (वैकल्पिक)",
       "countryPlaceholder": "देश",
       "mobileNumberPlaceholder": "मोबाइल नंबर",
+      "emailPlaceholder": "ईमेल",
       "checkboxAge": "मेरी आयु कम से कम 18 वर्ष है",
       "checkboxTerms": "मैं नियम और गोपनीयता से सहमत हूं",
       "submitIdle": "अभी पंजीकरण करें",
@@ -207,12 +208,31 @@
         "countryRequired": "देश कोड आवश्यक है",
         "mobileNumberRequired": "मोबाइल नंबर आवश्यक है",
         "mobileNumberInvalid": "अमान्य नंबर",
+        "emailRequired": "ईमेल आवश्यक है",
+        "emailInvalid": "वैध ईमेल पता दर्ज करें",
         "ageRequired": "18+ आयु होनी चाहिए",
         "termsRequired": "नियम स्वीकार करना होगा",
         "showPassword": "पासवर्ड दिखाएं",
         "hidePassword": "पासवर्ड छुपाएं",
         "showConfirmPassword": "पुष्टि पासवर्ड दिखाएं",
         "hideConfirmPassword": "पुष्टि पासवर्ड छुपाएं"
+      },
+      "otp": {
+        "title": "अपना ईमेल सत्यापित करें",
+        "sentTo": "नीचे दिए गए ईमेल पर भेजा गया OTP दर्ज करें",
+        "placeholder": "OTP दर्ज करें",
+        "inputLabel": "OTP",
+        "expiresIn": "OTP की शेष वैधता:",
+        "resendIdle": "OTP दोबारा भेजें",
+        "resendLoading": "दोबारा भेजा जा रहा है...",
+        "verifyIdle": "OTP सत्यापित करें",
+        "verifyLoading": "सत्यापित किया जा रहा है...",
+        "toastSent": "आपके ईमेल पर OTP भेजा गया",
+        "toastStartError": "ईमेल सत्यापन शुरू नहीं हो सका। कृपया सहायता टीम से संपर्क करें।",
+        "toastVerifySuccess": "ईमेल सत्यापित हुआ और पंजीकरण सफल रहा",
+        "toastVerifyError": "OTP सत्यापित करने में विफल",
+        "toastResendSuccess": "OTP सफलतापूर्वक दोबारा भेजा गया",
+        "toastResendError": "OTP दोबारा भेजने में विफल"
       }
     }
   },
@@ -318,6 +338,28 @@
     "bonusCode": "बोनस कोड",
     "bonusCodePlaceholder": "बोनस कोड दर्ज करें",
     "bankLimitText": "बैंक सीमा : ₹{{limit}}",
+    "addFunds": "फंड जोड़ें",
+    "subtitle": "UPI, नेट बैंकिंग और कार्ड से तुरंत जमा — कोई शुल्क नहीं।",
+    "custom": "कस्टम",
+    "decreaseAmount": "राशि घटाएं",
+    "increaseAmount": "राशि बढ़ाएं",
+    "promotionCode": "प्रमोशन कोड",
+    "paymentMethod": "भुगतान का तरीका",
+    "promoCard": {
+      "name": "नाम",
+      "code": "कोड",
+      "minDeposit": "न्यूनतम जमा",
+      "validTill": "अंतिम तिथि"
+    },
+    "info": {
+      "title": "जमा विवरण",
+      "min": "न्यूनतम जमा",
+      "max": "अधिकतम जमा",
+      "processingTime": "प्रोसेसिंग समय",
+      "instant": "तुरंत",
+      "fees": "शुल्क",
+      "zeroFees": "शून्य शुल्क"
+    },
     "paymentMethods": {
       "bank": "बैंक ट्रांसफर",
       "qr": "QR ट्रांसफर",

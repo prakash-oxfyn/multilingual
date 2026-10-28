@@ -187,6 +187,7 @@
       "promoCodePlaceholder": "પ્રોમો કોડ (વૈકલ્પિક)",
       "countryPlaceholder": "દેશ",
       "mobileNumberPlaceholder": "મોબાઇલ નંબર",
+      "emailPlaceholder": "ઇ-મેઇલ",
       "checkboxAge": "હું ઓછામાં ઓછો 18 વર્ષનો/ની છું",
       "checkboxTerms": "હું શરતો અને ગોપનીયતા સ્વીકારું છું",
       "submitIdle": "હવે નોંધણી કરો",
@@ -207,12 +208,31 @@
         "countryRequired": "દેશ કોડ જરૂરી છે",
         "mobileNumberRequired": "મોબાઇલ નંબર જરૂરી છે",
         "mobileNumberInvalid": "અમાન્ય નંબર",
+        "emailRequired": "ઇ-મેઇલ જરૂરી છે",
+        "emailInvalid": "માન્ય ઇ-મેઇલ સરનામું દાખલ કરો",
         "ageRequired": "18+ વર્ષ હોવા જરૂરી છે",
         "termsRequired": "શરતો સ્વીકારવી જરૂરી છે",
         "showPassword": "પાસવર્ડ બતાવો",
         "hidePassword": "પાસવર્ડ છુપાવો",
         "showConfirmPassword": "પુષ્ટિ પાસવર્ડ બતાવો",
         "hideConfirmPassword": "પુષ્ટિ પાસવર્ડ છુપાવો"
+      },
+      "otp": {
+        "title": "તમારો ઇ-મેઇલ ચકાસો",
+        "sentTo": "નીચેના ઇ-મેઇલ પર મોકલેલો OTP દાખલ કરો",
+        "placeholder": "OTP દાખલ કરો",
+        "inputLabel": "OTP",
+        "expiresIn": "OTP ની બાકી માન્યતા:",
+        "resendIdle": "OTP ફરીથી મોકલો",
+        "resendLoading": "ફરીથી મોકલી રહ્યા છીએ...",
+        "verifyIdle": "OTP ચકાસો",
+        "verifyLoading": "ચકાસણી થઈ રહી છે...",
+        "toastSent": "તમારા ઇ-મેઇલ પર OTP મોકલવામાં આવ્યો છે",
+        "toastStartError": "ઇ-મેઇલ ચકાસણી શરૂ થઈ શકી નથી. કૃપા કરીને સપોર્ટનો સંપર્ક કરો.",
+        "toastVerifySuccess": "ઇ-મેઇલ ચકાસાયો અને નોંધણી સફળ થઈ",
+        "toastVerifyError": "OTP ચકાસવામાં નિષ્ફળ",
+        "toastResendSuccess": "OTP સફળતાપૂર્વક ફરીથી મોકલવામાં આવ્યો",
+        "toastResendError": "OTP ફરીથી મોકલવામાં નિષ્ફળ"
       }
     }
   },
@@ -318,6 +338,28 @@
     "bonusCode": "બોનસ કોડ",
     "bonusCodePlaceholder": "બોનસ કોડ દાખલ કરો",
     "bankLimitText": "બૅન્ક મર્યાદા : ₹{{limit}}",
+    "addFunds": "ફંડ ઉમેરો",
+    "subtitle": "UPI, નેટ બૅન્કિંગ અને કાર્ડ દ્વારા તરત ડિપૉઝિટ — કોઈ ફી નહીં.",
+    "custom": "કસ્ટમ",
+    "decreaseAmount": "રકમ ઘટાડો",
+    "increaseAmount": "રકમ વધારો",
+    "promotionCode": "પ્રોમોશન કોડ",
+    "paymentMethod": "ચુકવણી પદ્ધતિ",
+    "promoCard": {
+      "name": "નામ",
+      "code": "કોડ",
+      "minDeposit": "ન્યૂનતમ ડિપૉઝિટ",
+      "validTill": "છેલ્લી તારીખ"
+    },
+    "info": {
+      "title": "ડિપૉઝિટ વિગત",
+      "min": "ન્યૂનતમ ડિપૉઝિટ",
+      "max": "મહત્તમ ડિપૉઝિટ",
+      "processingTime": "પ્રક્રિયા સમય",
+      "instant": "તરત",
+      "fees": "ફી",
+      "zeroFees": "શૂન્ય ફી"
+    },
     "paymentMethods": {
       "bank": "બૅન્ક ટ્રાન્સફર",
       "qr": "QR ટ્રાન્સફર",

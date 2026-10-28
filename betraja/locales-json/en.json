@@ -187,6 +187,7 @@
       "promoCodePlaceholder": "Promo Code (optional)",
       "countryPlaceholder": "Country",
       "mobileNumberPlaceholder": "Mobile number",
+      "emailPlaceholder": "Email",
       "checkboxAge": "I am at least 18 years old",
       "checkboxTerms": "I agree to the Terms and Privacy",
       "submitIdle": "Register Now",
@@ -207,12 +208,31 @@
         "countryRequired": "Country code is required",
         "mobileNumberRequired": "Mobile number is required",
         "mobileNumberInvalid": "Invalid number",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Enter a valid email address",
         "ageRequired": "Must be 18+",
         "termsRequired": "Must accept terms",
         "showPassword": "Show password",
         "hidePassword": "Hide password",
         "showConfirmPassword": "Show confirm password",
         "hideConfirmPassword": "Hide confirm password"
+      },
+      "otp": {
+        "title": "Verify Your Email",
+        "sentTo": "Enter the OTP sent to",
+        "placeholder": "Enter OTP",
+        "inputLabel": "OTP",
+        "expiresIn": "OTP expires in",
+        "resendIdle": "Resend OTP",
+        "resendLoading": "Resending...",
+        "verifyIdle": "Verify OTP",
+        "verifyLoading": "Verifying...",
+        "toastSent": "OTP sent to your email",
+        "toastStartError": "Could not start email verification. Please contact support.",
+        "toastVerifySuccess": "Email verified and registration successful",
+        "toastVerifyError": "Failed to verify OTP",
+        "toastResendSuccess": "OTP resent successfully",
+        "toastResendError": "Failed to resend OTP"
       }
     }
   },
@@ -318,6 +338,28 @@
     "bonusCode": "Bonus Code",
     "bonusCodePlaceholder": "Enter Bonus Code",
     "bankLimitText": "Bank Limit : ₹{{limit}}",
+    "addFunds": "Add Funds",
+    "subtitle": "Instant deposits via UPI, Net Banking and Cards — zero fees.",
+    "custom": "Custom",
+    "decreaseAmount": "Decrease amount",
+    "increaseAmount": "Increase amount",
+    "promotionCode": "Promotion Code",
+    "paymentMethod": "Payment Method",
+    "promoCard": {
+      "name": "Name",
+      "code": "Code",
+      "minDeposit": "Min. Deposit",
+      "validTill": "Valid Till"
+    },
+    "info": {
+      "title": "Deposit Details",
+      "min": "Min Deposit",
+      "max": "Max Deposit",
+      "processingTime": "Processing Time",
+      "instant": "Instant",
+      "fees": "Fees",
+      "zeroFees": "Zero Fees"
+    },
     "paymentMethods": {
       "bank": "Bank Transfer",
       "qr": "QR Transfer",

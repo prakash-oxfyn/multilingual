@@ -187,6 +187,7 @@
       "promoCodePlaceholder": "விளம்பர குறியீடு (விருப்பமானது)",
       "countryPlaceholder": "நாடு",
       "mobileNumberPlaceholder": "மொபைல் எண்",
+      "emailPlaceholder": "மின்னஞ்சல்",
       "checkboxAge": "என் வயது குறைந்தது 18 ஆண்டுகள்",
       "checkboxTerms": "நிபந்தனைகள் மற்றும் தனியுரிமைக்கு சம்மதிக்கிறேன்",
       "submitIdle": "இப்போது பதிவு செய்யுங்கள்",
@@ -207,12 +208,31 @@
         "countryRequired": "நாட்டு குறியீடு தேவை",
         "mobileNumberRequired": "மொபைல் எண் தேவை",
         "mobileNumberInvalid": "தவறான எண்",
+        "emailRequired": "மின்னஞ்சல் தேவை",
+        "emailInvalid": "சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும்",
         "ageRequired": "18+ வயதாக இருக்க வேண்டும்",
         "termsRequired": "நிபந்தனைகளை ஏற்க வேண்டும்",
         "showPassword": "கடவுச்சொல்லை காட்டு",
         "hidePassword": "கடவுச்சொல்லை மறை",
         "showConfirmPassword": "உறுதி கடவுச்சொல்லை காட்டு",
         "hideConfirmPassword": "உறுதி கடவுச்சொல்லை மறை"
+      },
+      "otp": {
+        "title": "உங்கள் மின்னஞ்சலைச் சரிபார்க்கவும்",
+        "sentTo": "கீழே உள்ள மின்னஞ்சலுக்கு அனுப்பப்பட்ட OTP-ஐ உள்ளிடவும்",
+        "placeholder": "OTP-ஐ உள்ளிடவும்",
+        "inputLabel": "OTP",
+        "expiresIn": "OTP மீதமுள்ள நேரம்:",
+        "resendIdle": "OTP-ஐ மீண்டும் அனுப்பவும்",
+        "resendLoading": "மீண்டும் அனுப்புகிறது...",
+        "verifyIdle": "OTP-ஐ சரிபார்க்கவும்",
+        "verifyLoading": "சரிபார்க்கிறது...",
+        "toastSent": "உங்கள் மின்னஞ்சலுக்கு OTP அனுப்பப்பட்டது",
+        "toastStartError": "மின்னஞ்சல் சரிபார்ப்பைத் தொடங்க முடியவில்லை. உதவிக் குழுவைத் தொடர்பு கொள்ளவும்.",
+        "toastVerifySuccess": "மின்னஞ்சல் சரிபார்க்கப்பட்டது, பதிவு வெற்றிகரமாக முடிந்தது",
+        "toastVerifyError": "OTP-ஐ சரிபார்க்க முடியவில்லை",
+        "toastResendSuccess": "OTP வெற்றிகரமாக மீண்டும் அனுப்பப்பட்டது",
+        "toastResendError": "OTP-ஐ மீண்டும் அனுப்ப முடியவில்லை"
       }
     }
   },
@@ -318,6 +338,28 @@
     "bonusCode": "போனஸ் குறியீடு",
     "bonusCodePlaceholder": "போனஸ் குறியீட்டை உள்ளிடவும்",
     "bankLimitText": "வங்கி வரம்பு : ₹{{limit}}",
+    "addFunds": "நிதி சேர்க்கவும்",
+    "subtitle": "UPI, நெட் பேங்கிங் மற்றும் கார்டுகள் மூலம் உடனடி வைப்பு — கட்டணம் இல்லை.",
+    "custom": "தனிப்பயன்",
+    "decreaseAmount": "தொகையைக் குறைக்கவும்",
+    "increaseAmount": "தொகையை அதிகரிக்கவும்",
+    "promotionCode": "சலுகைக் குறியீடு",
+    "paymentMethod": "கட்டண முறை",
+    "promoCard": {
+      "name": "பெயர்",
+      "code": "குறியீடு",
+      "minDeposit": "குறைந்தபட்ச வைப்பு",
+      "validTill": "கடைசி தேதி"
+    },
+    "info": {
+      "title": "வைப்பு விவரங்கள்",
+      "min": "குறைந்தபட்ச வைப்பு",
+      "max": "அதிகபட்ச வைப்பு",
+      "processingTime": "செயலாக்க நேரம்",
+      "instant": "உடனடி",
+      "fees": "கட்டணம்",
+      "zeroFees": "கட்டணம் இல்லை"
+    },
     "paymentMethods": {
       "bank": "வங்கி பரிமாற்றம்",
       "qr": "QR பரிமாற்றம்",

@@ -187,6 +187,7 @@
       "promoCodePlaceholder": "ప్రోమో కోడ్ (ఐచ్ఛికం)",
       "countryPlaceholder": "దేశం",
       "mobileNumberPlaceholder": "మొబైల్ నంబర్",
+      "emailPlaceholder": "ఇమెయిల్",
       "checkboxAge": "నాకు కనీసం 18 సంవత్సరాల వయసు ఉంది",
       "checkboxTerms": "నేను నిబంధనలు మరియు గోప్యతకు అంగీకరిస్తున్నాను",
       "submitIdle": "ఇప్పుడే నమోదు చేయండి",
@@ -207,12 +208,31 @@
         "countryRequired": "దేశ కోడ్ అవసరం",
         "mobileNumberRequired": "మొబైల్ నంబర్ అవసరం",
         "mobileNumberInvalid": "చెల్లని నంబర్",
+        "emailRequired": "ఇమెయిల్ అవసరం",
+        "emailInvalid": "చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి",
         "ageRequired": "18+ వయసు ఉండాలి",
         "termsRequired": "నిబంధనలను అంగీకరించాలి",
         "showPassword": "పాస్‌వర్డ్ చూపించు",
         "hidePassword": "పాస్‌వర్డ్ దాచు",
         "showConfirmPassword": "నిర్ధారణ పాస్‌వర్డ్ చూపించు",
         "hideConfirmPassword": "నిర్ధారణ పాస్‌వర్డ్ దాచు"
+      },
+      "otp": {
+        "title": "మీ ఇమెయిల్‌ను ధృవీకరించండి",
+        "sentTo": "కింది ఇమెయిల్‌కు పంపిన OTPని నమోదు చేయండి",
+        "placeholder": "OTP నమోదు చేయండి",
+        "inputLabel": "OTP",
+        "expiresIn": "OTP మిగిలిన సమయం:",
+        "resendIdle": "OTPని మళ్లీ పంపండి",
+        "resendLoading": "మళ్లీ పంపుతోంది...",
+        "verifyIdle": "OTPని ధృవీకరించండి",
+        "verifyLoading": "ధృవీకరిస్తోంది...",
+        "toastSent": "మీ ఇమెయిల్‌కు OTP పంపబడింది",
+        "toastStartError": "ఇమెయిల్ ధృవీకరణను ప్రారంభించలేకపోయాము. దయచేసి సపోర్ట్‌ను సంప్రదించండి.",
+        "toastVerifySuccess": "ఇమెయిల్ ధృవీకరించబడింది, నమోదు విజయవంతమైంది",
+        "toastVerifyError": "OTP ధృవీకరణ విఫలమైంది",
+        "toastResendSuccess": "OTP విజయవంతంగా మళ్లీ పంపబడింది",
+        "toastResendError": "OTPని మళ్లీ పంపడం విఫలమైంది"
       }
     }
   },
@@ -318,6 +338,28 @@
     "bonusCode": "బోనస్ కోడ్",
     "bonusCodePlaceholder": "బోనస్ కోడ్ నమోదు చేయండి",
     "bankLimitText": "బ్యాంకు పరిమితి : ₹{{limit}}",
+    "addFunds": "నిధులు జోడించండి",
+    "subtitle": "UPI, నెట్ బ్యాంకింగ్ మరియు కార్డుల ద్వారా తక్షణ డిపాజిట్లు — ఎలాంటి రుసుము లేదు.",
+    "custom": "కస్టమ్",
+    "decreaseAmount": "మొత్తాన్ని తగ్గించండి",
+    "increaseAmount": "మొత్తాన్ని పెంచండి",
+    "promotionCode": "ప్రమోషన్ కోడ్",
+    "paymentMethod": "చెల్లింపు విధానం",
+    "promoCard": {
+      "name": "పేరు",
+      "code": "కోడ్",
+      "minDeposit": "కనీస డిపాజిట్",
+      "validTill": "చివరి తేదీ"
+    },
+    "info": {
+      "title": "డిపాజిట్ వివరాలు",
+      "min": "కనీస డిపాజిట్",
+      "max": "గరిష్ఠ డిపాజిట్",
+      "processingTime": "ప్రాసెసింగ్ సమయం",
+      "instant": "తక్షణం",
+      "fees": "రుసుము",
+      "zeroFees": "రుసుము లేదు"
+    },
     "paymentMethods": {
       "bank": "బ్యాంకు బదిలీ",
       "qr": "QR బదిలీ",
